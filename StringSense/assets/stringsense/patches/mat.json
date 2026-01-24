@@ -24,6 +24,21 @@
         "path": "/0"
     },
     {
+        "file": "game:recipes/grid/rushmat",
+        "op": "add",
+        "path": "/-",
+        "value":    {
+            "ingredientPattern": "__K,CC_,CC_",
+            "ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+                "C": { "type": "item", "code": "stringsense:cord-*", "quantity": 2, "name": "material" }
+            },
+            "width": 3,
+            "height": 3,
+            "output": { "type": "block", "code": "game:rushmat-{material}" }
+        }
+    },
+    {
         "file": "game:/config/tradelists/trader-buildmaterials",
         "op": "replace",
         "path": "/selling/list/30/code",

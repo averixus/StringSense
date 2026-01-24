@@ -17,16 +17,6 @@
         }
     },
     {
-        "file": "game:recipes/grid/skep",
-        "op": "remove",
-        "path": "/1"
-    },
-    {
-        "file": "game:recipes/grid/skep",
-        "op": "remove",
-        "path": "/0"
-    },
-    {
         "file": "game:blocktypes/reed/skep",
         "op": "remove",
         "path": "/textures"
@@ -40,6 +30,26 @@
                 "hive": {"base": "stringsense:{material}/we"},
                 "honeycomb": {"base": "game:block/reed/beehive/honeycomb"}
             }
+        }
+    },
+    {
+        "file": "game:recipes/grid/skep",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/skep",
+        "op": "replace",
+        "path": "/0",
+        "value":     {
+            "ingredientPattern": "XXX,XXX,XCX",
+            "ingredients": {
+                "X": {"type": "item", "code": "stringsense:cord-*", "quantity": 2, "name": "material"},
+                "C": {"type": "item", "code": "game:clay-*", "quantity": 2}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "block", "code": "game:skep-{material}-empty-east"}
         }
     },
 

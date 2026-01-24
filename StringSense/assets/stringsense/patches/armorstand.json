@@ -5,6 +5,12 @@
         "path": "/ingredients/H",
         "value": {"type": "item", "code": "game:thatch", "quantity": 4}
     },
+    {
+        "file": "game:shapes/entity/nonliving/armorstand",
+        "op": "replace",
+        "path": "/textures/normal-westeast",
+        "value": "stringsense:straw/we"
+    },
 
 
 

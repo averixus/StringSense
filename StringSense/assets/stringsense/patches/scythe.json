@@ -1,21 +1,38 @@
 [
     {
         "file": "game:recipes/grid/tool/scythe",
-        "op": "replace",
-        "path":"/ingredientPattern",
-        "value": "T,C,S"
-    },
-    {
-        "file": "game:recipes/grid/tool/scythe",
         "op": "add",
-        "path":"/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
+        "path": "/enabled",
+        "value": false
     },
     {
-        "file": "game:recipes/grid/tool/scythe",
-        "op": "replace",
-        "path": "/height",
-        "value": 3
+        "file": "stringsense:recipes/grid/add",
+        "op": "addeach",
+        "path":"/-",
+        "value": [
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:scythehead-*", "name": "material", "allowedVariants": [ "copper" ]  },
+                    "C": { "type": "item", "code": "stringsense:cord-*"},
+                    "S": { "type": "item", "code": "game:stick" }
+                },
+                "output": {"type": "item", "code": "game:scythe-{material}", "quantity": 1}
+            },
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:scythehead-*", "name": "material"  },
+                    "C": { "type": "item", "code": "game:flaxtwine"},
+                    "S": { "type": "item", "code": "game:stick" }
+                },
+                "output": {"type": "item", "code": "game:scythe-{material}", "quantity": 1}
+            }
+        ]
     },
 
 

@@ -7,12 +7,30 @@
     },
     {
         "file": "game:recipes/grid/clothes/hat",
-        "op": "remove",
-        "path": "/1"
+        "op": "replace",
+        "path": "/0",
+        "value": {
+            "ingredientPattern": "B,B",
+            "ingredients": {
+                "B": {"type": "item", "code": "stringsense:bamboostrands", "quantity": 1}
+            },
+            "width": 1,
+            "height": 2,
+            "output": {"type": "item", "code": "game:clothes-head-bamboo-conehat"}
+        }
     },
     {
         "file": "game:recipes/grid/clothes/hat",
-        "op": "remove",
-        "path": "/0"
+        "op": "replace",
+        "path": "/1",
+        "value":     {
+            "ingredientPattern": "BBB,_B_",
+            "ingredients": {
+                "B": {"type": "item", "code": "stringsense:bamboostrands", "quantity": 1}
+            },
+            "width": 3,
+            "height": 2,
+            "output": {"type": "item", "code": "game:clothes-head-bamboo-conehat-large"}
+        }
     }
 ]

@@ -7,21 +7,36 @@
     },
     {
         "file": "game:recipes/grid/haybale",
-        "op": "replace",
-        "path": "/ingredientPattern",
-        "value": "_C,GG,GG"
-    },
-    {
-        "file": "game:recipes/grid/haybale",
-        "op": "replace",
-        "path": "/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/haybale",
         "op": "add",
-        "path": "/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*"}
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "file": "stringsense:recipes/grid/add",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "T_,GG,GG",
+                "ingredients": {
+                    "G": {"type": "item", "code": "game:drygrass", "quantity": 2},
+                    "T": {"type": "item", "code": "game:flaxtwine", "quantity": 1}
+                },
+                "width": 2,
+                "height": 3,
+                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+            },
+            {
+                "ingredientPattern": "T_,GG,GG",
+                "ingredients": {
+                    "G": {"type": "item", "code": "game:drygrass", "quantity": 2},
+                    "T": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+                },
+                "width": 2,
+                "height": 3,
+                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+            }
+        ]
     },
 
 

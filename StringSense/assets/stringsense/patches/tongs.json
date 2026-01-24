@@ -1,0 +1,42 @@
+[
+    {
+        "file": "game:recipes/grid/tool/tongs",
+        "op": "replace",
+        "path": "/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "SRS,S_S,S_S",
+            "ingredients": {
+                "R": { "type": "item", "code": "game:flaxtwine"},
+                "S": { "type": "item", "code": "stick"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:tongs"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "SRS,S_S,S_S",
+            "ingredients": {
+                "R": { "type": "item", "code": "wool:twine-*"},
+                "S": { "type": "item", "code": "stick"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:tongs"}
+        }
+    }
+]

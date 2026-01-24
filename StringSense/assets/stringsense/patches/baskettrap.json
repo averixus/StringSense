@@ -51,9 +51,6 @@
                 "lid": {"base": "stringsense:mixed/lid"}
             }
         }
-        
-        
-
     },
     {
         "file": "game:blocktypes/reed/baskettrap",
@@ -70,6 +67,83 @@
             "baskettrap-mixed": "stringsense:cord-mixed"
         }
     },
+    {
+        "file": "game:recipes/grid/baskettrap",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/baskettrap",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "straw"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-straw"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "flax"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-flax"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "vine"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-vine"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bark"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-bark"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bamboo"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-bamboo"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "mixed"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-mixed"}
+            }
+        ]
+    },
 
 
 
@@ -97,6 +171,24 @@
         "op": "add",
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
         "value": "stringsense:cord-palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-palm"}
+            }
+        ]
     },
 
 
@@ -126,6 +218,24 @@
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
         "value": "stringsense:cord-palm"
     },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-palm"}
+            }
+        ]
+    },
 
 
 
@@ -154,6 +264,24 @@
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
         "value": "stringsense:cord-palm"
     },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-palm"}
+            }
+        ]
+    },
 
 
 
@@ -181,6 +309,24 @@
         "op": "add",
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
         "value": "stringsense:cord-palm"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-palm"}
+            }
+        ]
     },
 
 
@@ -210,6 +356,24 @@
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-coconut",
         "value": "stringsense:cord-coconut"
     },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "coconut"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-coconut"}
+            }
+        ]
+    },
 
 
 
@@ -238,6 +402,24 @@
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-nzflax",
         "value": "stringsense:cord-nzflax"
     },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "nzflax"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-nzflax"}
+            }
+        ]
+    },
 
 
 
@@ -265,6 +447,24 @@
         "op": "add",
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-porcupine",
         "value": "stringsense:cord-porcupine"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "porcupine"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-porcupine"}
+            }
+        ]
     },
 
 
@@ -295,5 +495,23 @@
         "op": "add",
         "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-sinew",
         "value": "stringsense:cord-sinew"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sinew"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-sinew"}
+            }
+        ]
     }
 ]

@@ -92,13 +92,48 @@
     },
     {
         "file": "game:recipes/grid/stationarybasket",
-        "op": "remove",
-        "path": "/1"
+        "op": "replace",
+        "path": "/0",
+        "value": {
+            "ingredientPattern": "XXX,X_X,XXX",
+            "width": 3,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "stringsense:cord-*",
+                    "name": "material",
+                    "quantity": 2
+                }
+            },
+            "output": {
+                "type": "block",
+                "code": "game:stationarybasket-east",
+                "attributes": {"type": "{material}"}
+            }
+        }
     },
     {
         "file": "game:recipes/grid/stationarybasket",
-        "op": "remove",
-        "path": "/0"
+        "op": "replace",
+        "path": "/1",
+        "value": {
+            "ingredientPattern": "XXX,X_X,XXX",
+            "width": 3,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "stringsense:cord-*",
+                    "quantity": 2
+                }
+            },
+            "output": {
+                "type": "block",
+                "code": "game:stationarybasket-east",
+                "attributes": {"type": "mixed"}
+            }
+        }
     },
     {
         "file": "game:recipes/grid/stationarybasket-deconstruct",
@@ -110,6 +145,90 @@
         "op": "remove",
         "path": "/0"
     },
+    {
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "straw"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-straw", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "reed"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-reed", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "papyrus"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-papyrus", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "vine"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-vine", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "flax"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-flax", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bark"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-bark", "quantity": 12}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bamboo"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-bamboo", "quantity": 12}
+            }
+        ]
+    },
 
 
 
@@ -192,6 +311,23 @@
             "palm-sidesWE": {"base": "stringsense:palm/we"},
             "palm-sidesSN": {"base": "stringsense:palm/ns"},
             "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
         }
     },
 
@@ -278,6 +414,23 @@
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+        }
+    },
 
 
 
@@ -362,6 +515,23 @@
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+        }
+    },
 
 
 
@@ -444,6 +614,23 @@
             "palm-sidesWE": {"base": "stringsense:palm/we"},
             "palm-sidesSN": {"base": "stringsense:palm/ns"},
             "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
         }
     },
 
@@ -530,6 +717,23 @@
             "coconut-lid": {"base": "stringsense:coconut/lid"}
         }
     },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "coconut"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-coconut", "quantity": 12}
+        }
+    },
 
 
 
@@ -612,6 +816,23 @@
             "nzflax-sidesWE": {"base": "stringsense:nzflax/we"},
             "nzflax-sidesSN": {"base": "stringsense:nzflax/ns"},
             "nzflax-lid": {"base": "stringsense:nzflax/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "nzflax"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-nzflax", "quantity": 12}
         }
     },
 
@@ -698,6 +919,23 @@
             "porcupine-lid": {"base": "stringsense:porcupine/lid"}
         }
     },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "porcupine"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-porcupine", "quantity": 12}
+        }
+    },
 
 
 
@@ -780,6 +1018,23 @@
             "sinew-sidesWE": {"base": "stringsense:sinew/we"},
             "sinew-sidesSN": {"base": "stringsense:sinew/ns"},
             "sinew-lid": {"base": "stringsense:sinew/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sinew"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-sinew", "quantity": 12}
         }
     }
 ]

@@ -1,147 +1,94 @@
 [
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/0/ingredientPattern",
-        "value": "T,C,S"
+        "op": "remove",
+        "path": "/7"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/0/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
+        "op": "remove",
+        "path": "/6"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/0/height",
-        "value": 3
+        "op": "remove",
+        "path": "/5"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/1/ingredientPattern",
-        "value": "T,C,B"
+        "op": "remove",
+        "path": "/4"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/1/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
+        "op": "remove",
+        "path": "/3"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/1/height",
-        "value": 3
+        "op": "remove",
+        "path": "/2"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/2/ingredientPattern",
-        "value": "T,C,B"
+        "op": "remove",
+        "path": "/1"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/2/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
+        "op": "remove",
+        "path": "/0"
     },
     {
         "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/2/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/3/ingredientPattern",
-        "value": "T,C,B"
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/3/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/3/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/4/ingredientPattern",
-        "value": "T,C,B"
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/4/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/4/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/5/ingredientPattern",
-        "value": "T,C,B"
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/5/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/5/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/6/ingredientPattern",
-        "value": "T,C,B"
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/6/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/6/height",
-        "value": 3
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path":"/7/ingredientPattern",
-        "value": "T,C,B"
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "add",
-        "path":"/7/ingredients/C",
-        "value": { "type": "item", "code": "game:flaxtwine" }
-    },
-    {
-        "file": "game:recipes/grid/tool/knife",
-        "op": "replace",
-        "path": "/7/height",
-        "value": 3
+        "op": "addeach",
+        "path":"/-",
+        "value": [
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material"},
+                    "C": { "type": "item", "code": "game:flaxtwine"},
+                    "S": { "type": "item", "code": "game:stick" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1}
+            },
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "C": { "type": "item", "code": "game:flaxtwine"},
+                    "S": { "type": "item", "code": "game:bone" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1}
+            },
+                        {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "copper" ]},
+                    "C": { "type": "item", "code": "stringsense:cord-*"},
+                    "S": { "type": "item", "code": "game:stick" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1}
+            },
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "C": { "type": "item", "code": "stringsense:cord-*"},
+                    "S": { "type": "item", "code": "game:bone" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1}
+            }
+        ]
     },
 
 

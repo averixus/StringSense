@@ -7,6 +7,16 @@
     },
     {
         "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "remove",
+        "path": "/textures"
+    },
+    {
+        "file": "game:shapes/item/bag/basket",
+        "op": "remove", 
+        "path": "/textures"
+    },
+    {
+        "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "addmerge",
         "path": "/textureByType",
         "value": {
@@ -31,14 +41,68 @@
         "path": "/0"
     },
     {
-        "file": "game:itemtypes/wearable/bag/handbasket",
-        "op": "remove",
-        "path": "/textures"
+        "file": "game:recipes/grid/basket-deconstruct",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "item", "code": "basket-normal-*", "name": "material", "allowedVariants": ["straw", "reed", "papyrus", "bamboo", "bark", "vine", "flax"]}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-{material}", "quantity": 3}
+        }
     },
     {
-        "file": "game:shapes/item/bag/basket",
-        "op": "remove", 
-        "path": "/textures"
+        "file": "game:recipes/grid/basket",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/basket",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:recipes/grid/basket",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "X_X,XXX",
+                "width": 3,
+                "height": 2,
+                "ingredients": {
+                    "X": {
+                        "type": "item",
+                        "code": "stringsense:cord-*",
+                        "name": "material"
+                    }
+                },
+                "output": {
+                    "type": "item",
+                    "code": "game:basket-normal-{material}"
+                }
+            },
+            {
+                "ingredientPattern": "X_X,XXX",
+                "width": 3,
+                "height": 2,
+                "ingredients": {
+                    "X": {
+                        "type": "item",
+                        "code": "stringsense:cord-*"
+                    }
+                },
+                "output": {
+                    "type": "item",
+                    "code": "game:basket-normal-mixed"
+                }
+            }
+        ]
     },
 
 
