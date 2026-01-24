@@ -1,0 +1,92 @@
+[
+    {
+        "ingredientPattern": "_H,H_",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:papyrustops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofing-thatch-east-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H_,H_H",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:papyrustops", "name": "type", "quantity": 2 }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingridge-thatch-ns-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H_,HHH",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:papyrustops", "name": "type", "quantity": 2 }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingtip-thatch-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H,H_,_H",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:papyrustops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "game:slantedroofingcornerinner-thatch-east-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H,HH",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:papyrustops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingcornerouter-thatch-east-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H,H_",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:cattailtops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofing-thatch-east-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H_,H_H",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:cattailtops", "name": "type", "quantity": 2 }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingridge-thatch-ns-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H_,HHH",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:cattailtops", "name": "type", "quantity": 2 }
+        },
+        "width": 3,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingtip-thatch-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H,H_,_H",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:cattailtops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 3,
+        "output": { "type": "block", "code": "game:slantedroofingcornerinner-thatch-east-free", "quantity": 1  }
+    },
+    {
+        "ingredientPattern": "_H,HH",
+        "ingredients": {
+            "H": { "type": "item", "code": "game:cattailtops", "name": "type", "quantity": 2 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "block", "code": "game:slantedroofingcornerouter-thatch-east-free", "quantity": 1  }
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:itemtypes/resource/fibers",
+        "op": "replace",
+        "path": "/shape/base",
+        "value": "stringsense:item/fibers"
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:itemtypes/resource/fibers",
+        "op": "replace",
+        "path": "/guiTransform",
+        "value": {
+            "translation": { "x": -3, "y": -1, "z": 0 },
+            "rotation": { "x": 143, "y": 157, "z": 0 },
+            "origin": { "x": 0.35, "y": 0, "z": 0.4 },
+            "scaleXyz": { "x": -2.29, "y": 2.29, "z": 2.29 }
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:itemtypes/resource/fibers",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": -0 },
+            "rotation": { "x": -180, "y": 87, "z": -97 },
+            "origin": {"x": 0.15, "y": -0.35, "z": 0.2},
+            "scale": 0.51
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:itemtypes/resource/fibers",
+        "op": "replace",
+        "path": "/groundTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "origin": { "x": 0.3, "y": 0.0, "z": 0.5299 },
+            "scale": 2.33
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:itemtypes/resource/fibers",
+        "op": "replace",
+        "path": "/attributes/groundStorageTransform",
+        "value": {
+			"translation": { "x": -0.01, "y": -0.226, "z": 0 },
+			"rotation": { "x": 0, "y": -40, "z": 0 },
+			"scale": 0.55
+		}
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "stringsense:recipes/grid/rope",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "XXX,XXX",
+            "width": 3,
+            "height": 2,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "wool:twine-wool-*"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        }
+    }
+]

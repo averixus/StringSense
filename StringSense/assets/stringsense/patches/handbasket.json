@@ -1,0 +1,179 @@
+[
+    { 
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addeach",
+        "path": "/variantgroups/1/states/-",
+        "value": ["straw", "vine", "flax", "bark", "bamboo", "mixed"]
+    },
+    {
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": {
+            "*-reed": { "base": "stringsense:reed/handbasket" },
+            "*-papyrus": { "base": "stringsense:papyrus/handbasket" },
+            "*-straw": { "base": "stringsense:straw/handbasket" },
+            "*-flax": { "base": "stringsense:flax/handbasket" },
+            "*-vine": { "base": "stringsense:vine/handbasket" },
+            "*-bark": { "base": "stringsense:bark/handbasket" },
+            "*-bamboo": { "base": "stringsense:bamboo/handbasket" },
+            "*-mixed": { "base": "stringsense:mixed/handbasket" }
+        }
+    },
+    {
+        "file": "game:recipes/grid/basket-deconstruct",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/basket-deconstruct",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "remove",
+        "path": "/textures"
+    },
+    {
+        "file": "game:shapes/item/bag/basket",
+        "op": "remove", 
+        "path": "/textures"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-palm",
+        "value": {"base": "stringsense:palm/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-palm",
+        "value": {"base": "stringsense:palm/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-palm",
+        "value": {"base": "stringsense:palm/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-palm",
+        "value": {"base": "stringsense:palm/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "coconut"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-coconut",
+        "value": {"base": "stringsense:coconut/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "nzflax"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-nzflax",
+        "value": {"base": "stringsense:nzflax/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "porcupine"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/textureByType/*-porcupine",
+        "value": {"base": "stringsense:porcupine/handbasket"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "sinew"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-sinew": {"base": "stringsense:sinew/we"} }
+    }
+]

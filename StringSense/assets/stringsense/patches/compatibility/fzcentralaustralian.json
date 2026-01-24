@@ -1,0 +1,128 @@
+[
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/basket-deconstruct",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/basket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/baskettrap",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/beenade",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/rope",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/rushmat",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/skep",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/fiber/stationarybasket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "porcupine"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-porcupine",
+        "value": {"base": "stringsense:porcupine/we"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "floralzonescentralaustralianregion:triodiascariosabundle"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-porcupine"
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}, {"modid": "primitivesurvival"}],
+        "file": "primitivesurvival:compatibility/floralzonescentralaustralianregion/recipes/grid/floralzonescentralaustralianregion-raft",
+        "op": "replace",
+        "path": "/0/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    }
+]

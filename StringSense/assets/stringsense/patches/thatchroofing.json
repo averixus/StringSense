@@ -1,0 +1,27 @@
+[
+    {
+        "file": "game:recipes/grid/roofing",
+        "op": "remove",
+        "path": "/9"
+    },
+    {
+        "file": "game:recipes/grid/roofing",
+        "op": "remove",
+        "path": "/7"
+    },
+    {
+        "file": "game:recipes/grid/roofing",
+        "op": "remove",
+        "path": "/5"
+    },
+    {
+        "file": "game:recipes/grid/roofing",
+        "op": "remove",
+        "path": "/3"
+    },
+    {
+        "file": "game:recipes/grid/roofing",
+        "op": "remove",
+        "path": "/1"
+    }
+]

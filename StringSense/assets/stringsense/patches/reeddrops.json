@@ -1,0 +1,16 @@
+[{
+    "file": "game:blocktypes/plant/reedpapyrus",
+    "op": "replace",
+    "path": "/dropsByType",
+    "value": {
+		"*coopersreed-*-normal-*": [ { "type": "item", "code": "game:cattailtops", "quantity": { "avg": 2, "var": 1 } } ],
+		"*coopersreed-*-harvested-*":  [ { "type": "item", "code": "game:cattailroot" } ],
+		"*papyrus-*-normal-*":  [ { "type": "item", "code": "game:papyrustops", "quantity": { "avg": 2, "var": 1 } } ],
+		"*papyrus-*-harvested-*":  [ { "type": "item", "code": "game:papyrusroot" } ],
+		"tallplant-tule-land-normal-*": [ { "type": "item", "code": "game:thatch", "quantity": { "avg": 2, "var": 1 } } ],
+		"tallplant-tule-land-harvested-*":  [ { "type": "item", "code": "game:tuleroot" } ],
+		"tallplant-brownsedge-land-normal-*":  [ { "type": "item", "code": "game:drygrass" }, { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  } ],
+		"tallplant-brownsedge-land-harvested-*":  [ { "type": "block", "code": "game:tallplant-brownsedge-land-harvested-free" } ]
+	},
+    "side": "Server"
+}]

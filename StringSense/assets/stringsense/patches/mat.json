@@ -1,0 +1,112 @@
+[
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "addmerge",
+        "path": "/variantgroups",
+        "value": [
+            {"code": "material", "states": ["reed", "papyrus", "flax", "vine", "straw", "bamboo", "bark", "mixed"]}
+        ]
+    },
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "replace",
+        "path": "/textures/all/base",
+        "value": "stringsense:{material}/mat"
+    },
+    {
+        "file": "game:recipes/grid/rushmat",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/rushmat",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:/config/tradelists/trader-buildmaterials",
+        "op": "replace",
+        "path": "/selling/list/30/code",
+        "value": "game:rushmat-reed"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "coconut"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "nzflax"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "porcupine"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sinew"
+    }
+]

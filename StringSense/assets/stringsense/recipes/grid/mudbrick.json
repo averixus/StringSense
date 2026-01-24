@@ -1,0 +1,72 @@
+[
+    {
+        "ingredientPattern": "CLC,G_G",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:cattailtops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "recipeGroup": 2,
+        "output": {"type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 4}
+    },
+    {
+        "ingredientPattern": "CLC,G_G",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:papyrustops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "recipeGroup": 2,
+        "output": {"type": "block", "code": "game:mudbrickslab-dark-down-free", "quantity": 4}
+    },
+    {
+        "ingredientPattern": "G_G,CSC,GLG",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:cattailtops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "S": {"type": "block", "code": "game:sand-*"},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "block", "code": "game:mudbrick-light", "quantity": 4}
+    },
+    {
+        "ingredientPattern": "G_G,CSC,GLG",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:papyrustops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "S": {"type": "block", "code": "game:sand-*"},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "block", "code": "game:mudbrick-light", "quantity": 4}
+    },
+    {
+        "ingredientPattern": "G_G,CLC,G_G",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:cattailtops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "block", "code": "game:mudbrick-dark", "quantity": 4}
+    },
+    {
+        "ingredientPattern": "G_G,CLC,G_G",
+        "ingredients": {
+            "G": {"type": "item", "code": "game:papyrustops", "quantity": 2},
+            "C": {"type": "item", "code": "game:clay-*", "quantity": 1},
+            "L": {"type": "block", "code": "game:soil-low-none", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "block", "code": "game:mudbrick-dark", "quantity": 4}
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/0/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/1/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/2/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/3/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/4/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/5/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/6/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/7/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/8/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/9/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/10/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/11/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/12/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/13/ingredients/G/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/daub-raw",
+        "op": "replace",
+        "path": "/14/ingredients/G/code",
+        "value": "game:thatch"
+    }
+]

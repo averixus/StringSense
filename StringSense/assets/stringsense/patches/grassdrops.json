@@ -1,0 +1,11 @@
+[
+    {
+        "file": "game:blocktypes/plant/tallgrass",
+        "op": "addeach",
+        "path": "/dropsByType/*/-",
+        "value": [
+            { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.2}, "tool": "knife" },
+            { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.2}, "tool": "scythe" }
+        ]
+    }
+]

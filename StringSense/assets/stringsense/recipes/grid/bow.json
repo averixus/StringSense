@@ -1,0 +1,13 @@
+[
+    {
+        "ingredientPattern": "_SC,S_C,_SC",
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+			"C": { "type": "item", "code": "stringsense:cord-*"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "requiresTrait": "bowyer",
+        "output": {"type": "item", "code": "game:bow-crude", "quantity": 1}
+    }
+]

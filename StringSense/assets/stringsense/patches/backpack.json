@@ -1,0 +1,69 @@
+[
+    {
+        "file": "game:recipes/grid/backpack",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "LT,LL,L_"
+    },
+    {
+        "file": "game:recipes/grid/backpack",
+        "op": "add",
+        "path": "/0/ingredients/T",
+        "value": {"type": "item", "code": "game:flaxtwine"}
+    },
+    {
+        "file": "game:recipes/grid/backpack",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "LT,LL,LL"
+    },
+    {
+        "file": "game:recipes/grid/backpack",
+        "op": "add",
+        "path": "/1/ingredients/T",
+        "value": {"type": "item", "code": "game:flaxtwine"}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 3}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 3}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/backpack",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "LT,LL,L_",
+                "ingredients": {
+                    "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+                    "T": {"type": "item", "code": "wool:twine-*"}
+                },
+                "width": 2,
+                "height": 3,
+                "output": {"type": "item", "code": "backpack-normal"}
+            },
+            {
+                "ingredientPattern": "LT,LL,LL",
+                "ingredients": {
+                    "L": {"type": "item", "code": "game:leather-sturdy-plain", "quantity": 2},
+                    "T": {"type": "item", "code": "wool:twine-*"}
+                },
+                "width": 2,
+                "height": 3,
+                "output": {"type": "item", "code": "backpack-sturdy"}
+            }
+        ]
+    }
+]

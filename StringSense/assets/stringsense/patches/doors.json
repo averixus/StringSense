@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:recipes/grid/doors",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "AC,PS,PS"
+    },
+    {
+        "file": "game:recipes/grid/doors",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "file": "game:recipes/grid/doors",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "AC,PS,PS"
+    },
+    {
+        "file": "game:recipes/grid/doors",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    }
+]

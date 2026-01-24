@@ -1,0 +1,12 @@
+[
+    {
+        "ingredientPattern": "BK",
+        "ingredients": {
+            "K": {"type": "item", "code": "game:bamboostakes"},
+            "B": {"type": "item", "code": "game:knife-*", "isTool": true}
+        },
+        "width": 2,
+        "height": 1,
+        "output": {"type": "item", "code": "stringsense:bamboostrands", "quantity": 4 }
+    }
+]

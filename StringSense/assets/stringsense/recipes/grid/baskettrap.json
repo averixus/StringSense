@@ -1,0 +1,62 @@
+[
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "straw"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-straw"}
+    },
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "flax"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-flax"}
+    },
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "vine"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-vine"}
+    },
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bark"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-bark"}
+    },
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bamboo"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-bamboo"}
+    },
+    {
+        "ingredientPattern": "BS",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "mixed"}},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "output": {"type": "block", "code": "game:baskettrap-mixed"}
+    }
+]

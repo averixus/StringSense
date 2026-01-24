@@ -1,0 +1,8 @@
+[
+    {
+        "file": "game:recipes/grid/strawdummy",
+        "op": "replace",
+        "path": "/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity": 4}
+    }
+]

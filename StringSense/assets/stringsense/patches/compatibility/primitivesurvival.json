@@ -1,0 +1,142 @@
+[
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:itemtypes/fishing/cordage",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "primitivesurvival"}],
+        "file": "primitivesurvival:blocktypes/fishing/limbtrotline",
+        "op": "replace",
+        "path": "/dropsbytype/*/0/code",
+        "value": "stringsense:cord-mixed"
+    },
+    {
+        "dependson": [{"modid": "primitivesurvival"}],
+        "file": "primitivesurvival:blocktypes/trap/snare",
+        "op": "replace",
+        "path": "/drops/0/code",
+        "value": "stringsense:cord-mixed"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/7/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/6/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/5/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/4/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/3/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/cordage",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/fishbasket",
+        "op": "replace",
+        "path": "/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/fishingspear",
+        "op": "replace",
+        "path": "/0/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/fishingspear",
+        "op": "replace",
+        "path": "/1/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/floatingdock",
+        "op": "replace",
+        "path": "/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/monkeybridge",
+        "op": "replace",
+        "path": "/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/raft",
+        "op": "replace",
+        "path": "/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/snare",
+        "op": "replace",
+        "path": "/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/trussedmeat",
+        "op": "replace",
+        "path": "/2/ingredients/T/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/trussedmeat",
+        "op": "replace",
+        "path": "/3/ingredients/T/code",
+        "value": "stringsense:cord-*"
+    }
+]

@@ -1,0 +1,375 @@
+[
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-ash", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-ash", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["shale", "basalt", "slate"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brown", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["claystone", "conglomerate"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["phyllite", "chert"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownweathered", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["peridotite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-green", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["bauxite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-orange", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-tan", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-tan", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:cattailtops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["game:sandstone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-yellow", "quantity": 8  }
+    },
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-ash", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-ash", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["andesite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["shale", "basalt", "slate"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brown", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["claystone", "conglomerate"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownlight", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["chalk", "limestone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["phyllite", "chert"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-brownweathered", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["peridotite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-green", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["bauxite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-orange", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-blue", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-tan", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-fire", "quantity": 1 }
+        },
+        "recipegroup": 1,
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-tan", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["granite"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "name": "clay", "allowedVariants": ["red"], "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-browngolden", "quantity": 8  }
+    },
+    {
+        "ingredientPattern": "DG,WC",
+        "ingredients": {
+            "G": { "type": "item", "code": "game:papyrustops", "quantity": 2  },
+            "D": { "type": "block", "code": "game:soil-*-none", "quantity": 1  },
+            "W": { "type": "block", "code": "game:sand-*", "name": "rock", "allowedVariants": ["game:sandstone"], "quantity": 1  },
+            "C": { "type": "item", "code": "game:clay-*", "quantity": 1 }
+        },
+        "width": 2,
+        "height": 2,
+        "output": { "type": "item", "code": "game:daubraw-yellow", "quantity": 8  }
+    }
+]

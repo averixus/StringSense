@@ -1,0 +1,58 @@
+[
+    {
+        "file": "game:blocktypes/plant/crop/flax",
+        "op": "replace",
+        "path": "/dropsByType/*-9/2",
+        "value": { "type": "item", "code": "stringsense:flaxstrands", "quantity": { "avg": 8, "var": 1 }  }
+    },
+    {
+        "file": "game:blocktypes/plant/crop/dead",
+        "op": "add",
+        "path": "/drops/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 0.25 }  }
+    },
+    {
+        "file": "game:blocktypes/plant/crop/rice",
+        "op": "add",
+        "path": "/dropsByType/*-10/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  }
+    },
+    {
+        "file": "game:blocktypes/plant/crop/rye",
+        "op": "add",
+        "path": "/dropsByType/*-9/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  }
+    },
+    {
+        "file": "game:blocktypes/plant/crop/spelt",
+        "op": "add",
+        "path": "/dropsByType/*-9/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:blocktypes/plant/maize",
+        "op": "add",
+        "path": "/dropsByType/*-7/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/kangaroograss",
+        "op": "remove",
+        "path": "/dropsByType/*-themedatriandra-*-normal-*/2/quantity/avg",
+        "value": 1
+    },
+    {
+        "dependson": [{"modid": "floralzonesentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:blocktypes/plant/kangaroograss",
+        "op": "remove",
+        "path": "/dropsByType/*-themedatriandra-*-normal-*/1/"
+    }
+]

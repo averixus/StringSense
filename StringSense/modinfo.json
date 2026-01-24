@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Content",
+    "modid": "stringsense",
+    "name": "StringSense",
+    "authors": [
+        "Averixus"
+    ],
+    "description": "Make string technology more realistic, logical, and interesting.",
+    "version": "0.0.1",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}

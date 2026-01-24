@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "T,C,S",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+			"T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "copper", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ]  },
+			"C": { "type": "item", "code": "stringsense:cord-*"},
+            "S": { "type": "item", "code": "game:stick" }
+        },
+        "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1}
+    },
+    {
+        "ingredientPattern": "T,C,S",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+			"T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+			"C": { "type": "item", "code": "stringsense:cord-*"},
+            "S": { "type": "item", "code": "game:bone" }
+        },
+        "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1}
+    }
+]

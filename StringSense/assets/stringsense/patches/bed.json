@@ -1,0 +1,60 @@
+[
+    {
+        "file": "game:recipes/grid/bed",
+        "op": "replace",
+        "path": "/0/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    },
+    {
+        "file": "game:recipes/grid/bed",
+        "op": "replace",
+        "path": "/1/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    },
+    {
+        "file": "game:recipes/grid/bed",
+        "op": "replace",
+        "path": "/2/output",
+        "value": {"type":"item", "code": "game:thatch", "quantity":18}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/bed",
+        "op": "replace",
+        "path": "/0/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/bed",
+        "op": "replace",
+        "path": "/0/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/bed",
+        "op": "replace",
+        "path": "/0/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/bed",
+        "op": "replace",
+        "path": "/0/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+    }
+]

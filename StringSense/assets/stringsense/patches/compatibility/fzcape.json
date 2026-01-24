@@ -1,0 +1,9 @@
+[
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}, {"modid": "primitivesurvival"}],
+        "file": "primitivesurvival:compatibility/floralzonescaperegion/recipes/grid/floralzonescaperegion-raft",
+        "op": "replace",
+        "path": "/0/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    }
+]

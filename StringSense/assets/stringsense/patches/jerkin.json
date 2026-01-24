@@ -1,0 +1,74 @@
+[
+    {
+        "file": "game:recipes/grid/armor/jerkin",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "QCQ,LLL,LLL"
+    },
+        {
+        "file": "game:recipes/grid/armor/jerkin",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
+    },
+    {
+        "file": "game:recipes/grid/armor/jerkin",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "QLQ,QCQ,Q_Q"
+    },
+        {
+        "file": "game:recipes/grid/armor/jerkin",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "CJ,_Q"
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/0/height",
+        "value": 2
+    },
+        {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/0/width",
+        "value": 2
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "CJ,_Q"
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/1/height",
+        "value": 2
+    },
+        {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "replace",
+        "path": "/1/width",
+        "value": 2
+    },
+    {
+        "file": "game:recipes/grid/armorrepair/jerkin",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/0/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/1/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/2/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/3/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/4/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/5/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/6/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/7/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/8/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/9/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/10/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/11/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/12/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/13/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/14/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/15/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/16/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/17/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/18/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/19/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/20/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/21/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/clothes/necklace",
+        "op": "replace",
+        "path": "/24/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    }
+]

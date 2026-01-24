@@ -1,0 +1,54 @@
+[
+    {
+        "file": "game:blocktypes/plant/wildvine",
+        "op": "replace",
+        "path": "/shapeinventory/base",
+        "value": "stringsense:item/vinestrands"
+    },
+    {
+        "file": "game:blocktypes/plant/wildvine",
+        "op": "add",
+        "path": "/guiTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": -157, "y": 0, "z": -52 },
+            "origin": { "x": 0.55, "y": 0.3, "z": 0.5 },
+            "scale": 1.77
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/wildvine",
+        "op": "add",
+        "path": "/fpHandTransform",
+        "value": {
+            "rotation": { "x": 84, "y": 92, "z": -30 },
+            "origin": { "x": 0.5, "y": 0.3, "z": 0.6 },
+            "scale": 1.31
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/wildvine",
+        "op": "add",
+        "path": "/tpHandTransform",
+        "value": {
+            "translation": { "x": -1.01, "y": -0.22, "z": -0.89 },
+            "rotation": { "x": -90, "y": -14, "z": -6 },
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+            "scale": 0.44
+        }
+    },
+    {
+        "file": "game:blocktypes/plant/wildvine",
+        "op": "add",
+        "path": "/groundTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.5, "z": 0.61 },
+            "scale": 3.5
+        }
+    }
+]
+
+
+

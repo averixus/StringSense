@@ -1,0 +1,121 @@
+[
+   {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanregion:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+        {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanregion:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+        {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanegion:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+        {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanregion:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+        {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket-deconstruct",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/baskettrap",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/basket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+        {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/baskettrap",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/basket-deconstruct",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/beenade",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/rope",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/rushmat",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/skep",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/stationarybasket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    }
+]

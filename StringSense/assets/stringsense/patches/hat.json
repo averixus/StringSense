@@ -1,0 +1,18 @@
+[
+    {
+        "file": "game:recipes/grid/clothes/hat",
+        "op": "replace",
+        "path": "/2/ingredients/B/code",
+        "value": "game:thatch"
+    },
+    {
+        "file": "game:recipes/grid/clothes/hat",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/clothes/hat",
+        "op": "remove",
+        "path": "/0"
+    }
+]

@@ -1,0 +1,785 @@
+[
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addeach",
+        "path": "/attributes/types/-",
+        "value": ["straw","flax","bark","bamboo","mixed"]
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/drop",
+        "value": {"straw": true,"flax": true, "bark": true, "bamboo": true, "mixed": true}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/quantitySlots",
+        "value": {"straw": 8, "flax": 8, "bark": 8, "bamboo": 8, "mixed": 8}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/dialogTitleLangCode",
+        "value": {"straw": "basketcontents", "flax": "basketcontents", "bark": "basketcontents", "bamboo": "basketcontents", "mixed": "basketcontents"}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/storageType",
+        "value": {"straw": 189, "flax": 189, "bark": 189, "bamboo": 189, "mixed": 189}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/retrieveOnly",
+        "value": {"straw": false, "flax": false, "bark": false, "bamboo": false, "mixed": false}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/attachableCategoryCode",
+        "value": {"straw": "basket", "flax": "basket", "bark": "basket", "bamboo": "basket", "mixed": "basket"}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/shape",
+        "value": {"straw": "block/reed/basket-normal", "flax": "block/reed/basket-normal", "bark": "block/reed/basket-normal", "bamboo": "block/reed/basket-normal", "mixed": "block/reed/basket-normal"}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/attributes/creatureContainedShape",
+        "value": {"straw": "block/reed/basket-full", "flax": "block/reed/basket-full", "bark": "block/reed/basket-full", "bamboo": "block/reed/basket-full", "mixed": "block/reed/basket-full"}
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addeach",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": [{"type": "block", "code": "stationarybasket-east", "attributes": { "type": "vine" }},{"type": "block", "code": "stationarybasket-east", "attributes": { "type": "mixed" }},{"type": "block", "code": "stationarybasket-east", "attributes": { "type": "flax" }},{"type": "block", "code": "stationarybasket-east", "attributes": { "type": "bark" }}, {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "bamboo" }}, {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "straw" }}]
+    },
+    { 
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value":  {
+            "straw-sidesWE": {"base": "stringsense:straw/we"},
+            "straw-sidesSN": {"base": "stringsense:straw/ns"},
+            "straw-lid": {"base": "stringsense:straw/lid"},
+            "flax-sidesWE": {"base": "stringsense:flax/we"},
+            "flax-sidesSN": {"base": "stringsense:flax/ns"},
+            "flax-lid": {"base": "stringsense:flax/lid"},
+            "vine-sidesWE": {"base": "stringsense:vine/we"},
+            "vine-sidesSN": {"base": "stringsense:vine/ns"},
+            "vine-lid": {"base": "stringsense:vine/lid"},
+            "bark-sidesWE": {"base": "stringsense:bark/we"},
+            "bark-sidesSN": {"base": "stringsense:bark/ns"},
+            "bark-lid": {"base": "stringsense:bark/lid"},
+            "reed-sidesWE": {"base": "stringsense:reed/we"},
+            "reed-sidesSN": {"base": "stringsense:reed/ns"},
+            "reed-lid": {"base": "stringsense:reed/lid"},
+            "papyrus-sidesWE": {"base": "stringsense:papyrus/we"},
+            "papyrus-sidesSN": {"base": "stringsense:papyrus/ns"},
+            "papyrus-lid": {"base": "stringsense:papyrus/lid"},
+            "bamboo-sidesWE": {"base": "stringsense:bamboo/we"},
+            "bamboo-sidesSN": {"base": "stringsense:bamboo/ns"},
+            "bamboo-lid": {"base": "stringsense:bamboo/lid"},
+            "mixed-sidesWE": {"base": "stringsense:mixed/we"},
+            "mixed-sidesSN": {"base": "stringsense:mixed/ns"},
+            "mixed-lid": {"base": "stringsense:mixed/lid"}
+        }
+    },
+    {
+        "file": "game:recipes/grid/stationarybasket",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/stationarybasket",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "remove",
+        "path": "/0"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/palm",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/palm",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/palm",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/palm",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/palm",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/palm",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/palm",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/palm",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "palm" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "palm-sidesWE": {"base": "stringsense:palm/we"},
+            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/palm",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/palm",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/palm",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/palm",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/palm",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/palm",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/palm",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/palm",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "palm" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "palm-sidesWE": {"base": "stringsense:palm/we"},
+            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/palm",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/palm",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/palm",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/palm",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/palm",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/palm",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/palm",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/palm",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "palm" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "palm-sidesWE": {"base": "stringsense:palm/we"},
+            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/palm",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/palm",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/palm",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/palm",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/palm",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/palm",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/palm",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/palm",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "palm" }}
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "palm-sidesWE": {"base": "stringsense:palm/we"},
+            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "coconut"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/coconut",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/coconut",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/coconut",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/coconut",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/coconut",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/coconut",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/coconut",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/coconut",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "coconut" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "coconut-sidesWE": {"base": "stringsense:coconut/we"},
+            "coconut-sidesSN": {"base": "stringsense:coconut/ns"},
+            "coconut-lid": {"base": "stringsense:coconut/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "nzflax"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/nzflax",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/nzflax",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/nzflax",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/nzflax",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/nzflax",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/nzflax",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/nzflax",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/nzflax",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "nzflax" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "nzflax-sidesWE": {"base": "stringsense:nzflax/we"},
+            "nzflax-sidesSN": {"base": "stringsense:nzflax/ns"},
+            "nzflax-lid": {"base": "stringsense:nzflax/lid"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "porcupine"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/porcupine",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/porcupine",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/porcupine",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/porcupine",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/porcupine",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/porcupine",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/porcupine",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/porcupine",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "porcupine" }}
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "porcupine-sidesWE": {"base": "stringsense:porcupine/we"},
+            "porcupine-sidesSN": {"base": "stringsense:porcupine/ns"},
+            "porcupine-lid": {"base": "stringsense:porcupine/lid"}
+        }
+    },
+
+
+
+     {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "sinew"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/sinew",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/sinew",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/sinew",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/sinew",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/sinew",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/sinew",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/sinew",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/sinew",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "sinew" }}
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "sinew-sidesWE": {"base": "stringsense:sinew/we"},
+            "sinew-sidesSN": {"base": "stringsense:sinew/ns"},
+            "sinew-lid": {"base": "stringsense:sinew/lid"}
+        }
+    }
+]

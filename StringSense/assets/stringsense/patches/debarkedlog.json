@@ -1,0 +1,82 @@
+[
+    {
+        "file": "game:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "file": "game:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "floralzonescaribbeanregion:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "floralzonesneozeylandicregion:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "floralzonescaperegion:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "floralzonesmediterraneanregion:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    }
+]

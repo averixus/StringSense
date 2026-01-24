@@ -1,0 +1,20 @@
+[
+    {
+        "ingredientPattern": "B,B",
+        "ingredients": {
+            "B": {"type": "item", "code": "stringsense:bamboostrands", "quantity": 1}
+        },
+        "width": 1,
+        "height": 2,
+        "output": {"type": "item", "code": "game:clothes-head-bamboo-conehat"}
+    },
+    {
+        "ingredientPattern": "BBB,_B_",
+        "ingredients": {
+            "B": {"type": "item", "code": "stringsense:bamboostrands", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "item", "code": "game:clothes-head-bamboo-conehat-large"}
+    }
+]

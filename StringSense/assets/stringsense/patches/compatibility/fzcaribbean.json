@@ -1,0 +1,347 @@
+[
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket-deconstruct",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/palmettoleaf",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/roystonealeaf",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/baskettrap",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/beenade",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/beenade",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/rope",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/rope",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/rushmat",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/rushmat",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/skep",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/skep",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/stationarybasket",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/stationarybasket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-palm",
+        "value": {"base": "stringsense:palm/we"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "floralzonescaribbeanregion:palmleaf-*"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-palm"
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "replace",
+        "path": "/shapebytype",
+        "value": {
+            "*-fiber": {"base": "stringsense:item/fibers"},
+            "*": {"base": "floralzonescaribbeanregion:item/resource/{type}{state}"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "remove",
+        "path": "/texturesByType"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "add",
+        "path": "/textureByType",
+        "value": {
+            "*-boll": {"base": "floralzonescaribbeanregion:item/resource/gossypiumhirsutum"},
+            "*-fiber": {"base": "stringsense:cotton"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "replace",
+        "path": "/guiTransformByType/*",
+        "value": {
+            "translation": { "x": -3, "y": -1, "z": 0 },
+            "rotation": { "x": 143, "y": 157, "z": 0 },
+            "origin": { "x": 0.35, "y": 0, "z": 0.4 },
+            "scaleXyz": { "x": -2.29, "y": 2.29, "z": 2.29 }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "remove",
+        "path": "/tpHandTransform"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "add",
+        "path": "/tpHandTransformByType",
+        "value": {
+            "*-boll": {
+                "translation": { "x": -2.3, "y": -0.2, "z": -1.6},
+                "rotation": { "x": -90, "y": 90, "z": 0 },
+                "origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+                "scale": 0.25
+            },
+            "*-fiber": {
+                "translation": { "x": 0, "y": 0, "z": -0 },
+                "rotation": { "x": -180, "y": 87, "z": -97 },
+                "origin": {"x": 0.15, "y": -0.35, "z": 0.2},
+                "scale": 0.51
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "remove",
+        "path": "/groundTransform"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "add",
+        "path": "/groundTransformByType",
+        "value": {
+            "*-boll": {
+                "translation": { "x": 0, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 0, "z": 0 },
+                "origin": { "x": 0.5, "y": 0.0, "z": 0.5299 },
+                "scale": 0.25
+            },
+            "*-fiber": {
+                "translation": { "x": 0, "y": 0, "z": 0 },
+                "rotation": { "x": 0, "y": 0, "z": 0 },
+                "origin": { "x": 0.3, "y": 0.0, "z": 0.5299 },
+                "scale": 2.33
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "remove",
+        "path": "/attributes/groundStorageTransform"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:itemtypes/resource/cotton",
+        "op": "add",
+        "path": "/attributesByType",
+        "value": {
+            "*-fiber": {
+                "groundStorageTransform": {
+                    "translation": { "x": -0.01, "y": -0.226, "z": 0 },
+                    "rotation": { "x": 0, "y": -40, "z": 0 },
+                    "scale": 0.55
+                }
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/twine",
+        "op": "replace",
+        "path": "/ingredientPattern",
+        "value": "_S,FF,FF"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/twine",
+        "op": "add",
+        "path": "/ingredients/S",
+        "value": {"type": "item", "code": "game:stick", "isTool": true}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/twine",
+        "op": "replace",
+        "path": "/height",
+        "value": 3
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
+        "op": "replace",
+        "path": "/ingredientPattern",
+        "value": "SP"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
+        "op": "replace",
+        "path": "/width",
+        "value": 2
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
+        "op": "add",
+        "path": "/ingredients/S",
+        "value": {"type": "item", "code": "game:stick", "isTool": true, "toolDurabilityCost": 0}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
+        "op": "add",
+        "path": "/shapeless",
+        "value": true
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}, {"modid": "primitivesurvival"}],
+        "file": "primitivesurvival:compatibility/floralzonescaribbeanregion/recipes/grid/floralzonescaribbeanregion-raft",
+        "op": "replace",
+        "path": "/0/ingredients/P/code",
+        "value": "stringsense:cord-*"
+    }
+]

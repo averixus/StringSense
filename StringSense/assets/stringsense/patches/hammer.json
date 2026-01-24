@@ -1,0 +1,40 @@
+[
+    {
+        "file": "game:recipes/grid/tool/hammer",
+        "op": "replace",
+        "path":"/ingredientPattern",
+        "value": "T,C,S"
+    },
+    {
+        "file": "game:recipes/grid/tool/hammer",
+        "op": "add",
+        "path":"/ingredients/C",
+        "value": { "type": "item", "code": "game:flaxtwine" }
+    },
+    {
+        "file": "game:recipes/grid/tool/hammer",
+        "op": "replace",
+        "path": "/height",
+        "value": 3
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/tool/hammer",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "T,C,S",
+            "ingredients": {
+                "T": {"type": "item", "code": "game:hammerhead-*", "name": "metal"},
+                "C": {"type": "item", "code": "wool:twine-*"},
+                "S": {"type": "item", "code": "game:stick"}
+            },
+            "width": 1,
+            "height": 3,
+            "output": {"type": "item", "code": "game:hammer-{metal}", "quantity": 1}
+        }
+    }
+]

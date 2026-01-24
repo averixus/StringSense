@@ -1,0 +1,299 @@
+[
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["vine", "flax", "straw", "bark", "bamboo", "mixed"]
+    },
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "replace",
+        "path": "/texturesByType",
+        "value": {
+            "*-flax": {
+                "sidesWE": {"base": "stringsense:flax/we"},
+                "sidesSN": {"base": "stringsense:flax/ns"},
+                "lid": {"base": "stringsense:flax/lid"}
+            },
+            "*-straw": {
+                "sidesWE": {"base": "stringsense:straw/we"},
+                "sidesSN": {"base": "stringsense:straw/ns"},
+                "lid": {"base": "stringsense:straw/ns"}
+            },
+            "*-bark": {
+                "sidesWE": {"base": "stringsense:bark/we"},
+                "sidesSN": {"base": "stringsense:bark/ns"},
+                "lid": {"base": "stringsense:bark/lid"}
+            },
+            "*-bamboo": {
+                "sidesWE": {"base": "stringsense:bamboo/we"},
+                "sidesSN": {"base": "stringsense:bamboo/ns"},
+                "lid": {"base": "stringsense:bamboo/lid"}
+            },
+            "*-vine": {
+                "sidesWE": {"base": "stringsense:vine/we"},
+                "sidesSN": {"base": "stringsense:vine/ns"},
+                "lid": {"base": "stringsense:vine/ns"}
+            },
+            "*-reed": {
+                "sidesWE": {"base": "stringsense:reed/we"},
+                "sidesSN": {"base": "stringsense:reed/ns"},
+                "lid": {"base": "stringsense:reed/ns"}
+            },
+            "*-papyrus": {
+                "sidesWE": {"base": "stringsense:papyrus/we"},
+                "sidesSN": {"base": "stringsense:papyrus/ns"},
+                "lid": {"base": "stringsense:papyrus/ns"}
+            },
+            "*-mixed": {
+                "sidesWE": {"base": "stringsense:mixed/we"},
+                "sidesSN": {"base": "stringsense:mixed/ns"},
+                "lid": {"base": "stringsense:mixed/lid"}
+            }
+        }
+        
+        
+
+    },
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "replace",
+        "path": "/attributes/destroyedDrops/0/codeByType",
+        "value": {
+            "baskettrap-reed": "stringsense:cord-reed",
+            "baskettrap-papyrus": "stringsense:cord-papyrus",
+            "baskettrap-vine": "stringsense:cord-vine",
+            "baskettrap-straw": "stringsense:cord-straw",
+            "baskettrap-flax": "stringsense:cord-flax",
+            "baskettrap-bark": "stringsense:cord-bark",
+            "baskettrap-bamboo": "stringsense:cord-bamboo",
+            "baskettrap-mixed": "stringsense:cord-mixed"
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-palm",
+        "value": {
+            "sidesWE": {"base": "stringsense:palm/we"},
+            "sidesSN": {"base": "stringsense:palm/ns"},
+            "lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
+        "value": "stringsense:cord-palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-palm",
+        "value": {
+            "sidesWE": {"base": "stringsense:palm/we"},
+            "sidesSN": {"base": "stringsense:palm/ns"},
+            "lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
+        "value": "stringsense:cord-palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-palm",
+        "value": {
+            "sidesWE": {"base": "stringsense:palm/we"},
+            "sidesSN": {"base": "stringsense:palm/ns"},
+            "lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
+        "value": "stringsense:cord-palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-palm",
+        "value": {
+            "sidesWE": {"base": "stringsense:palm/we"},
+            "sidesSN": {"base": "stringsense:palm/ns"},
+            "lid": {"base": "stringsense:palm/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-palm",
+        "value": "stringsense:cord-palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "coconut"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-coconut",
+        "value": {
+            "sidesWE": {"base": "stringsense:coconut/we"},
+            "sidesSN": {"base": "stringsense:coconut/ns"},
+            "lid": {"base": "stringsense:coconut/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-coconut",
+        "value": "stringsense:cord-coconut"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "nzflax"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-nzflax",
+        "value": {
+            "sidesWE": {"base": "stringsense:nzflax/we"},
+            "sidesSN": {"base": "stringsense:nzflax/ns"},
+            "lid": {"base": "stringsense:nzflax/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-nzflax",
+        "value": "stringsense:cord-nzflax"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "porcupine"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-porcupine",
+        "value": {
+            "sidesWE": {"base": "stringsense:porcupine/we"},
+            "sidesSN": {"base": "stringsense:porcupine/ns"},
+            "lid": {"base": "stringsense:porcupine/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-porcupine",
+        "value": "stringsense:cord-porcupine"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "addmerge",
+        "path": "/variantgroups",
+        "value": [
+            {"code": "material", "states": ["sinew"]}
+        ]
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-sinew",
+        "value": {
+            "sidesWE": {"base": "stringsense:sinew/we"},
+            "sidesSN": {"base": "stringsense:sinew/ns"},
+            "lid": {"base": "stringsense:sinew/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-sinew",
+        "value": "stringsense:cord-sinew"
+    }
+]

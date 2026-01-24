@@ -1,0 +1,12 @@
+[
+    {
+        "file": "game:recipes/grid/beenade",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/beenade",
+        "op": "remove",
+        "path": "/0"
+    }
+]

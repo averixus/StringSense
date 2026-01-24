@@ -1,0 +1,22 @@
+[
+    {
+        "file": "game:shapes/item/resource/thatch",
+        "op": "replace",
+        "path": "/textures",
+        "value": {
+            "bundle": "stringsense:straw/we",
+            "string": "stringsense:straw/we"
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/thatch",
+        "op": "replace",
+        "path": "/guiTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 123, "y": -45, "z": 11 },
+            "origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+            "scale": 1.77
+        }
+    }
+]

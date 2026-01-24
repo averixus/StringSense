@@ -1,0 +1,12 @@
+[
+    {
+        "ingredientPattern": "SRS,S_S,S_S",
+        "ingredients": {
+            "R": {"type": "item", "code": "stringsense:cord-*"},
+            "S": {"type": "item", "code": "game:stick"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "item", "code": "game:tongs", "quantity": 1}
+    }
+]

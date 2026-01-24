@@ -1,0 +1,125 @@
+[
+    {
+        "file": "game:blocktypes/reed/skep",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["straw", "bark", "bamboo", "vine", "flax", "mixed"]
+    },
+    {
+        "file": "game:blocktypes/reed/skep",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "skep-*-": [
+                {"type": "item", "code": "stringsense:cord-{type}", "quantity": {"avg": 6, "var": 8, "dist": "invexp" } },
+                {"type": "item", "code": "game:honeycomb", "quantity": {"avg": 3 } }
+            ]
+        }
+    },
+    {
+        "file": "game:recipes/grid/skep",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/skep",
+        "op": "remove",
+        "path": "/0"
+    },
+    {
+        "file": "game:blocktypes/reed/skep",
+        "op": "remove",
+        "path": "/textures"
+    },
+    {
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/texturesByType",
+        "value": {
+            "*": {
+                "hive": {"base": "stringsense:{material}/we"},
+                "honeycomb": {"base": "game:block/reed/beehive/honeycomb"}
+            }
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "coconut"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "nzflax"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "porcupine"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sinew"
+    }
+]

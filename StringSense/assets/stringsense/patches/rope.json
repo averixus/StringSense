@@ -1,0 +1,22 @@
+[
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "remove",
+        "path": "/3"
+    },
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "remove",
+        "path": "/2"
+    },
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "remove",
+        "path": "/1"
+    },
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "remove",
+        "path": "/0"
+    }
+]

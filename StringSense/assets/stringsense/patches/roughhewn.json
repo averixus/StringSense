@@ -1,0 +1,202 @@
+[
+    {
+        "file": "game:recipes/grid/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "file": "game:recipes/grid/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "file": "game:recipes/grid/roughhewnfence",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "file": "game:recipes/grid/roughhewnfence",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "file": "game:recipes/grid/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "file": "game:recipes/grid/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "file": "game:recipes/grid/roughhewngate",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "file": "game:recipes/grid/roughhewngate",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewnfence",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewnfence",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewngate",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewngate",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "floralzonescaperegion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    },
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*"}
+    }
+]

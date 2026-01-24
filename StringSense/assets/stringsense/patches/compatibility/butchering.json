@@ -1,0 +1,93 @@
+[
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sinew"
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-sinew",
+        "value": {"base": "stringsense:sinew/we"}
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "butchering:sinew-dry"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-sinew"
+            }
+        }
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/7/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/6/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/5/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/4/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/3/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "butchering"}],
+        "file": "butchering:recipes/grid/sinewbows",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    }
+]

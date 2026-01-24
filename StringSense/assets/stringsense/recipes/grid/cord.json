@@ -1,0 +1,107 @@
+[
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "game:thatch"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-straw"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "game:cattailtops"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-reed"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "game:papyrustops"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-papyrus"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "stringsense:barkstrands"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-bark"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "stringsense:bamboostrands"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-bamboo"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "block",
+                "code": "game:wildvine-section-*"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-vine"
+        }
+    },
+    {
+        "ingredientPattern": "X,X,X",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "stringsense:flaxstrands"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-flax"
+        }
+    }
+]
