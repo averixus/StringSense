@@ -26,7 +26,7 @@
 			}
 		}
 	],
-	"transitionableProps": 	{
+	"transitionableProps": 	[{
 		"type": "Cure",
 		"freshHours": { "avg": 0 },
 		"transitionHours": { "avg": 480 },
@@ -35,7 +35,7 @@
 			"code": "game:flaxfibers"
 		},
 		"transitionRatio": 1
-	},
+	}],
 	"attributes": {
 		"groundStorageTransform": {
 			"rotation": {"x": 0, "y": 27, "z": 0}

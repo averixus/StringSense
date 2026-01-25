@@ -13,7 +13,7 @@
             "ingredientPattern": "SRS,S_S,S_S",
             "ingredients": {
                 "R": { "type": "item", "code": "game:flaxtwine"},
-                "S": { "type": "item", "code": "stick"}
+                "S": { "type": "item", "code": "game:stick"}
             },
             "width": 3,
             "height": 3,

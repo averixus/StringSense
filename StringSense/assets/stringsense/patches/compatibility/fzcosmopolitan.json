@@ -295,16 +295,23 @@
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
-        "file": "floralzonescosmopolitanregion:shapes/item/resource/fiber/coconuthusk",
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
         "op": "replace",
-        "path": "/textures/cocosnucifera",
-        "value": "stringsense:coconut/we"
+        "path": "/shape/base",
+        "value": "stringsense:item/thickstrands"
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
-        "file": "floralzonescosmopolitanregion:shapes/item/resource/fiber/coconuthusk-pile",
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
         "op": "replace",
-        "path": "/textures/cocosnucifera",
-        "value": "stringsense:coconut/we"
+        "path": "/behaviors/0/properties/stackingModel",
+        "value": "stringsense:item/thickstrands-pile"
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "add",
+        "path": "/texture",
+        "value": {"base": "stringsense:coconut/we"}
     }
 ]

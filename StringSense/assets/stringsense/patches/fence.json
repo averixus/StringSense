@@ -57,7 +57,7 @@
         "file": "game:recipes/grid/woodenfence",
         "op": "add",
         "path": "/1/ingredients/R",
-        "value": "game:rope"
+        "value": {"type": "item", "code": "game:rope"}
     },
 
 
