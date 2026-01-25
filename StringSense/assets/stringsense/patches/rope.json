@@ -72,5 +72,29 @@
                 "code": "game:rope"
             }
         }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/rope",
+        "op": "replace",
+        "path": "/1",
+        "value": {
+            "ingredientPattern": "XXX,XXX",
+            "width": 3,
+            "height": 2,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "tailorsdelight:twine-*"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        }
     }
 ]

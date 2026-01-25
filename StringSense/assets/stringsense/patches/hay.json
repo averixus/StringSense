@@ -56,5 +56,24 @@
             "height": 3,
             "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
         }
+    },
+
+
+
+        {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/haybale",
+        "op": "add",
+        "path": "/-",
+        "value":     {
+            "ingredientPattern": "T_,GG,GG",
+            "ingredients": {
+                "G": {"type": "item", "code": "game:drygrass", "quantity": 2},
+                "T": {"type": "item", "code": "tailorsdelight:twine-*", "quantity": 1}
+            },
+            "width": 2,
+            "height": 3,
+            "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+        }
     }
 ]

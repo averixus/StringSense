@@ -52,5 +52,25 @@
             "height": 3,
             "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1}
         }
+    },
+
+
+
+        {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/tool/blade",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "T,C,S",
+            "ingredients": {
+                "T": { "type": "item", "code": "game:bladehead-falx-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"]  },
+			    "C": {"type": "item", "code": "tailorsdelight:twine-*"},
+                "S": { "type": "item", "code": "game:stick" }
+            },
+            "width": 1,
+            "height": 3,
+            "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1}
+        }
     }
 ]

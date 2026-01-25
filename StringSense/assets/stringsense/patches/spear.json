@@ -53,5 +53,25 @@
             "height": 3,
             "output": {"type": "item", "code": "game:spear-generic-{metal}", "quantity": 1}
         }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/tool/spear",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "T,C,S",
+            "ingredients": {
+                "T": {"type": "item", "code": "game:spearhead-*", "name": "metal", "allowedVariants": ["granite", "andesite", "basalt", "obsidian", "peridotite", "chert", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+                "C": {"type": "item", "code": "tailorsdelight:twine-*"},
+                "S": {"type": "item", "code": "game:stick"}
+            },
+            "width": 1,
+            "height": 3,
+            "output": {"type": "item", "code": "game:spear-generic-{metal}", "quantity": 1}
+        }
     }
 ]

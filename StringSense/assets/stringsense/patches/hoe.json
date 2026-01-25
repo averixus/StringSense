@@ -54,5 +54,25 @@
             "height": 3,
             "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1}
         }
+    },
+
+
+
+        {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/tool/hoe",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "T,C,S",
+            "ingredients": {
+                "T": {"type": "item", "code": "game:hoehead-*", "name": "metal"},
+                "C": {"type": "item", "code": "tailorsdelight:twine-*"},
+                "S": {"type": "item", "code": "game:stick"}
+            },
+            "width": 1,
+            "height": 3,
+            "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1}
+        }
     }
 ]

@@ -122,5 +122,38 @@
                 "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1}
             }
         ]
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/tool/knife",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material"},
+                    "C": { "type": "item", "code": "tailorsdelight:twine-*"},
+                    "S": { "type": "item", "code": "game:stick" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1}
+            },
+            {
+                "ingredientPattern": "T,C,S",
+                "width": 1,
+                "height": 3,
+                "ingredients": {
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "C": { "type": "item", "code": "tailorsdelight:twine-*"},
+                    "S": { "type": "item", "code": "game:bone" }
+                },
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1}
+            }
+        ]
     }
 ]

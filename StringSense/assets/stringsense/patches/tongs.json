@@ -38,5 +38,24 @@
             "height": 3,
             "output": {"type": "item", "code": "game:tongs"}
         }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "SRS,S_S,S_S",
+            "ingredients": {
+                "R": { "type": "item", "code": "tailorsdelight:twine-*"},
+                "S": { "type": "item", "code": "stick"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:tongs"}
+        }
     }
 ]
