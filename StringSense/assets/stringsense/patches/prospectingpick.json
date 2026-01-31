@@ -39,7 +39,7 @@
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "game:recipes/grid/prospectingpick",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value": {
@@ -59,7 +59,7 @@
 
         {
         "dependson": [{"modid": "tailorsdelight"}],
-        "file": "game:recipes/grid/prospectingpick",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value": {

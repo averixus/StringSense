@@ -43,7 +43,7 @@
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "game:recipes/grid/haybale",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value":     {
@@ -62,7 +62,7 @@
 
         {
         "dependson": [{"modid": "tailorsdelight"}],
-        "file": "game:recipes/grid/haybale",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value":     {

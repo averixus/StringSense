@@ -32,7 +32,7 @@
             "ingredientPattern": "SRS,S_S,S_S",
             "ingredients": {
                 "R": { "type": "item", "code": "wool:twine-*"},
-                "S": { "type": "item", "code": "stick"}
+                "S": { "type": "item", "code": "game:stick"}
             },
             "width": 3,
             "height": 3,
@@ -51,7 +51,7 @@
             "ingredientPattern": "SRS,S_S,S_S",
             "ingredients": {
                 "R": { "type": "item", "code": "tailorsdelight:twine-*"},
-                "S": { "type": "item", "code": "stick"}
+                "S": { "type": "item", "code": "game:stick"}
             },
             "width": 3,
             "height": 3,

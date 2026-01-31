@@ -4,7 +4,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"base": "stringsense:vine/side"
+		"base": "stringsense:vine/cord"
 	},
 	"elements": [
 		{

@@ -42,6 +42,20 @@
         "value": false
     },
     {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "palm"
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-palm",
+        "value": {"base": "stringsense:palm/cord"}
+    },
+    {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
         "file": "floralzoneseastasiaticregion:blocktypes/reed/baskettrap",
         "op": "add",
