@@ -55,8 +55,8 @@
     {
         "dependson": [{"modid": "wool"}],
         "file": "game:recipes/grid/rope",
-        "op": "replace",
-        "path": "/1",
+        "op": "add",
+        "path": "/-",
         "value": {
             "ingredientPattern": "XXX,XXX",
             "width": 3,
@@ -79,8 +79,8 @@
     {
         "dependson": [{"modid": "tailorsdelight"}],
         "file": "game:recipes/grid/rope",
-        "op": "replace",
-        "path": "/1",
+        "op": "add",
+        "path": "/-",
         "value": {
             "ingredientPattern": "XXX,XXX",
             "width": 3,

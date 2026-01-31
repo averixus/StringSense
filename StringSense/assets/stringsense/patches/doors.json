@@ -3,24 +3,24 @@
         "file": "game:recipes/grid/doors",
         "op": "replace",
         "path": "/0/ingredientPattern",
-        "value": "AC,PS,PS"
+        "value": "AR,PS,PS"
     },
     {
         "file": "game:recipes/grid/doors",
         "op": "add",
-        "path": "/0/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*"}
+        "path": "/0/ingredients/R",
+        "value": {"type": "item", "code": "game:rope"}
     },
     {
         "file": "game:recipes/grid/doors",
         "op": "replace",
         "path": "/1/ingredientPattern",
-        "value": "AC,PS,PS"
+        "value": "AR,PS,PS"
     },
     {
         "file": "game:recipes/grid/doors",
         "op": "add",
-        "path": "/1/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*"}
+        "path": "/1/ingredients/R",
+        "value": {"type": "item", "code": "game:rope"}
     }
 ]
