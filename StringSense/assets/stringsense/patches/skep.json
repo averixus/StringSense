@@ -27,7 +27,7 @@
         "path": "/texturesByType",
         "value": {
             "*": {
-                "hive": {"base": "stringsense:{material}/we"},
+                "hive": {"base": "stringsense:{material}/side"},
                 "honeycomb": {"base": "game:block/reed/beehive/honeycomb"}
             }
         }

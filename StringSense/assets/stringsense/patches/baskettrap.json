@@ -11,43 +11,43 @@
         "path": "/texturesByType",
         "value": {
             "*-flax": {
-                "sidesWE": {"base": "stringsense:flax/we"},
-                "sidesSN": {"base": "stringsense:flax/ns"},
+                "sidesWE": {"base": "stringsense:flax/side"},
+                "sidesSN": {"base": "stringsense:flax/side"},
                 "lid": {"base": "stringsense:flax/lid"}
             },
             "*-straw": {
-                "sidesWE": {"base": "stringsense:straw/we"},
-                "sidesSN": {"base": "stringsense:straw/ns"},
-                "lid": {"base": "stringsense:straw/ns"}
+                "sidesWE": {"base": "stringsense:straw/side"},
+                "sidesSN": {"base": "stringsense:straw/side"},
+                "lid": {"base": "stringsense:straw/lid"}
             },
             "*-bark": {
-                "sidesWE": {"base": "stringsense:bark/we"},
-                "sidesSN": {"base": "stringsense:bark/ns"},
+                "sidesWE": {"base": "stringsense:bark/side"},
+                "sidesSN": {"base": "stringsense:bark/side"},
                 "lid": {"base": "stringsense:bark/lid"}
             },
             "*-bamboo": {
-                "sidesWE": {"base": "stringsense:bamboo/we"},
-                "sidesSN": {"base": "stringsense:bamboo/ns"},
+                "sidesWE": {"base": "stringsense:bamboo/side"},
+                "sidesSN": {"base": "stringsense:bamboo/side"},
                 "lid": {"base": "stringsense:bamboo/lid"}
             },
             "*-vine": {
-                "sidesWE": {"base": "stringsense:vine/we"},
-                "sidesSN": {"base": "stringsense:vine/ns"},
-                "lid": {"base": "stringsense:vine/ns"}
+                "sidesWE": {"base": "stringsense:vine/side"},
+                "sidesSN": {"base": "stringsense:vine/side"},
+                "lid": {"base": "stringsense:vine/lid"}
             },
             "*-reed": {
-                "sidesWE": {"base": "stringsense:reed/we"},
-                "sidesSN": {"base": "stringsense:reed/ns"},
-                "lid": {"base": "stringsense:reed/ns"}
+                "sidesWE": {"base": "stringsense:reed/side"},
+                "sidesSN": {"base": "stringsense:reed/side"},
+                "lid": {"base": "stringsense:reed/lid"}
             },
             "*-papyrus": {
-                "sidesWE": {"base": "stringsense:papyrus/we"},
-                "sidesSN": {"base": "stringsense:papyrus/ns"},
-                "lid": {"base": "stringsense:papyrus/ns"}
+                "sidesWE": {"base": "stringsense:papyrus/side"},
+                "sidesSN": {"base": "stringsense:papyrus/side"},
+                "lid": {"base": "stringsense:papyrus/lid"}
             },
             "*-mixed": {
-                "sidesWE": {"base": "stringsense:mixed/we"},
-                "sidesSN": {"base": "stringsense:mixed/ns"},
+                "sidesWE": {"base": "stringsense:mixed/side"},
+                "sidesSN": {"base": "stringsense:mixed/side"},
                 "lid": {"base": "stringsense:mixed/lid"}
             }
         }
@@ -160,8 +160,8 @@
         "op": "add",
         "path": "/texturesByType/*-palm",
         "value": {
-            "sidesWE": {"base": "stringsense:palm/we"},
-            "sidesSN": {"base": "stringsense:palm/ns"},
+            "sidesWE": {"base": "stringsense:palm/side"},
+            "sidesSN": {"base": "stringsense:palm/side"},
             "lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -206,8 +206,8 @@
         "op": "add",
         "path": "/texturesByType/*-palm",
         "value": {
-            "sidesWE": {"base": "stringsense:palm/we"},
-            "sidesSN": {"base": "stringsense:palm/ns"},
+            "sidesWE": {"base": "stringsense:palm/side"},
+            "sidesSN": {"base": "stringsense:palm/side"},
             "lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -252,8 +252,8 @@
         "op": "add",
         "path": "/texturesByType/*-palm",
         "value": {
-            "sidesWE": {"base": "stringsense:palm/we"},
-            "sidesSN": {"base": "stringsense:palm/ns"},
+            "sidesWE": {"base": "stringsense:palm/side"},
+            "sidesSN": {"base": "stringsense:palm/side"},
             "lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -298,8 +298,8 @@
         "op": "add",
         "path": "/texturesByType/*-palm",
         "value": {
-            "sidesWE": {"base": "stringsense:palm/we"},
-            "sidesSN": {"base": "stringsense:palm/ns"},
+            "sidesWE": {"base": "stringsense:palm/side"},
+            "sidesSN": {"base": "stringsense:palm/side"},
             "lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -344,8 +344,8 @@
         "op": "add",
         "path": "/texturesByType/*-coconut",
         "value": {
-            "sidesWE": {"base": "stringsense:coconut/we"},
-            "sidesSN": {"base": "stringsense:coconut/ns"},
+            "sidesWE": {"base": "stringsense:coconut/side"},
+            "sidesSN": {"base": "stringsense:coconut/side"},
             "lid": {"base": "stringsense:coconut/lid"}
         }
     },
@@ -390,8 +390,8 @@
         "op": "add",
         "path": "/texturesByType/*-nzflax",
         "value": {
-            "sidesWE": {"base": "stringsense:nzflax/we"},
-            "sidesSN": {"base": "stringsense:nzflax/ns"},
+            "sidesWE": {"base": "stringsense:nzflax/side"},
+            "sidesSN": {"base": "stringsense:nzflax/side"},
             "lid": {"base": "stringsense:nzflax/lid"}
         }
     },
@@ -436,8 +436,8 @@
         "op": "add",
         "path": "/texturesByType/*-porcupine",
         "value": {
-            "sidesWE": {"base": "stringsense:porcupine/we"},
-            "sidesSN": {"base": "stringsense:porcupine/ns"},
+            "sidesWE": {"base": "stringsense:porcupine/side"},
+            "sidesSN": {"base": "stringsense:porcupine/side"},
             "lid": {"base": "stringsense:porcupine/lid"}
         }
     },
@@ -484,8 +484,8 @@
         "op": "add",
         "path": "/texturesByType/*-sinew",
         "value": {
-            "sidesWE": {"base": "stringsense:sinew/we"},
-            "sidesSN": {"base": "stringsense:sinew/ns"},
+            "sidesWE": {"base": "stringsense:sinew/side"},
+            "sidesSN": {"base": "stringsense:sinew/side"},
             "lid": {"base": "stringsense:sinew/lid"}
         }
     },

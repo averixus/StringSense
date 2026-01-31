@@ -64,29 +64,29 @@
         "op": "addmerge",
         "path": "/textures",
         "value":  {
-            "straw-sidesWE": {"base": "stringsense:straw/we"},
-            "straw-sidesSN": {"base": "stringsense:straw/ns"},
+            "straw-sidesWE": {"base": "stringsense:straw/side"},
+            "straw-sidesSN": {"base": "stringsense:straw/side"},
             "straw-lid": {"base": "stringsense:straw/lid"},
-            "flax-sidesWE": {"base": "stringsense:flax/we"},
-            "flax-sidesSN": {"base": "stringsense:flax/ns"},
+            "flax-sidesWE": {"base": "stringsense:flax/side"},
+            "flax-sidesSN": {"base": "stringsense:flax/side"},
             "flax-lid": {"base": "stringsense:flax/lid"},
-            "vine-sidesWE": {"base": "stringsense:vine/we"},
-            "vine-sidesSN": {"base": "stringsense:vine/ns"},
+            "vine-sidesWE": {"base": "stringsense:vine/side"},
+            "vine-sidesSN": {"base": "stringsense:vine/side"},
             "vine-lid": {"base": "stringsense:vine/lid"},
-            "bark-sidesWE": {"base": "stringsense:bark/we"},
-            "bark-sidesSN": {"base": "stringsense:bark/ns"},
+            "bark-sidesWE": {"base": "stringsense:bark/side"},
+            "bark-sidesSN": {"base": "stringsense:bark/side"},
             "bark-lid": {"base": "stringsense:bark/lid"},
-            "reed-sidesWE": {"base": "stringsense:reed/we"},
-            "reed-sidesSN": {"base": "stringsense:reed/ns"},
+            "reed-sidesWE": {"base": "stringsense:reed/side"},
+            "reed-sidesSN": {"base": "stringsense:reed/side"},
             "reed-lid": {"base": "stringsense:reed/lid"},
-            "papyrus-sidesWE": {"base": "stringsense:papyrus/we"},
-            "papyrus-sidesSN": {"base": "stringsense:papyrus/ns"},
+            "papyrus-sidesWE": {"base": "stringsense:papyrus/side"},
+            "papyrus-sidesSN": {"base": "stringsense:papyrus/side"},
             "papyrus-lid": {"base": "stringsense:papyrus/lid"},
-            "bamboo-sidesWE": {"base": "stringsense:bamboo/we"},
-            "bamboo-sidesSN": {"base": "stringsense:bamboo/ns"},
+            "bamboo-sidesWE": {"base": "stringsense:bamboo/side"},
+            "bamboo-sidesSN": {"base": "stringsense:bamboo/side"},
             "bamboo-lid": {"base": "stringsense:bamboo/lid"},
-            "mixed-sidesWE": {"base": "stringsense:mixed/we"},
-            "mixed-sidesSN": {"base": "stringsense:mixed/ns"},
+            "mixed-sidesWE": {"base": "stringsense:mixed/side"},
+            "mixed-sidesSN": {"base": "stringsense:mixed/side"},
             "mixed-lid": {"base": "stringsense:mixed/lid"}
         }
     },
@@ -308,8 +308,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "palm-sidesWE": {"base": "stringsense:palm/we"},
-            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-sidesWE": {"base": "stringsense:palm/side"},
+            "palm-sidesSN": {"base": "stringsense:palm/side"},
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -409,8 +409,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "palm-sidesWE": {"base": "stringsense:palm/we"},
-            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-sidesWE": {"base": "stringsense:palm/side"},
+            "palm-sidesSN": {"base": "stringsense:palm/side"},
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -510,8 +510,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "palm-sidesWE": {"base": "stringsense:palm/we"},
-            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-sidesWE": {"base": "stringsense:palm/side"},
+            "palm-sidesSN": {"base": "stringsense:palm/side"},
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -611,8 +611,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "palm-sidesWE": {"base": "stringsense:palm/we"},
-            "palm-sidesSN": {"base": "stringsense:palm/ns"},
+            "palm-sidesWE": {"base": "stringsense:palm/side"},
+            "palm-sidesSN": {"base": "stringsense:palm/side"},
             "palm-lid": {"base": "stringsense:palm/lid"}
         }
     },
@@ -712,8 +712,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "coconut-sidesWE": {"base": "stringsense:coconut/we"},
-            "coconut-sidesSN": {"base": "stringsense:coconut/ns"},
+            "coconut-sidesWE": {"base": "stringsense:coconut/side"},
+            "coconut-sidesSN": {"base": "stringsense:coconut/side"},
             "coconut-lid": {"base": "stringsense:coconut/lid"}
         }
     },
@@ -813,8 +813,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "nzflax-sidesWE": {"base": "stringsense:nzflax/we"},
-            "nzflax-sidesSN": {"base": "stringsense:nzflax/ns"},
+            "nzflax-sidesWE": {"base": "stringsense:nzflax/side"},
+            "nzflax-sidesSN": {"base": "stringsense:nzflax/side"},
             "nzflax-lid": {"base": "stringsense:nzflax/lid"}
         }
     },
@@ -914,8 +914,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "porcupine-sidesWE": {"base": "stringsense:porcupine/we"},
-            "porcupine-sidesSN": {"base": "stringsense:porcupine/ns"},
+            "porcupine-sidesWE": {"base": "stringsense:porcupine/side"},
+            "porcupine-sidesSN": {"base": "stringsense:porcupine/side"},
             "porcupine-lid": {"base": "stringsense:porcupine/lid"}
         }
     },
@@ -1015,8 +1015,8 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
-            "sinew-sidesWE": {"base": "stringsense:sinew/we"},
-            "sinew-sidesSN": {"base": "stringsense:sinew/ns"},
+            "sinew-sidesWE": {"base": "stringsense:sinew/side"},
+            "sinew-sidesSN": {"base": "stringsense:sinew/side"},
             "sinew-lid": {"base": "stringsense:sinew/lid"}
         }
     },

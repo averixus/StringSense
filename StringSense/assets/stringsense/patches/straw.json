@@ -4,8 +4,8 @@
         "op": "replace",
         "path": "/textures",
         "value": {
-            "bundle": "stringsense:straw/we",
-            "string": "stringsense:straw/we"
+            "bundle": "stringsense:straw/cord",
+            "string": "stringsense:straw/cord"
         }
     },
     {

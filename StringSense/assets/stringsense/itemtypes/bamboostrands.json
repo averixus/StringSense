@@ -5,7 +5,7 @@
 		"items": ["*"]
     },
 	"texture": {
-		"base": "stringsense:bamboo/we"
+		"base": "stringsense:bamboo/cord"
 	},
     "shape": {
         "base": "stringsense:item/thinstrands"
@@ -17,10 +17,10 @@
 				"layout": "Stacking",
 				"placeRemoveSound": "game:sounds/block/plant",
 				"stackingModel": "stringsense:item/thinstrands-pile",
-				"modelItemsToStackSizeRatio": 32,
-				"stackingCapacity": 10,
+				"modelItemsToStackSizeRatio": 29,
+				"stackingCapacity": 12,
 				"transferQuantity": 1,
-				"bulkTransferQuantity": 5,
+				"bulkTransferQuantity": 4,
 				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.2, "z2": 1 },
 				"cbScaleYByLayer": 0.2
 			}

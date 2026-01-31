@@ -5,13 +5,13 @@
 		"items": ["*"]
     },
     "textureByType": {
-        "cord-straw": {"base": "stringsense:straw/we"},
-		"cord-bamboo": {"base": "stringsense:bamboo/we"},
-		"cord-bark": {"base": "stringsense:bark/we"},
-		"cord-flax": {"base": "stringsense:flax/we"},
-		"cord-vine": {"base": "stringsense:vine/we"},
-		"cord-papyrus": {"base": "stringsense:papyrus/we"},
-		"cord-reed": {"base": "stringsense:reed/we"}
+        "cord-straw": {"base": "stringsense:straw/cord"},
+		"cord-bamboo": {"base": "stringsense:bamboo/cord"},
+		"cord-bark": {"base": "stringsense:bark/cord"},
+		"cord-flax": {"base": "stringsense:flax/cord"},
+		"cord-vine": {"base": "stringsense:vine/cord"},
+		"cord-papyrus": {"base": "stringsense:papyrus/cord"},
+		"cord-reed": {"base": "stringsense:reed/cord"}
     },
     "shape": {
         "base": "stringsense:item/cord"

@@ -9,7 +9,7 @@
         "file": "game:shapes/entity/nonliving/armorstand",
         "op": "replace",
         "path": "/textures/normal-westeast",
-        "value": "stringsense:straw/we"
+        "value": "stringsense:straw/side"
     },
 
 

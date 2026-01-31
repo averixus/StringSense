@@ -84,6 +84,27 @@
         "value": false
     },
     {
+        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:shapes/item/resource/triodiascariosa-bundle",
+        "op": "replace",
+        "path": "/textures/triodiascariosa",
+        "value": "stringsense:porcupine/cord"
+    },
+    {
+        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:shapes/item/resource/triodiascariosa-bundle-pile",
+        "op": "replace",
+        "path": "/textures/triodiascariosa",
+        "value": "stringsense:porcupine/cord"
+    },
+    {
+        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:itemtypes/resource/triodiascariosa",
+        "op": "replace",
+        "path": "/texture/base",
+        "value": "stringsense:porcupine/cord"
+    },
+    {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "stringsense:itemtypes/cord",
         "op": "add",
@@ -95,7 +116,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-porcupine",
-        "value": {"base": "stringsense:porcupine/we"}
+        "value": {"base": "stringsense:porcupine/cord"}
     },
     {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],

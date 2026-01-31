@@ -214,7 +214,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-palm",
-        "value": {"base": "stringsense:palm/we"}
+        "value": {"base": "stringsense:palm/cord"}
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
@@ -228,7 +228,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-coconut",
-        "value": {"base": "stringsense:coconut/we"}
+        "value": {"base": "stringsense:coconut/cord"}
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
@@ -312,6 +312,73 @@
         "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
         "op": "add",
         "path": "/texture",
-        "value": {"base": "stringsense:coconut/we"}
+        "value": {"base": "stringsense:coconut/cord"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/behaviors/0",
+        "value": { 
+            "name": "GroundStorable", 
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/plant",
+				"stackingModel": "stringsense:item/thickstrands-pile",
+				"modelItemsToStackSizeRatio": 19,
+				"stackingCapacity": 6,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 3,
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.2, "z2": 1 },
+				"cbScaleYByLayer": 0.2
+			}
+		}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/fpHandTransform",
+        "value": {
+            "rotation": { "x": 84, "y": 92, "z": -30 },
+            "origin": { "x": 0.5, "y": 0.3, "z": 0.6 },
+            "scale": 1.31
+	    }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/tpHandTransform",
+        "value": {
+            "translation": { "x": -1.01, "y": -0.22, "z": -0.89 },
+            "rotation": { "x": -90, "y": -14, "z": -6 },
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+            "scale": 0.44
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/guiTransformByType/*",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 123, "y": -45, "z": 11 },
+            "origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+            "scale": 1.77
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/groundTransform",
+        "value": {
+            "translation": { "x": 0, "y": 0, "z": 0 },
+            "rotation": { "x": 90, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.5, "z": 0.61 },
+            "scale": 3.5
+        }
     }
 ]

@@ -151,7 +151,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-palm",
-        "value": {"base": "stringsense:palm/we"}
+        "value": {"base": "stringsense:palm/cord"}
     },
     {
         "dependson": [{"modid": "floralzonescaribbeanregion"}],

@@ -11,7 +11,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-sinew",
-        "value": {"base": "stringsense:sinew/we"}
+        "value": {"base": "stringsense:sinew/cord"}
     },
     {
         "dependson": [{"modid": "butchering"}],

@@ -200,7 +200,7 @@
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-palm",
-        "value": {"base": "stringsense:palm/we"}
+        "value": {"base": "stringsense:palm/cord"}
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
@@ -210,11 +210,25 @@
         "value": "nzflax"
     },
     {
+        "deoendson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:shapes/item/resource/phormiumtenax-bundle",
+        "op": "replace",
+        "path": "/textures/bundle",
+        "value": "stringsense:nzflax/cord"
+    },
+    {
+        "deoendson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:shapes/item/resource/phormiumtenax-bundle-pile",
+        "op": "replace",
+        "path": "/textures/bundle",
+        "value": "stringsense:nzflax/cord"
+    },
+    {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "stringsense:itemtypes/cord",
         "op": "add",
         "path": "/textureByType/cord-nzflax",
-        "value": {"base": "stringsense:nzflax/we"}
+        "value": {"base": "stringsense:nzflax/cord"}
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
