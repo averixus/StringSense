@@ -4,7 +4,8 @@
         "op": "addmerge",
         "path": "/variantgroups",
         "value": [
-            {"code": "material", "states": ["reed", "papyrus", "flax", "vine", "straw", "bamboo", "bark", "mixed"]}
+            {"code": "material", "states": ["reed", "papyrus", "flax", "vine", "straw", "bamboo", "bark", "mixed"]},
+            {"code": "side", "states": ["north", "east", "south", "west", "up", "down"]}
         ]
     },
     {
@@ -35,14 +36,50 @@
             },
             "width": 3,
             "height": 3,
-            "output": { "type": "block", "code": "game:rushmat-{material}" }
+            "output": { "type": "block", "code": "game:rushmat-{material}-down" }
         }
+    },
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "replace",
+        "path": "/behaviors/0/properties/sides",
+        "value": ["north", "east", "south", "west", "up", "down"]
+    },
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "remove",
+        "path": "/shape"
+    },
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "add",
+        "path": "/shapeByType",
+        "value": {
+            "*-down": { "base":"block/basic/flat-spreading" },
+            "*-up": { "base":"block/basic/flat-spreading", "rotateX": 180 },
+            "*-north": { "base":"block/basic/flat-spreading", "rotateX": 90 },
+            "*-east": { "base":"block/basic/flat-spreading", "rotateX": 90, "rotateY": 180, "rotateZ": 270 },
+            "*-west": { "base":"block/basic/flat-spreading", "rotateX": 90, "rotateY": 0, "rotateZ": 270 },
+            "*-south": { "base":"block/basic/flat-spreading", "rotateX": 270 }
+	    }
+    },
+    {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "replace",
+        "path": "/creativeinventory/general/0",
+        "value": "*-down"
+    },
+        {
+        "file": "game:blocktypes/cloth/rushmat",
+        "op": "replace",
+        "path": "/creativeinventory/decorative/0",
+        "value": "*-down"
     },
     {
         "file": "game:/config/tradelists/trader-buildmaterials",
         "op": "replace",
         "path": "/selling/list/30/code",
-        "value": "game:rushmat-reed"
+        "value": "game:rushmat-reed-down"
     },
 
 
