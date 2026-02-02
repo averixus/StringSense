@@ -33,6 +33,10 @@
 			}
 		}
 	],
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 8
+	},
 	"guiTransform": {
 		"rotation": { "x": 120, "y": 11, "z": -20 },
 		"origin": { "x": 0.45, "y": 0.3, "z": 0.4 },
