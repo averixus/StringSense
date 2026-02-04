@@ -9,7 +9,7 @@
         "file": "game:blocktypes/plant/crop/dead",
         "op": "add",
         "path": "/drops/-",
-        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 0.25 }  }
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 0.25, "var": 0 }  }
     },
     {
         "file": "game:blocktypes/plant/crop/rice",
@@ -45,14 +45,15 @@
     {
         "dependson": [{"modid": "floralzonesentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:blocktypes/plant/kangaroograss",
-        "op": "remove",
-        "path": "/dropsByType/*-themedatriandra-*-normal-*/2/quantity/avg",
-        "value": 1
+        "op": "replace",
+        "path": "/dropsByType/*-themedatriandra-*-normal-*/1/quantity/avg",
+        "value": 0
     },
     {
         "dependson": [{"modid": "floralzonesentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:blocktypes/plant/kangaroograss",
         "op": "remove",
-        "path": "/dropsByType/*-themedatriandra-*-normal-*/1/"
+        "path": "/dropsByType/*-themedatriandra-*-normal-*/2/quantity/avg",
+        "value": 0
     }
 ]

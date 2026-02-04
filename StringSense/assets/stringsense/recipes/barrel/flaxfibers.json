@@ -18,5 +18,6 @@
         "type": "item",
         "code": "game:flaxfibers",
         "quantity": 1
-    }
+    },
+    "enabled": true
 }

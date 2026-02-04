@@ -52,26 +52,5 @@
 			"rotation": { "x": 0, "y": -40, "z": 0 },
 			"scale": 0.55
 		}
-    },
-    {
-        "dependson": [{"modid": "wool"}],
-        "file": "stringsense:recipes/grid/rope",
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "ingredientPattern": "XXX,XXX",
-            "width": 3,
-            "height": 2,
-            "ingredients": {
-                "X": {
-                    "type": "item",
-                    "code": "wool:twine-wool-*"
-                }
-            },
-            "output": {
-                "type": "item",
-                "code": "game:rope"
-            }
-        }
     }
 ]

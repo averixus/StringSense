@@ -306,34 +306,6 @@
         "path": "/height",
         "value": 3
     },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
-        "op": "replace",
-        "path": "/ingredientPattern",
-        "value": "SP"
-    },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
-        "op": "replace",
-        "path": "/width",
-        "value": 2
-    },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
-        "op": "add",
-        "path": "/ingredients/S",
-        "value": {"type": "item", "code": "game:stick", "isTool": true, "toolDurabilityCost": 0}
-    },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/handgin",
-        "op": "add",
-        "path": "/shapeless",
-        "value": true
-    },
 
 
 

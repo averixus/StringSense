@@ -1,8 +1,9 @@
 [
     {
         "file": "game:recipes/grid/tool/blade",
-        "op": "remove",
-        "path":"/0"
+        "op": "add",
+        "path":"/0/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/tool/blade",
@@ -18,7 +19,8 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:blade-falx-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:blade-falx-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -29,7 +31,8 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:blade-falx-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:blade-falx-{material}", "quantity": 1},
+                "enabled": true
             }
         ]
     },
@@ -50,13 +53,14 @@
             },
             "width": 1,
             "height": 3,
-            "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1}
+            "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1},
+            "enabled": true
         }
     },
 
 
 
-        {
+    {
         "dependson": [{"modid": "tailorsdelight"}],
         "file": "game:recipes/grid/tool/blade",
         "op": "add",
@@ -70,7 +74,8 @@
             },
             "width": 1,
             "height": 3,
-            "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1}
+            "output": {"type": "item", "code": "blade-falx-{metal}", "quantity": 1},
+            "enabled": true
         }
     }
 ]

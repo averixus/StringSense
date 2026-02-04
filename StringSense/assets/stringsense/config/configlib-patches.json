@@ -1,9 +1,358 @@
 {
     "version": 1,
     "patches": {
-
+        "boolean": {
+            "stringsense:recipes/barrel/flaxfibers.json": {
+                "enabled": "FLAX_PROCESSING"
+            },
+            "stringsense:recipes/grid/flaxfibers.json": {
+                "0/enabled": "(FLAX_PROCESSING) ? false : true"
+            },
+            "stringsense:patches/axe.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value": "(TOOL_RECIPES) ? false : true",
+                "2/value": "(TOOL_RECIPES) ? false : true",
+                "3/value/0/enabled": "TOOL_RECIPES",
+                "3/value/1/enabled": "TOOL_RECIPES",
+                "3/value/2/enabled": "TOOL_RECIPES",
+                "3/value/3/enabled": "TOOL_RECIPES",
+                "3/value/4/enabled": "TOOL_RECIPES",
+                "3/value/5/enabled": "TOOL_RECIPES",
+                "4/value/0/enabled": "TOOL_RECIPES",
+                "4/value/1/enabled": "TOOL_RECIPES",
+                "4/value/2/enabled": "TOOL_RECIPES",
+                "5/value/0/enabled": "TOOL_RECIPES",
+                "5/value/1/enabled": "TOOL_RECIPES",
+                "5/value/2/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/blade.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/hammer.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/emabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/hay.json": {
+                "0/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "1/value/0/enabled": "EQUIPMENT_RECIPES",
+                "1/value/1/enabled": "EQUIPMENT_RECIPES",
+                "2/value/enabled": "EQUIPMENT_RECIPES",
+                "3/value/enabled": "EQUIPMENT_RECIPES"
+            },
+            "stringsense:patches/hoe.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/jerkin.json": {
+                "0/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "1/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "2/value/0/enabled": "EQUIPMENT_RECIPES",
+                "2/value/1/enabled": "EQUIPMENT_RECIPES",
+                "3/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "4/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "5/value/0/enabled": "EQUIPMENT_RECIPES",
+                "5/value/1/enabled": "EQUIPMENT_RECIPES"
+            },
+            "stringsense:patches/knife.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value": "(TOOL_RECIPES) ? false : true",
+                "2/value": "(TOOL_RECIPES) ? false : true",
+                "3/value": "(TOOL_RECIPES) ? false : true",
+                "4/value": "(TOOL_RECIPES) ? false : true",
+                "5/value": "(TOOL_RECIPES) ? false : true",
+                "6/value": "(TOOL_RECIPES) ? false : true",
+                "7/value": "(TOOL_RECIPES) ? false : true",
+                "8/value/0/enabled": "TOOL_RECIPES",
+                "8/value/1/enabled": "TOOL_RECIPES",
+                "8/value/2/enabled": "TOOL_RECIPES",
+                "8/value/3/enabled": "TOOL_RECIPES",
+                "9/value/0/enabled": "TOOL_RECIPES",
+                "9/value/1/enabled": "TOOL_RECIPES",
+                "10/value/0/enabled": "TOOL_RECIPES",
+                "10/value/1/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/lamellar.json": {
+                "12/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "13/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "14/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "15/value/0/enabled": "EQUIPMENT_RECIPES",
+                "15/value/1/enabled": "EQUIPMENT_RECIPES",
+                "15/value/2/enabled": "EQUIPMENT_RECIPES"
+            },
+            "stringsense:patches/pickaxe.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/prospectingpick.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/rope.json": {
+                "0/value": "(ROPE_RECIPES) ? false : true",
+                "1/value": "(ROPE_RECIPES) ? false : true",
+                "2/value": "(ROPE_RECIPES) ? false : true",
+                "3/value": "(ROPE_RECIPES) ? false : true",
+                "4/value/0/enabled": "ROPE_RECIPES",
+                "4/value/1/enabled": "ROPE_RECIPES",
+                "6/value/enabled": "ROPE_RECIPES",
+                "7/value/enabled": "ROPE_RECIPES"
+            },
+            "stringsense:patches/saw.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/scythe.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/shovel.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/spear.json": {
+                "0/value": "(TOOL_RECIPES) ? false : true",
+                "1/value/0/enabled": "TOOL_RECIPES",
+                "1/value/1/enabled": "TOOL_RECIPES",
+                "2/value/enabled": "TOOL_RECIPES",
+                "3/value/enabled": "TOOL_RECIPES"
+            },
+            "stringsense:patches/thatchroofing.json": {
+                "0/value": "(HAY_STRAW) ? false : true",
+                "1/value": "(HAY_STRAW) ? false : true",
+                "2/value": "(HAY_STRAW) ? false : true",
+                "3/value": "(HAY_STRAW) ? false : true",
+                "4/value": "(HAY_STRAW) ? false : true"
+            },
+            "stringsense:patches/woodbucket.json": {
+                "0/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "1/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "2/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "3/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "4/value": "(EQUIPMENT_RECIPES) ? false : true"             
+            }
+        },
+        "string": {
+            "stringsense:itemtypes/flaxstrands.json": {
+                "transitionableProps/0/type": "(FLAX_PROCESSING) ? Cure : None"
+            },
+            "stringsense:patches/armorstrand.json": {
+                "0/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "2/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "3/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "4/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "5/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "0/value/type": "(HAY_STRAW) ? item : block",
+                "2/value/type": "(HAY_STRAW) ? item : block",
+                "3/value/type": "(HAY_STRAW) ? item : block",
+                "4/value/type": "(HAY_STRAW) ? item : block",
+                "5/value/type": "(HAY_STRAW) ? item : block",
+                "1/value": "(HAY_STRAW) ? stringsense:straw/side : game:block/reed/basket/normal-westeast"
+            },
+            "stringsense:patches/bed.json": {
+                "0/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "1/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "2/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "3/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "4/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "5/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "6/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "0/value/type": "(HAY_STRAW) ? item : block",
+                "1/value/type": "(HAY_STRAW) ? item : block",
+                "2/value/type": "(HAY_STRAW) ? item : block",
+                "3/value/type": "(HAY_STRAW) ? item : block",
+                "4/value/type": "(HAY_STRAW) ? item : block",
+                "5/value/type": "(HAY_STRAW) ? item : block",
+                "6/value/type": "(HAY_STRAW) ? item : block"
+            },
+            "stringsense:patches/cob.json": {
+                "0/value": "(HAY_STRAW) ? game:thatch : game:drygrass"
+            },
+            "stringsense:patches/daub.json": {
+                "0/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "1/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "2/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "3/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "4/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "5/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "6/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "7/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "8/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "9/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "10/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "11/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "12/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "13/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
+                "14/value":"(HAY_STRAW) ? game:thatch : game:drygrass"
+            },
+            "stringsense:patches/doors.jsonx": {
+                "0/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "2/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "4/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "6/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "8/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "10/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "12/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
+                "14/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS"
+            },
+            "stringsense:patches/fence.json": {
+                "0/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "2/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "4/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "6/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "8/value": "(EQUIPMENT_RECIPES) ? BRB,BBB : BBB,BBB",
+                "10/value": "(EQUIPMENT_RECIPES) ? BRB,SBS : SBS,SBS",
+                "12/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "14/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "16/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "18/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "20/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "22/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "24/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "26/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
+                "28/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
+                "30/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS"
+            },
+            "stringsense:patches/hat.json": {
+                "0/value": "(HAY_STRAW) ? game:thatch : game:drygrass"
+            },
+            "stringsense:patches/lamellar.json": {
+                "0/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "1/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "2/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "3/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "4/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "5/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "6/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "7/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "8/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "9/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "10/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
+                "11/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin"
+            },
+            "stringsense:patches/mudbrick.json": {
+                "0/value": "(HAY_STRAW) ? game:thatch : game:drygrass",
+                "1/value": "(HAY_STRAW) ? game:thatch : game:drygrass",
+                "2/value": "(HAY_STRAW) ? game:thatch : game:drygrass"
+            },
+            "stringsense:patches/strawdummy.json": {
+                "0/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
+                "0/value/type": "(HAY_STRAW) ? item : block"
+            }
+        },
+        "int": {
+            "stringsense:patches/armorstand.json": {
+                "0/value/quantity": "(HAY_STRAW) ? 4 : 1",
+                "2/value/quantity": "(HAY_STRAW) ? 4 : 1",
+                "3/value/quantity": "(HAY_STRAW) ? 4 : 1",
+                "4/value/quantity": "(HAY_STRAW) ? 4 : 1",
+                "5/value/quantity": "(HAY_STRAW) ? 4 : 1"
+            },
+            "stringsense:patches/bed.json": {
+                "0/value/code": "(HAY_STRAW) ? 6 : 1",
+                "1/value/code": "(HAY_STRAW) ? 6 : 1",
+                "3/value/code": "(HAY_STRAW) ? 6 : 1",
+                "4/value/code": "(HAY_STRAW) ? 6 : 1",
+                "5/value/code": "(HAY_STRAW) ? 6 : 1",
+                "6/value/code": "(HAY_STRAW) ? 6 : 1"
+            },
+            "stringsense:patches/lamellar.json": {
+                "0/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "1/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "2/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "3/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "4/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "5/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "6/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "7/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "8/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "9/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "10/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
+                "11/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1"
+            },
+            "stringsense:patches/strawdummy.json": {
+                "0/value/quantity": "(HAY_STRAW) ? 4 : 1"
+            }
+        },
+        "float": {
+            "stringsense:patches/cropdrops.json": {
+                "1/value/quantity/avg": "(HAY_STRAW) ? 0.25 : 0",
+                "2/value/quantity/avg": "(HAY_STRAW) ? 1.5 : 0",
+                "3/value/quantity/avg": "(HAY_STRAW) ? 1.5 : 0",
+                "4/value/quantity/avg": "(HAY_STRAW) ? 1.5 : 0",
+                "5/value/quantity/avg": "(HAY_STRAW) ? 1.5 : 0",
+                "2/value/quantity/var": "(HAY_STRAW) ? 0.5 : 0",
+                "3/value/quantity/var": "(HAY_STRAW) ? 0.5 : 0",
+                "4/value/quantity/var": "(HAY_STRAW) ? 0.5 : 0",
+                "5/value/quantity/var": "(HAY_STRAW) ? 0.5 : 0",
+                "6/value": "(HAY_STRAW) ? 0 : 1.1",
+                "7/value": "(HAY_STRAW) ? 0 : 0.5"
+            },
+            "stringsense:patches/grassdrops.json": {
+                "0/value/0/quantity/avg": "(HAY_STRAW) ? 0.2 : 0",
+                "0/value/1/quantity/avg": "(HAY_STRAW) ? 0.2 : 0"
+            },
+            "stringsense:patches/reeddrops.json": {
+                "0/value/tallplant-brownsedge-land-normal-*/1/quantity/avg": "(HAY_STRAW) ? 1.5 : 0",
+                "0/value/tallplant-brownsedge-land-normal-*/1/quantity/var": "(HAY_STRAW) ? 0.5 : 0"
+            }
+        }
     },
     "settings": {
-        
+        "boolean": {
+            "FLAX_PROCESSING": {
+                "name": "FLAX_PROCESSING",
+                "ingui": "Flax processing",
+                "comment": "Whether flax strands should require a slow retting process to obtain fibres. If false, strands can be crafted into fibres 1:1 in the grid.",
+                "default": true
+            },
+            "TOOL_RECIPES": {
+                "name": "TOOL_RECIPES",
+                "ingui": "Tool recipe changes",
+                "comment": "Whether tool recipes are changed to require string (cord or twine). If false, vanilla recipes are unchanged.",
+                "default": true
+            },
+            "EQUIPMENT_RECIPES": {
+                "name": "EQUIPMENT_RECIPES",
+                "ingui": "Equipment recipe changes",
+                "comment": "Whether other recipes such as armor and crude wood construction are changed to require string (cord, twine, or rope). If false, vanilla recipes are unchanged.",
+                "default": true
+            },
+            "HAY_STRAW": {
+                "name": "HAY_STRAW",
+                "ingui": "Hay and straw changes",
+                "comment": "Whether recipes, and drops are changed to make a clearer distinction between uses of hay and straw. If false, vanilla recipes and drops for hay and straw items are unchanged, although String Sense textures are still used.",
+                "default": true
+            },
+            "ROPE_RECIPES": {
+                "name": "ROPE_RECIPES",
+                "ingui": "Rope recipe changes",
+                "comment": "Whether rope recipes are replaced to require any cord or twine. If false, vanilla recipes are unchanged.",
+                "default": true
+            }
+        }
     }
 }
