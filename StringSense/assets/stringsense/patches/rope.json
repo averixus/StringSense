@@ -1,60 +1,73 @@
 [
     {
         "file": "game:recipes/grid/rope",
-        "op": "remove",
-        "path": "/3"
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/rope",
-        "op": "remove",
-        "path": "/2"
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/rope",
-        "op": "replace",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false
+    },
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "add",
+        "path": "/3/enabled",
+        "value": false
+    },
+    {
+        "file": "game:recipes/grid/rope",
+        "op": "addeach",
         "path": "/0",
-        "value": {
-            "ingredientPattern": "XXX,XXX",
-            "width": 3,
-            "height": 2,
-            "ingredients": {
-                "X": {
+        "value": [
+            {
+                "ingredientPattern": "XXX,XXX",
+                "width": 3,
+                "height": 2,
+                "ingredients": {
+                    "X": {
+                        "type": "item",
+                        "code": "stringsense:cord-*"
+                    }
+                },
+                "output": {
                     "type": "item",
-                    "code": "stringsense:cord-*"
-                }
+                    "code": "game:rope"
+                },
+                "enabled": true
             },
-            "output": {
-                "type": "item",
-                "code": "game:rope"
-            }
-        }
-    },
-    {
-        "file": "game:recipes/grid/rope",
-        "op": "replace",
-        "path": "/1",
-        "value": {
-            "ingredientPattern": "XXX,XXX",
-            "width": 3,
-            "height": 2,
-            "ingredients": {
-                "X": {
+             {
+                "ingredientPattern": "XXX,XXX",
+                "width": 3,
+                "height": 2,
+                "ingredients": {
+                    "X": {
+                        "type": "item",
+                        "code": "game:flaxtwine"
+                    }
+                },
+                "output": {
                     "type": "item",
-                    "code": "game:flaxtwine"
-                }
-            },
-            "output": {
-                "type": "item",
-                "code": "game:rope"
+                    "code": "game:rope"
+                },
+                "enabled": true
             }
-        }
+        ]
     },
 
 
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "game:recipes/grid/rope",
+        "file": "stringsense:recipes/grid/rope",
         "op": "add",
         "path": "/-",
         "value": {
@@ -64,13 +77,14 @@
             "ingredients": {
                 "X": {
                     "type": "item",
-                    "code": "wool:twine-*"
+                    "code": "wool:twine-wool-*"
                 }
             },
             "output": {
                 "type": "item",
                 "code": "game:rope"
-            }
+            },
+            "enabled": true
         }
     },
 
@@ -94,7 +108,8 @@
             "output": {
                 "type": "item",
                 "code": "game:rope"
-            }
+            },
+            "enabled": true
         }
     }
 ]

@@ -1,27 +1,32 @@
 [
     {
         "file": "game:recipes/grid/roofing",
-        "op": "remove",
-        "path": "/9"
+        "op": "add",
+        "path": "/9/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/roofing",
-        "op": "remove",
-        "path": "/7"
+        "op": "add",
+        "path": "/7/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/roofing",
-        "op": "remove",
-        "path": "/5"
+        "op": "add",
+        "path": "/5/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/roofing",
-        "op": "remove",
-        "path": "/3"
+        "op": "add",
+        "path": "/3/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/roofing",
-        "op": "remove",
-        "path": "/1"
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
     }
 ]

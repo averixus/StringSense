@@ -1,11 +1,5 @@
 [
     {
-        "file": "game:shapes/item/resource/haybundle",
-        "op": "replace",
-        "path": "/textures/string",
-        "value": "game:block/hay/bundle"
-    },
-    {
         "file": "game:recipes/grid/haybale",
         "op": "add",
         "path": "/enabled",
@@ -24,7 +18,8 @@
                 },
                 "width": 2,
                 "height": 3,
-                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T_,GG,GG",
@@ -34,7 +29,8 @@
                 },
                 "width": 2,
                 "height": 3,
-                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+                "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1},
+                "enabled": true
             }
         ]
     },
@@ -54,7 +50,8 @@
             },
             "width": 2,
             "height": 3,
-            "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+            "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1},
+            "enabled": true
         }
     },
 
@@ -73,7 +70,8 @@
             },
             "width": 2,
             "height": 3,
-            "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1}
+            "output": {"type": "block", "code": "game:hay-normal-ud", "quantity": 1},
+            "enabled": true
         }
     }
 ]

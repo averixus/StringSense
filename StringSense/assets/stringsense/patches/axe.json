@@ -1,18 +1,21 @@
 [
     {
         "file": "game:recipes/grid/tool/axe",
-        "op": "remove",
-        "path":"/2"
+        "op": "add",
+        "path":"/2/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/tool/axe",
-        "op": "remove",
-        "path":"/1"
+        "op": "add",
+        "path":"/1/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/tool/axe",
-        "op": "remove",
-        "path":"/0"
+        "op": "add",
+        "path":"/0/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/tool/axe",
@@ -28,7 +31,8 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -39,7 +43,8 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -50,7 +55,8 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -61,7 +67,8 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -72,7 +79,8 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -83,7 +91,8 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             }
         ]
     },
@@ -105,7 +114,8 @@
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -116,7 +126,8 @@
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -127,7 +138,8 @@
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             }
         ]
     },
@@ -149,7 +161,8 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-felling-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -160,7 +173,8 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             },
             {
                 "ingredientPattern": "T,C,S",
@@ -171,7 +185,8 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1}
+                "output": {"type": "item", "code": "game:axe-{material}", "quantity": 1},
+                "enabled": true
             }
         ]
     }

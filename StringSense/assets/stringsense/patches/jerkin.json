@@ -1,74 +1,98 @@
 [
     {
-        "file": "game:recipes/grid/armor/jerkin",
-        "op": "replace",
-        "path": "/0/ingredientPattern",
-        "value": "QCQ,LLL,LLL"
-    },
-        {
-        "file": "game:recipes/grid/armor/jerkin",
+        "file":"game:recipes/grid/armor/jerkin",
         "op": "add",
-        "path": "/0/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "file":"game:recipes/grid/armor/jerkin",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
     },
     {
         "file": "game:recipes/grid/armor/jerkin",
-        "op": "replace",
-        "path": "/1/ingredientPattern",
-        "value": "QLQ,QCQ,Q_Q"
-    },
-        {
-        "file": "game:recipes/grid/armor/jerkin",
-        "op": "add",
-        "path": "/1/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
-    {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/0/ingredientPattern",
-        "value": "CJ,_Q"
-    },
-    {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/0/height",
-        "value": 2
-    },
-        {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/0/width",
-        "value": 2
-    },
-    {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "add",
-        "path": "/0/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*"}
-    },
-    {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/1/ingredientPattern",
-        "value": "CJ,_Q"
-    },
-    {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/1/height",
-        "value": 2
-    },
-        {
-        "file": "game:recipes/grid/armorrepair/jerkin",
-        "op": "replace",
-        "path": "/1/width",
-        "value": 2
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "QCQ,LLL,LLL",
+                "ingredients": {
+                    "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+                    "Q": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+                    "C": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
+                },
+                "recipeGroup": 1,
+                "width": 3,
+                "height": 3,
+                "output": {"type": "item", "code": "game:armor-body-jerkin-leather"},
+                "enabled": true
+            },
+            {
+                "ingredientPattern": "QLQ,QCQ,Q_Q",
+                "ingredients": {
+                    "L": {"type": "item", "code": "game:leather-normal-plain", "quantity": 2},
+                    "Q": {"type": "item", "code": "game:leather-normal-plain", "quantity": 1},
+                    "C": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
+                },
+                "recipeGroup": 1,
+                "width": 3,
+                "height": 3,
+                "output": {"type": "item", "code": "game:armor-legs-jerkin-leather"},
+                "enabled": true
+            }
+        ]
     },
     {
         "file": "game:recipes/grid/armorrepair/jerkin",
         "op": "add",
-        "path": "/1/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*"}
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "file":"game:recipes/grid/armorrepair/jerkin",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "file":"game:recipes/grid/armorrepair/jerkin",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "CJ,_Q",
+                "ingredients": {
+                    "J": {"type": "item", "code": "game:armor-body-jerkin-leather"},
+                    "Q": {"type": "item", "code": "game:leather-normal-plain"},
+                    "C": {"type": "item", "code": "stringsense:cord-*"}
+                },
+                "recipeGroup": 2,
+                "width": 2,
+                "height": 2,
+                "shapeless": true,
+                "averageDurability": false,
+                "copyAttributesFrom": "J",
+                "output": {"type": "item", "code": "game:armor-body-jerkin-leather"},
+                "enabled": true
+            },
+            {
+                "ingredientPattern": "CJ,_Q",
+                "ingredients": {
+                    "J": {"type": "item", "code": "game:armor-legs-jerkin-leather"},
+                    "Q": {"type": "item", "code": "game:leather-normal-plain"},
+                    "C": {"type": "item", "code": "stringsense:cord-*"}
+                },
+                "recipeGroup": 2,
+                "width": 2,
+                "height": 2,
+                "shapeless": true,
+                "averageDurability": false,
+                "copyAttributesFrom": "J",
+                "output": {"type": "item", "code": "game:armor-legs-jerkin-leather"},
+                "enabled": true
+            }
+        ]
     }
 ]

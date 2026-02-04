@@ -81,7 +81,7 @@
         "ingredients": {
             "X": {
                 "type": "block",
-                "code": "game:wildvine-section-*"
+                "code": "game:wildvine-*"
             }
         },
         "output": {
