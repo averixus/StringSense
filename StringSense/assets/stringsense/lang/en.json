@@ -110,5 +110,15 @@
     "game:block-rushmat-coconut-down": "Coconut husk mat",
     "game:block-rushmat-nzflax-down": "New Zealand flax mat",
     "game:block-rushmat-porcupine-down": "Porcupine grass mat",
-    "game:block-rushmat-mixed-down": "Mixed cord mat"
+    "game:block-rushmat-mixed-down": "Mixed cord mat",
+    "stringsense:config-flax-title": "Flax processing",
+    "stringsense:config-flax-comment": "Whether flax strands should require a slow retting process to obtain fibres. If false, strands can be crafted into fibres 1:1 in the grid.",
+    "stringsense:config-tools-title": "Tool recipe changes",
+    "stringsense:config-tools-comment": "Whether tool recipes are changed to require string (cord or twine). If false, vanilla recipes are unchanged.",
+    "stringsense:config-equipment-title": "Equipment recipe changes",
+    "stringsense:config-equipment-comment": "Whether other recipes such as armor and crude wood construction are changed to require string (cord, twine, or rope). If false, vanilla recipes are unchanged.",
+    "stringsense:config-haystraw-title": "Hay and straw changes",
+    "stringsense:config-haystraw-comment": "Whether recipes and drops are changed to make a clearer distinction between uses of hay and straw. If false, vanilla recipes and drops for hay and straw items are unchanged, although String Sense textures are still used.",
+    "stringsense:config-rope-title": "Rope recipe changes",
+    "stringsense:config-rope-comment": "Whether rope recipes are replaced to require any cord or twine. If false, vanilla recipes are unchanged."
 }
