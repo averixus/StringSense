@@ -6,43 +6,38 @@
         "value": {
             "*-eaten-*": [],
             "*-veryshort-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.2, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.2, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.3, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.4, "var": 0}, "tool": "scythe" }
             ],
             "*-short-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.4, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.4, "var": 0}, "tool": "scythe" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.2, "var": 0}, "lastDrop": true },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.3, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.3, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.5, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.7, "var": 0}, "tool": "scythe" },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.01, "var": 0}, "lastDrop": true },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.02, "var": 0}, "tool": "scythe" }
             ],
             "*-mediumshort-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "scythe" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.3, "var": 0}, "lastDrop": true },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.5, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.5, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.7, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 1, "var": 0}, "tool": "scythe" },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.02, "var": 0}, "lastDrop": true },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.04, "var": 0}, "tool": "scythe" }
             ],
             "*-medium-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "scythe" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.4, "var": 0}, "lastDrop": true },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.7, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.7, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.8, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 1, "var": 0}, "tool": "scythe" },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.03, "var": 0}, "lastDrop": true },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.06, "var": 0}, "tool": "scythe" }
             ],
             "*-tall-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.6, "var": 0}, "tool": "scythe" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.5, "var": 0}, "lastDrop": true },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.8, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.8, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.9, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 1, "var": 0}, "tool": "scythe" },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.04, "var": 0}, "lastDrop": true },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.08, "var": 0}, "tool": "scythe" }
             ],
             "*-verytall-*": [
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.7, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 0.7, "var": 0}, "tool": "scythe" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.6, "var": 0}, "lastDrop": true },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.9, "var": 0}, "tool": "knife" },
-                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.9, "var": 0}, "tool": "scythe" }
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 1, "var": 0}, "tool": "knife" },
+                { "type": "item", "code": "game:drygrass", "quantity": {"avg": 1, "var": 0}, "tool": "scythe" },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.05, "var": 0}, "lastDrop": true },
+                { "type": "item", "code": "game:thatch", "quantity": {"avg": 0.1, "var": 0}, "tool": "scythe" }
             ]
         }
     }

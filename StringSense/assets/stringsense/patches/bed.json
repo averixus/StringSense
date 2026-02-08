@@ -9,13 +9,13 @@
         "file": "game:recipes/grid/bed",
         "op": "replace",
         "path": "/1/ingredients/H",
-        "value": {"type": "item", "code": "game:thatch", "quantity":6}
+        "value": {"type": "item", "code": "game:drygrass", "quantity":6}
     },
     {
         "file": "game:recipes/grid/bed",
         "op": "replace",
         "path": "/2/output",
-        "value": {"type":"item", "code": "game:thatch", "quantity":18}
+        "value": {"type":"item", "code": "game:drygrass", "quantity":18}
     },
 
 

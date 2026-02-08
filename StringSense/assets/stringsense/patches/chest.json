@@ -103,7 +103,7 @@
                     "type": "item",
                     "code": "stringsense:cord-*",
                     "name": "material",
-                    "quantity": 2
+                    "quantity": 1
                 }
             },
             "output": {
@@ -125,7 +125,7 @@
                 "X": {
                     "type": "item",
                     "code": "stringsense:cord-*",
-                    "quantity": 2
+                    "quantity": 1
                 }
             },
             "output": {
