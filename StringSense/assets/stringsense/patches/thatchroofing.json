@@ -28,5 +28,173 @@
         "op": "add",
         "path": "/1/enabled",
         "value": false
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingtop",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingtop",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingtip",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingtip",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgehalfright",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgehalfright",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgehalfleft",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgehalfleft",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgeend",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridgeend",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridge",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingridge",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofinghalfright",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofinghalfright",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofinghalfleft",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofinghalfleft",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingcorner-outer",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingcorner-outer",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingcorner-inner",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingcorner-inner",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+        {
+        "file": "game:blocktypes/roofing/slantedroofingbottom",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofingbottom",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+        {
+        "file": "game:blocktypes/roofing/slantedroofing",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/slantedroofing",
+        "op": "replace",
+        "path": "/texturesByType/*-thatch-*/normal-side/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+        {
+        "file": "game:blocktypes/roofing/beam-ridge",
+        "op": "replace",
+        "path": "/texturesByType/beam-ridge-thatch-*/bamboo-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/beam-ridge",
+        "op": "replace",
+        "path": "/texturesByType/beam-ridge-thatch-*/top/base",
+        "value": "game:block/plant/grassroofing/normal-side"
+    },
+        {
+        "file": "game:blocktypes/roofing/beam-plane",
+        "op": "replace",
+        "path": "/texturesByType/beam-plane-thatch-*/bamboo-top/base",
+        "value": "game:block/plant/grassroofing/normal-top"
+    },
+    {
+        "file": "game:blocktypes/roofing/beam-plane",
+        "op": "replace",
+        "path": "/texturesByType/beam-plane-thatch-*/top/base",
+        "value": "game:block/plant/grassroofing/normal-side"
     }
 ]
