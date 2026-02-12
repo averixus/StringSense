@@ -1,0 +1,36 @@
+[
+    {
+        "file": "game:recipes/grid/tool/shield",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "file": "game:recipes/grid/tool/shield",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "file": "game:recipes/grid/tool/shield",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false
+    },
+    {
+        "file": "game:recipes/grid/tool/sheild",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "SSS,CCC,SSS",
+            "ingredients": {
+                "S": {"type": "item", "code": "game:stick"},
+                "C": {"type": "item", "code": "stringsense:cord-*"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:sheild-crude"},
+            "enabled": true
+        }
+    }
+]

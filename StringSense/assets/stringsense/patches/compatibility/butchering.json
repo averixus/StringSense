@@ -89,5 +89,310 @@
         "op": "add",
         "path": "/0/enabled",
         "value": false
+    },
+    {
+        "dependson": [{"modid":"butchering"}],
+        "file": "butchering:recipes/grid/butcherybags/butcherybagreed",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid":"butchering"}],
+        "file": "butchering:recipes/grid/butcherybags/butcherybagreed",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid":"butchering"}],
+        "file": "butchering:recipes/grid/butcherybags/butcherybagreed",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "RCR,KCS",
+            "ingredients": {
+                "R": {"type": "item", "code": "game:rope", "quantity": 2},
+                "C": {"type": "item", "code": "stringsense:cord-*", "quantity": 8},
+                "K": {"type": "item", "code": "game:knife-generic-*", "isTool": true},
+                "S": {"type": "item", "code": "game:stick", "quantity": 6}
+            },
+            "width": 3,
+            "height": 2,
+            "output": {"type": "item", "code": "butchering:butcherybag-primitive"},
+            "enabled": true
+        }
+    },
+    {
+        "dependson": [{"modid": "butchering"}, {"modid": "wool"}],
+        "file": "butchering:recipes/grid/butcherybags/butcherybaghide",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-huge",
+                        "quantity": 1
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "wool:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-large",
+                        "quantity": 2
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "wool:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-medium",
+                        "quantity": 3
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "wool:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-small",
+                        "quantity": 4
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "wool:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            }
+        ]
+    },
+    {
+        "dependson": [{"modid": "butchering"}, {"modid": "tailorsdelight"}],
+        "file": "butchering:recipes/grid/butcherybags/butcherybaghide",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-huge",
+                        "quantity": 1
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "tailorsdelight:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-large",
+                        "quantity": 2
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "tailorsdelight:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-medium",
+                        "quantity": 3
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "tailorsdelight:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            },
+            {
+                "ingredientPattern": "FTF,KTP",
+                "ingredients": {
+                    "T": {
+                        "type": "item",
+                        "code": "game:hide-pelt-small",
+                        "quantity": 4
+                    },
+                    "F": {
+                        "type": "item",
+                        "code": "tailorsdelight:twine-*",
+                        "quantity": 4
+                    },
+                    "K": {
+                        "type": "item",
+                        "code": "game:knife-generic-*",
+                        "Istool": true
+                    },
+                    "P": {
+                        "type": "item",
+                        "code": "game:plank-*",
+                        "quantity": 8
+                    }
+                },
+                "width": 3,
+                "height": 2,
+                "output": {
+                    "type": "item",
+                    "code": "butchering:butcherybag-standard",
+                    "quantity": 1
+                }
+            }
+        ]
     }
 ]

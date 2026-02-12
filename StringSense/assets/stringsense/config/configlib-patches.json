@@ -126,6 +126,12 @@
                 "2/value/enabled": "TOOL_RECIPES",
                 "3/value/enabled": "TOOL_RECIPES"
             },
+            "stringsense:patches/shield.json": {
+                "0/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "1/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "2/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "3/value/enabled": "EQUIPMENT_RECIPES"
+            },
             "stringsense:patches/shovel.json": {
                 "0/value": "(TOOL_RECIPES) ? false : true",
                 "1/value/0/enabled": "TOOL_RECIPES",

@@ -53,5 +53,9 @@
 		"rotation": { "x": -9, "y": 0, "z": 0 },
 		"origin": { "x": 0.5, "y": -0.1, "z": 0.5 },
 		"scale": 4
+	},
+	"combustibleProps": {
+		"burnTemperature": 400,
+		"burnDuration": 2
 	}
 }

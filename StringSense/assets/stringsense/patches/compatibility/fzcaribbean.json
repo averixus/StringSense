@@ -285,27 +285,7 @@
             }
         }
     },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/twine",
-        "op": "replace",
-        "path": "/ingredientPattern",
-        "value": "_S,FF,FF"
-    },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/twine",
-        "op": "add",
-        "path": "/ingredients/S",
-        "value": {"type": "item", "code": "game:stick", "isTool": true}
-    },
-    {
-        "dependson": [{"modid": "floralzonescaribbeanregion"}],
-        "file": "floralzonescaribbeanregion:recipes/grid/twine",
-        "op": "replace",
-        "path": "/height",
-        "value": 3
-    },
+
 
 
 
