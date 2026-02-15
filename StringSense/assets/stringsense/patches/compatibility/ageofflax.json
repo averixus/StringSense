@@ -1,0 +1,43 @@
+[
+    {
+        "dependson": [{"modid": "ageofflax"}],
+        "file": "stringsense:itemtypes/flaxstrands",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false"
+    },
+    {
+        "dependson": [{"modid": "ageofflax"}],
+        "file": "stringsense:recipes/grid/flaxfibers",
+        "op": "replace",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid":"ageofflax"}],
+        "file": "stringsense:recipes/barrel/flaxfibers",
+        "op": "replace",
+        "path": "0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "ageofflax"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/6/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "ageofflax"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "F,F,F",
+            "ingredients": {"F": {"type": "item", "code": "ageofflax:flaxbundle-rippled"}},
+            "width": 1,
+            "height": 3,
+            "output": {"type": "item", "code": "stringsense:cord-flax"}
+        }
+    }
+]

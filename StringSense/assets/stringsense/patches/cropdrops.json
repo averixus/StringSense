@@ -1,5 +1,6 @@
 [
     {
+        "dependson": [{"modid": "ageofflax", "invert": true}],
         "file": "game:blocktypes/plant/crop/flax",
         "op": "replace",
         "path": "/dropsByType/*-9/2",
