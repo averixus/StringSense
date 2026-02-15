@@ -512,5 +512,417 @@
                 "output": {"type": "block", "code": "game:baskettrap-sinew"}
             }
         ]
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "addmerge",
+        "path": "/variantgroups",
+        "value": [
+            {"code": "material", "states": ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"]}
+        ]
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:recipes/grid/baskettrap",
+        "op": "addeach",
+        "path": "/-",
+        "value": [
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "larch"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-larch"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "tuja"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-tuja"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "honeylocust"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-honeylocust"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "birch"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-birch"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "brideinwhite"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-brideinwhite"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "alder"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-alder"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bearnut"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-bearnut"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "willow"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-willow"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "redwillow"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-redwillow"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "poplar"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-poplar"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "aspen"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-aspen"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "eucalyptus"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-eucalyptus"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "kapok"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-kapok"}
+            },
+            {
+                "ingredientPattern": "BS",
+                "width": 2,
+                "height": 1,
+                "ingredients": {
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sapele"}},
+                    "S": {"type": "item", "code": "game:stick"}
+                },
+                "output": {"type": "block", "code": "game:baskettrap-sapele"}
+            }
+        ]
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-larch",
+        "value": {
+            "sidesWE": {"base": "stringsense:larch/side"},
+            "sidesSN": {"base": "stringsense:larch/side"},
+            "lid": {"base": "stringsense:larch/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-larch",
+        "value": "stringsense:cord-larch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-tuja",
+        "value": {
+            "sidesWE": {"base": "stringsense:tuja/side"},
+            "sidesSN": {"base": "stringsense:tuja/side"},
+            "lid": {"base": "stringsense:tuja/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-tuja",
+        "value": "stringsense:cord-tuja"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-honeylocust",
+        "value": {
+            "sidesWE": {"base": "stringsense:honeylocust/side"},
+            "sidesSN": {"base": "stringsense:honeylocust/side"},
+            "lid": {"base": "stringsense:honeylocust/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-honeylocust",
+        "value": "stringsense:cord-honeylocust"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-birch",
+        "value": {
+            "sidesWE": {"base": "stringsense:birch/side"},
+            "sidesSN": {"base": "stringsense:birch/side"},
+            "lid": {"base": "stringsense:birch/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-birch",
+        "value": "stringsense:cord-birch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-brideinwhite",
+        "value": {
+            "sidesWE": {"base": "stringsense:brideinwhite/side"},
+            "sidesSN": {"base": "stringsense:brideinwhite/side"},
+            "lid": {"base": "stringsense:brideinwhite/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-brideinwhite",
+        "value": "stringsense:cord-brideinwhite"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-alder",
+        "value": {
+            "sidesWE": {"base": "stringsense:alder/side"},
+            "sidesSN": {"base": "stringsense:alder/side"},
+            "lid": {"base": "stringsense:alder/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-alder",
+        "value": "stringsense:cord-alder"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-bearnut",
+        "value": {
+            "sidesWE": {"base": "stringsense:bearnut/side"},
+            "sidesSN": {"base": "stringsense:bearnut/side"},
+            "lid": {"base": "stringsense:bearnut/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-bearnut",
+        "value": "stringsense:cord-bearnut"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-willow",
+        "value": {
+            "sidesWE": {"base": "stringsense:willow/side"},
+            "sidesSN": {"base": "stringsense:willow/side"},
+            "lid": {"base": "stringsense:willow/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-willow",
+        "value": "stringsense:cord-willow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-redwillow",
+        "value": {
+            "sidesWE": {"base": "stringsense:redwillow/side"},
+            "sidesSN": {"base": "stringsense:redwillow/side"},
+            "lid": {"base": "stringsense:redwillow/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-redwillow",
+        "value": "stringsense:cord-redwillow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-poplar",
+        "value": {
+            "sidesWE": {"base": "stringsense:poplar/side"},
+            "sidesSN": {"base": "stringsense:poplar/side"},
+            "lid": {"base": "stringsense:poplar/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-poplar",
+        "value": "stringsense:cord-poplar"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-aspen",
+        "value": {
+            "sidesWE": {"base": "stringsense:aspen/side"},
+            "sidesSN": {"base": "stringsense:aspen/side"},
+            "lid": {"base": "stringsense:aspen/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-aspen",
+        "value": "stringsense:cord-aspen"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-eucalyptus",
+        "value": {
+            "sidesWE": {"base": "stringsense:eucalyptus/side"},
+            "sidesSN": {"base": "stringsense:eucalyptus/side"},
+            "lid": {"base": "stringsense:eucalyptus/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-eucalyptus",
+        "value": "stringsense:cord-eucalyptus"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-kapok",
+        "value": {
+            "sidesWE": {"base": "stringsense:kapok/side"},
+            "sidesSN": {"base": "stringsense:kapok/side"},
+            "lid": {"base": "stringsense:kapok/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-kapok",
+        "value": "stringsense:cord-kapok"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/texturesByType/*-sapele",
+        "value": {
+            "sidesWE": {"base": "stringsense:sapele/side"},
+            "sidesSN": {"base": "stringsense:sapele/side"},
+            "lid": {"base": "stringsense:sapele/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "add",
+        "path": "/attributes/destroyedDrops/0/codeByType/baskettrap-sapele",
+        "value": "stringsense:cord-sapele"
     }
 ]

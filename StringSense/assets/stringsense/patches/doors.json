@@ -115,5 +115,34 @@
         "op": "add",
         "path": "/0/ingredients/R",
         "value": {"type":"item","code":"game:rope"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/doors",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "AR,PS,PS"
+    },
+    {
+        "file": "wildcrafttree:recipes/grid/doors",
+        "op": "add",
+        "path": "/0/ingredients/R",
+        "value": {"type":"item","code":"game:rope"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/doors",
+        "op": "replace",
+        "path": "/6/ingredientPattern",
+        "value": "AR,PS,PS"
+    },
+    {
+        "file": "wildcrafttree:recipes/grid/doors",
+        "op": "add",
+        "path": "/6/ingredients/R",
+        "value": {"type":"item","code":"game:rope"}
     }
 ]

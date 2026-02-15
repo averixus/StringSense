@@ -136,5 +136,71 @@
         "op": "replace",
         "path": "/24/ingredients/R/code",
         "value": "stringsense:cord-*"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/0/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/1/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/2/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/3/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/4/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/5/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/6/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/7/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/amulets",
+        "op": "replace",
+        "path": "/8/ingredients/R/code",
+        "value": "stringsense:cord-*"
     }
 ]

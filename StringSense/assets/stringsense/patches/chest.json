@@ -1036,5 +1036,1301 @@
             },
             "output": {"type": "item", "code": "stringsense:cord-sinew", "quantity": 12}
         }
+    },
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:recipes/grid/stationarybasket-deconstruct",
+        "op": "addeach",
+        "path": "/-",
+        "value": [{
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "larch"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-larch", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "tuja"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-tuja", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "honeylocust"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-honeylocust", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "birch"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-birch", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "brideinwhite"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-brideinwhite", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "alder"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-alder", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bearnut"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-bearnut", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "willow"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-willow", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "redwilloe"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-redwillow", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "poplar"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-poplar", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "aspen"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-aspen", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "eucalyptus"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-eucalyptus", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "kapok"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-kapok", "quantity": 12}
+        },
+        {       
+            "ingredientPattern": "KB",
+            "width": 2,
+            "height": 1,
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sapele"}, "name": "material"}
+            },
+            "output": {"type": "item", "code": "stringsense:cord-sapele", "quantity": 12}
+        }]
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "larch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/larch",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/larch",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/larch",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/larch",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/larch",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/larch",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/larch",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/larch",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "larch" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "larch-sidesWE": {"base": "stringsense:larch/side"},
+            "larch-sidesSN": {"base": "stringsense:larch/side"},
+            "larch-lid": {"base": "stringsense:larch/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "tuja"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/tuja",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/tuja",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/tuja",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/tuja",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/tuja",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/tuja",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/tuja",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/tuja",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "tuja" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "tuja-sidesWE": {"base": "stringsense:tuja/side"},
+            "tuja-sidesSN": {"base": "stringsense:tuja/side"},
+            "tuja-lid": {"base": "stringsense:tuja/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "honeylocust"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/honeylocust",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/honeylocust",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/honeylocust",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/honeylocust",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/honeylocust",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/honeylocust",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/honeylocust",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/honeylocust",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "honeylocust" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "honeylocust-sidesWE": {"base": "stringsense:honeylocust/side"},
+            "honeylocust-sidesSN": {"base": "stringsense:honeylocust/side"},
+            "honeylocust-lid": {"base": "stringsense:honeylocust/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "birch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/birch",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/birch",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/birch",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/birch",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/birch",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/birch",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/birch",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/birch",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "birch" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "birch-sidesWE": {"base": "stringsense:birch/side"},
+            "birch-sidesSN": {"base": "stringsense:birch/side"},
+            "birch-lid": {"base": "stringsense:birch/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "brideinwhite"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/brideinwhite",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/brideinwhite",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/brideinwhite",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/brideinwhite",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/brideinwhite",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/brideinwhite",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/brideinwhite",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/brideinwhite",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "brideinwhite" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "brideinwhite-sidesWE": {"base": "stringsense:brideinwhite/side"},
+            "brideinwhite-sidesSN": {"base": "stringsense:brideinwhite/side"},
+            "brideinwhite-lid": {"base": "stringsense:brideinwhite/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "alder"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/alder",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/alder",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/alder",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/alder",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/alder",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/alder",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/alder",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/alder",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "alder" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "alder-sidesWE": {"base": "stringsense:alder/side"},
+            "alder-sidesSN": {"base": "stringsense:alder/side"},
+            "alder-lid": {"base": "stringsense:alder/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "bearnut"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/bearnut",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/bearnut",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/bearnut",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/bearnut",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/bearnut",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/bearnut",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/bearnut",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/bearnut",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "bearnut" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "bearnut-sidesWE": {"base": "stringsense:bearnut/side"},
+            "bearnut-sidesSN": {"base": "stringsense:bearnut/side"},
+            "bearnut-lid": {"base": "stringsense:bearnut/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "willow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/willow",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/willow",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/willow",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/willow",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/willow",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/willow",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/willow",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/willow",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "willow" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "willow-sidesWE": {"base": "stringsense:willow/side"},
+            "willow-sidesSN": {"base": "stringsense:willow/side"},
+            "willow-lid": {"base": "stringsense:willow/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "redwillow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/redwillow",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/redwillow",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/redwillow",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/redwillow",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/redwillow",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/redwillow",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/redwillow",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/redwillow",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "redwillow" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "redwillow-sidesWE": {"base": "stringsense:redwillow/side"},
+            "redwillow-sidesSN": {"base": "stringsense:redwillow/side"},
+            "redwillow-lid": {"base": "stringsense:redwillow/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "poplar"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/poplar",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/poplar",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/poplar",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/poplar",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/poplar",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/poplar",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/poplar",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/poplar",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "poplar" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "poplar-sidesWE": {"base": "stringsense:poplar/side"},
+            "poplar-sidesSN": {"base": "stringsense:poplar/side"},
+            "poplar-lid": {"base": "stringsense:poplar/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "aspen"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/aspen",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/aspen",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/aspen",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/aspen",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/aspen",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/aspen",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/aspen",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/aspen",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "aspen" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "aspen-sidesWE": {"base": "stringsense:aspen/side"},
+            "aspen-sidesSN": {"base": "stringsense:aspen/side"},
+            "aspen-lid": {"base": "stringsense:aspen/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "eucalyptus"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/eucalyptus",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/eucalyptus",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/eucalyptus",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/eucalyptus",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/eucalyptus",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/eucalyptus",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/eucalyptus",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/eucalyptus",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "eucalyptus" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "eucalyptus-sidesWE": {"base": "stringsense:eucalyptus/side"},
+            "eucalyptus-sidesSN": {"base": "stringsense:eucalyptus/side"},
+            "eucalyptus-lid": {"base": "stringsense:eucalyptus/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "kapok"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/kapok",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/kapok",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/kapok",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/kapok",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/kapok",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/kapok",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/kapok",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/kapok",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "kapok" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "kapok-sidesWE": {"base": "stringsense:kapok/side"},
+            "kapok-sidesSN": {"base": "stringsense:kapok/side"},
+            "kapok-lid": {"base": "stringsense:kapok/lid"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/types/-",
+        "value": "sapele"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/drop/sapele",
+        "value": true
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/quantitySlots/sapele",
+        "value": 8
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/dialogTitleLangCode/sapele",
+        "value": "basketcontents"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/storageType/sapele",
+        "value": 189
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/retrieveOnly/sapele",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/attachableCategoryCode/sapele",
+        "value": "basket"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/shape/sapele",
+        "value": "block/reed/basket-normal"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/attributes/creatureContainedShape/sapele",
+        "value": "block/reed/basket-full"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "add",
+        "path": "/creativeinventoryStacksByType/*-east/0/stacks/-",
+        "value": {"type": "block", "code": "stationarybasket-east", "attributes": { "type": "sapele" }}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/reedchest",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "sapele-sidesWE": {"base": "stringsense:sapele/side"},
+            "sapele-sidesSN": {"base": "stringsense:sapele/side"},
+            "sapele-lid": {"base": "stringsense:sapele/lid"}
+        }
     }
 ]

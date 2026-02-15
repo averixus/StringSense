@@ -131,5 +131,15 @@
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "sinew"
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:blocktypes/reed/skep",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"]
     }
 ]

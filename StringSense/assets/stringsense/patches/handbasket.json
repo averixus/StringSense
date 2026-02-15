@@ -239,5 +239,204 @@
         "op": "addmerge",
         "path": "/textureByType",
         "value": { "*-sinew": {"base": "stringsense:sinew/side"} }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "larch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-larch": {"base": "stringsense:larch/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "tuja"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-tuja": {"base": "stringsense:tuja/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "honeylocust"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-honeylocust": {"base": "stringsense:honeylocust/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "birch"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-birch": {"base": "stringsense:birch/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "brideinwhite"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-brideinwhite": {"base": "stringsense:brideinwhite/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "alder"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-alder": {"base": "stringsense:alder/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "bearnut"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-bearnut": {"base": "stringsense:bearnut/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "willow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-willow": {"base": "stringsense:willow/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "redwillow"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-redwillow": {"base": "stringsense:redwillow/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "poplar"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-poplar": {"base": "stringsense:poplar/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "aspen"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-aspen": {"base": "stringsense:aspen/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "eucalyptus"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-eucalyptus": {"base": "stringsense:eucalyptus/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "kapok"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-kapok": {"base": "stringsense:kapok/side"} }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "sapele"
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "game:itemtypes/wearable/bag/handbasket",
+        "op": "addmerge",
+        "path": "/textureByType",
+        "value": { "*-sapele": {"base": "stringsense:sapele/side"} }
     }
 ]

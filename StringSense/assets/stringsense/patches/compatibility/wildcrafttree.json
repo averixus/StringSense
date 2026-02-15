@@ -1,0 +1,301 @@
+[
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:blocktypes/wattle/stationarybasket",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:itemtypes/bag/wattlebasket",
+        "op": "add",
+        "path": "/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/tool/shield",
+        "op": "add",
+        "path": "/17/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/3/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/4/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/5/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/6/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/7/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/8/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/9/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/10/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/11/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/12/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/13/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket-deconstruct",
+        "op": "add",
+        "path": "/14/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/basket",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "RSR,C_C,CCC",
+            "ingredients": {
+                "R": {"type": "item", "code": "game:rope"},
+                "S": {"type": "item", "code": "game:stick"},
+                "C": {"type": "item", "code": "stringsense:cord-*"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "wildcrafttree:foragebasket"},
+            "enabled": true
+        }
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/wattleanddaub/wattlebasket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "wildcrafttree:recipes/grid/woodbucket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "addeach",
+        "path": "/variantgroups/0/states/-",
+        "value": ["larch", "tuja", "honeylocust", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "poplar", "aspen", "eucalyptus", "kapok", "sapele"]
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-larch",
+        "value": {"base": "stringsense:larch/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-tuja",
+        "value": {"base": "stringsense:tuja/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-honeylocust",
+        "value": {"base": "stringsense:honeylocust/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-birch",
+        "value": {"base": "stringsense:birch/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-brideinwhite",
+        "value": {"base": "stringsense:brideinwhite/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-alder",
+        "value": {"base": "stringsense:alder/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-bearnut",
+        "value": {"base": "stringsense:bearnut/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-willow",
+        "value": {"base": "stringsense:willow/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-redwillow",
+        "value": {"base": "stringsense:redwillow/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-poplar",
+        "value": {"base": "stringsense:poplar/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-aspen",
+        "value": {"base": "stringsense:aspen/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-eucalyptus",
+        "value": {"base": "stringsense:eucalyptus/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-kapok",
+        "value": {"base": "stringsense:kapok/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:itemtypes/cord",
+        "op": "add",
+        "path": "/textureByType/cord-sapele",
+        "value": {"base": "stringsense:sapele/cord"}
+    },
+    {
+        "dependson": [{"modid": "wildcrafttree"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "wildcrafttree:willowcane-*",
+                    "name": "material"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-{material}"
+            }
+        }
+    }
+]
