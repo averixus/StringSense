@@ -13,6 +13,7 @@
 		"cord-papyrus": {"base": "stringsense:papyrus/cord"},
 		"cord-reed": {"base": "stringsense:reed/cord"}
     },
+	"storageFlags": 257,
     "shape": {
         "base": "stringsense:item/cord"
     },
