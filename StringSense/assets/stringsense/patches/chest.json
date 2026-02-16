@@ -159,7 +159,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "straw"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-straw", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-straw", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -170,7 +170,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "reed"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-reed", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-reed", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -181,7 +181,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "papyrus"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-papyrus", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-papyrus", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -192,7 +192,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "vine"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-vine", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-vine", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -203,7 +203,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "flax"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-flax", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-flax", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -214,7 +214,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bark"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-bark", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-bark", "quantity": 6}
             },
             {
                 "ingredientPattern": "KB",
@@ -225,7 +225,7 @@
                     "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bamboo"}, "name": "material"}
                 },
-                "output": {"type": "item", "code": "stringsense:cord-bamboo", "quantity": 12}
+                "output": {"type": "item", "code": "stringsense:cord-bamboo", "quantity": 6}
             }
         ]
     },
@@ -327,7 +327,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 6}
         }
     },
 
@@ -428,7 +428,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 6}
         }
     },
 
@@ -529,7 +529,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 6}
         }
     },
 
@@ -630,7 +630,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "palm"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-palm", "quantity": 6}
         }
     },
 
@@ -731,7 +731,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "coconut"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-coconut", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-coconut", "quantity": 6}
         }
     },
 
@@ -832,7 +832,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "nzflax"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-nzflax", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-nzflax", "quantity": 6}
         }
     },
 
@@ -933,7 +933,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "porcupine"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-porcupine", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-porcupine", "quantity": 6}
         }
     },
 
@@ -1034,7 +1034,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sinew"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-sinew", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-sinew", "quantity": 6}
         }
     },
 
@@ -1053,7 +1053,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "larch"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-larch", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-larch", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1064,7 +1064,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "tuja"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-tuja", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-tuja", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1075,7 +1075,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "honeylocust"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-honeylocust", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-honeylocust", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1086,7 +1086,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "birch"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-birch", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-birch", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1097,7 +1097,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "brideinwhite"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-brideinwhite", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-brideinwhite", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1108,7 +1108,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "alder"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-alder", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-alder", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1119,7 +1119,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bearnut"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-bearnut", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-bearnut", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1130,7 +1130,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "willow"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-willow", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-willow", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1141,7 +1141,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "redwilloe"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-redwillow", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-redwillow", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1152,7 +1152,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "poplar"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-poplar", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-poplar", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1163,7 +1163,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "aspen"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-aspen", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-aspen", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1174,7 +1174,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "eucalyptus"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-eucalyptus", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-eucalyptus", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1185,7 +1185,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "kapok"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-kapok", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-kapok", "quantity": 6}
         },
         {       
             "ingredientPattern": "KB",
@@ -1196,7 +1196,7 @@
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
                 "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "sapele"}, "name": "material"}
             },
-            "output": {"type": "item", "code": "stringsense:cord-sapele", "quantity": 12}
+            "output": {"type": "item", "code": "stringsense:cord-sapele", "quantity": 6}
         }]
     },
     {
