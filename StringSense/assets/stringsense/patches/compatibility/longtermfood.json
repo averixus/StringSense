@@ -1,0 +1,30 @@
+[
+    {
+        "dependson": [{"modid": "longtermfood"}],
+        "file": "pemmican:recipes/grid/chips-pack",
+        "op": "replace",
+        "path": "/0/ingredients/C/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "longtermfood"}],
+        "file": "pemmican:recipes/grid/mushroom-pack",
+        "op": "replace",
+        "path": "/0/ingredients/C/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "longtermfood"}],
+        "file": "pemmican:recipes/grid/nutri-pack",
+        "op": "replace",
+        "path": "/0/ingredients/C/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "longtermfood"}],
+        "file": "pemmican:recipes/grid/pemmican",
+        "op": "replace",
+        "path": "/7/ingredients/C/code",
+        "value": "game:rushmat-*"
+    }
+]

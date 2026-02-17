@@ -56,5 +56,15 @@
         "op": "remove",
         "path": "/dropsByType/*-themedatriandra-*-normal-*/2/quantity/avg",
         "value": 0
+    },
+
+
+
+    {
+        "dependson": [{"modid": "longtermfood"}],
+        "file": "pemmican:blocktypes/plant/crop/crops",
+        "op": "add",
+        "path": "/dropsByType/*-corn-9/-",
+        "value": { "type": "item", "code": "game:thatch", "quantity": { "avg": 1.5, "var": 0.5 }  }
     }
 ]
