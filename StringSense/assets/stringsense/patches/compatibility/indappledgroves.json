@@ -1,0 +1,23 @@
+[
+    {
+        "dependson": [{"modid": "indappledgroves"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "indappledgroves:bark-*-soaked"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-bark"
+            }
+        }
+    }
+]
