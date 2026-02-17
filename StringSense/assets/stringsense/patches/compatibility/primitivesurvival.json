@@ -4,7 +4,7 @@
         "file": "primitivesurvival:blocktypes/trap/snare",
         "op": "replace",
         "path": "/drops/1/code",
-        "value": "primitivesurvival:snare"
+        "value": "primitivesurvival:snare-set-north"
     },
     {
         "dependsOn": [{"modid": "primitivesurvival"}],
