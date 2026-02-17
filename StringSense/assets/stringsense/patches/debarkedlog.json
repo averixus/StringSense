@@ -1,11 +1,13 @@
 [
     {
+        "dependson": [{"modid": "indappledgroves", "invert": true}],
         "file": "game:recipes/grid/debarkedlog",
         "op": "add",
         "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
+        "dependson": [{"modid": "indappledgroves", "invert": true}],
         "file": "game:recipes/grid/debarkedlog",
         "op": "replace",
         "path": "/0/output",
@@ -83,14 +85,14 @@
 
 
     {
-        "dependson": [{"modid": "wildcrafttree"}],
+        "dependson": [{"modid": "wildcrafttree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
         "op": "add",
         "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "block", "code": "wildcrafttree:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
-        "dependson": [{"modid": "wildcrafttree"}],
+        "dependson": [{"modid": "wildcrafttree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
         "op": "replace",
         "path": "/0/output",

@@ -165,6 +165,10 @@
             "stringsense:itemtypes/flaxstrands.json": {
                 "transitionableProps/0/type": "(FLAX_PROCESSING) ? Cure : None"
             },
+            "stringsense:patches/compatibility/agricultureex.json": {
+                "0/value": "(FLAX_PROCESSING) ? stringsense:flaxstrands : game:flaxfibers",
+                "1/value": "(HAY_STRAW) ? game:thatch : game:drygrass"
+            },
             "stringsense:patches/armorstrand.json": {
                 "0/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
                 "2/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
