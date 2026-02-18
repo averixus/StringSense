@@ -1,17 +1,47 @@
 [
     {
-        "dependson": [{"modid": "indappledgroves", "invert": true}],
+        "dependson": [{"modid": "aculinaryartillery", "invert": true}, {"modid": "indappledgroves", "invert": true}],
         "file": "game:recipes/grid/debarkedlog",
         "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
-        "value": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 }
+        "path": "/0/enabled",
+        "value": false
     },
     {
-        "dependson": [{"modid": "indappledgroves", "invert": true}],
+        "dependson": [{"modid": "indappledgroves", "invert": true}, {"modid": "ancienttools", "invert": true}],
         "file": "game:recipes/grid/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
-        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+        "op": "add",
+        "path": "/-",
+        "value":   {
+            "ingredientPattern": "AHL",
+            "ingredients": {
+                "A": { "type": "item", "code": "axe-*", "isTool": true  },
+                "H": { "type": "item", "code": "hammer-*", "isTool": true  },
+                "L": { "type": "block", "code": "log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+            },
+            "width": 3,
+            "height": 1,
+            "shapeless": true,
+            "output": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  }
+        }
+    },
+        {
+        "dependson": [{"modid": "indappledgroves", "invert": true}, {"modid": "ancienttools"}],
+        "file": "game:recipes/grid/debarkedlog",
+        "op": "add",
+        "condition": { "when": "AdzeStrippingOnly", "isValue": "false" },
+        "path": "/-",
+        "value":   {
+            "ingredientPattern": "AHL",
+            "ingredients": {
+                "A": { "type": "item", "code": "axe-*", "isTool": true  },
+                "H": { "type": "item", "code": "hammer-*", "isTool": true  },
+                "L": { "type": "block", "code": "log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+            },
+            "width": 3,
+            "height": 1,
+            "shapeless": true,
+            "output": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  }
+        }
     },
 
 

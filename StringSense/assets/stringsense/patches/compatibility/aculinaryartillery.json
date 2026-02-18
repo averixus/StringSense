@@ -1,0 +1,23 @@
+[
+    {
+        "dependson": [{"modid": "aculinaryartillery"}],
+        "file": "stringsense:recipes/grid/cord",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X,X",
+            "width": 1,
+            "height": 3,
+            "ingredients": {
+                "X": {
+                    "type": "item",
+                    "code": "aculinaryartillery:bark-*"
+                }
+            },
+            "output": {
+                "type": "item",
+                "code": "stringsense:cord-bark"
+            }
+        }
+    }
+]
