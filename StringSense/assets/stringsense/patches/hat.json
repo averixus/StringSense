@@ -2,8 +2,16 @@
     {
         "file": "game:recipes/grid/clothes/hat",
         "op": "replace",
-        "path": "/2/ingredients/B/code",
-        "value": "game:thatch"
+        "path": "/2",
+        "value": {
+            "ingredientPattern": "_B_,_B_,B_B",
+            "ingredients": {
+                "B": {"type": "item", "code": "game:thatch", "quantity": 1}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:clothes-head-straw-hat"}
+        }
     },
     {
         "file": "game:recipes/grid/clothes/hat",
