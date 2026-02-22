@@ -162,6 +162,13 @@
                 "2/value": "(EQUIPMENT_RECIPES) ? false : true",
                 "3/value": "(EQUIPMENT_RECIPES) ? false : true",
                 "4/value": "(EQUIPMENT_RECIPES) ? false : true"             
+            },
+            "stringsense:patches/compatibility/vsroofing.json": {
+                "0/enabled": "STRICT_VS_ROOFING",
+                "1/enabled": "STRICT_VS_ROOFING",
+                "2/enabled": "STRICT_VS_ROOFING",
+                "3/enabled": "STRICT_VS_ROOFING",
+                "4/enabled": "STRICT_VS_ROOFING"
             }
         },
         "string": {
@@ -386,6 +393,12 @@
                 "ingui": "stringsense:config-rope-title",
                 "comment": "stringsense:config-rope-comment",
                 "default": true
+            },
+            "STRICT_VS_ROOFING": {
+                "name": "STRICT_VS_ROOFING",
+                "ingui": "stringsense:config-roofing-title",
+                "comment": "stringsense:config-roofing-comment",
+                "default": false
             }
         }
     }

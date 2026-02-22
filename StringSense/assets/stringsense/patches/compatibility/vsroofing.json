@@ -2,48 +2,39 @@
     {
         "dependson": [{"modid": "vsroofing"}],
         "file": "vsroofing:blocktypes/roof",
-        "op": "replace",
-        "path": "/attributes/Roofs/thatch/Textures/normal-side/base",
-        "value": "game:block/plant/grassroofing/normal-side"
-    },
-    {
-        "dependson": [{"modid": "vsroofing"}],
-        "file": "vsroofing:blocktypes/roof",
-        "op": "replace",
-        "path": "/attributes/Roofs/thatch/Textures/normal-top/base",
-        "value": "game:block/plant/grassroofing/normal-top"
+        "op": "remove",
+        "path": "/attributes/Roofs/thatch/Materials/0/Primary/Code/0",
+        "enabled": false
     },
     {
         "dependson": [{"modid": "vsroofing"}],
         "file": "vsroofing:blocktypes/roof",
         "op": "remove",
-        "path": "/attributes/Roofs/thatch/Materials/0/Primary/Code/0"
-    },
-    {
-        "dependson": [{"modid": "vsroofing"}],
-        "file": "vsroofing:blocktypes/roof",
-        "op": "remove",
-        "path": "/attributes/Roofs/thatch-aged/Materials/0/Primary/Code/0"
+        "path": "/attributes/Roofs/thatch-aged/Materials/0/Primary/Code/0",
+        "enabled": false
     },
     {
         "dependson": [{"modid": "vsroofing"}],
         "file": "vsroofing:blocktypes/roof",
         "op": "replace",
         "path": "/attributes/Frames/stick/Offhand/Code",
-        "value": ["game:rope"]
+        "value": ["game:rope"],
+        "enabled": false
     },
     {
         "dependson": [{"modid": "vsroofing"}],
         "file": "vsroofing:blocktypes/roof",
         "op": "replace",
         "path": "/attributes/Frames/bamboo/Offhand/Code",
-        "value": ["game:rope"]
+        "value": ["game:rope"],
+        "enabled": false
     },
     {
         "dependson": [{"modid": "vsroofing"}],
         "file": "game:itemtypes/resource/rope.json",
         "op": "addmerge",
         "path": "/behaviors",
-        "value": [{ "name": "vsroofing.Offhand" }]
+        "value": [{ "name": "vsroofing.Offhand" }],
+        "enabled": false
     }
 ]

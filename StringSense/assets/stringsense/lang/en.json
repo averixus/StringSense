@@ -260,5 +260,7 @@
     "stringsense:config-haystraw-title": "Hay and straw changes",
     "stringsense:config-haystraw-comment": "Whether recipes and drops are changed to make a clearer distinction between uses of hay and straw. If false, vanilla recipes and drops for hay and straw items are unchanged, although String Sense textures are still used.",
     "stringsense:config-rope-title": "Rope recipe changes",
-    "stringsense:config-rope-comment": "Whether rope recipes are changed to require only cord or twine. If false, vanilla recipes are unchanged."
+    "stringsense:config-rope-comment": "Whether rope recipes are changed to require only cord or twine. If false, vanilla recipes are unchanged.",
+    "stringsense:config-roofing-title": "Strict VS Roofing compatibility",
+    "stringsense:config-roofing-comment": "Whether VS Roofing stick and bamboo frames require rope, and thatch can only be made from straw. If false, VS Roofing default materials are required. IMPORTANT: If true, the game will crash when loading a world which contains old thatch roofing!"
 }
