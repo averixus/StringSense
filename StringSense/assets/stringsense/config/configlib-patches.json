@@ -39,6 +39,9 @@
                 "2/value/enabled": "TOOL_RECIPES",
                 "3/value/emabled": "TOOL_RECIPES"
             },
+            "stringsense:patches/hat.json": {
+                "0/enabled": "HAY_STRAW"
+            },
             "stringsense:patches/hay.json": {
                 "0/value": "(EQUIPMENT_RECIPES) ? false : true",
                 "1/value/0/enabled": "EQUIPMENT_RECIPES",
@@ -244,9 +247,6 @@
                 "26/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS",
                 "28/value": "(EQUIPMENT_RECIPES) ? ASC,PSP : AS_,PSP",
                 "30/value": "(EQUIPMENT_RECIPES) ? APS,PCP,SPS : APS,PSP,SPS"
-            },
-            "stringsense:patches/hat.json": {
-                "0/value": "(HAY_STRAW) ? game:thatch : game:drygrass"
             },
             "stringsense:patches/lamellar.json": {
                 "0/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
