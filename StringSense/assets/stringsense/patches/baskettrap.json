@@ -68,16 +68,6 @@
     },
     {
         "file": "game:recipes/grid/baskettrap",
-        "op": "remove",
-        "path": "/1"
-    },
-    {
-        "file": "game:recipes/grid/baskettrap",
-        "op": "remove",
-        "path": "/0"
-    },
-    {
-        "file": "game:recipes/grid/baskettrap",
         "op": "addeach",
         "path": "/-",
         "value": [
