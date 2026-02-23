@@ -1,6 +1,6 @@
 [
     {
-        "dependson": [{"modid": "ancienttools"}],
+        "dependson": [{"modid": "indappledgroves", "invert": true}, {"modid": "ancienttools"}],
         "file": "stringsense:recipes/grid/cord",
         "op": "add",
         "path": "/-",

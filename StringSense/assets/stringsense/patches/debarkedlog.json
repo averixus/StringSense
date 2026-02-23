@@ -14,9 +14,9 @@
         "value":   {
             "ingredientPattern": "AHL",
             "ingredients": {
-                "A": { "type": "item", "code": "axe-*", "isTool": true  },
-                "H": { "type": "item", "code": "hammer-*", "isTool": true  },
-                "L": { "type": "block", "code": "log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+                "A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+                "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
             },
             "width": 3,
             "height": 1,
@@ -24,7 +24,7 @@
             "output": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  }
         }
     },
-        {
+    {
         "dependson": [{"modid": "indappledgroves", "invert": true}, {"modid": "ancienttools"}],
         "file": "game:recipes/grid/debarkedlog",
         "op": "add",
@@ -33,9 +33,9 @@
         "value":   {
             "ingredientPattern": "AHL",
             "ingredients": {
-                "A": { "type": "item", "code": "axe-*", "isTool": true  },
-                "H": { "type": "item", "code": "hammer-*", "isTool": true  },
-                "L": { "type": "block", "code": "log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+                "A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+                "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
             },
             "width": 3,
             "height": 1,
