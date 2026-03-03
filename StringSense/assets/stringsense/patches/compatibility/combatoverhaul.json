@@ -1,0 +1,86 @@
+[
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/2/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/3/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/4/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/5/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/6/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/7/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/8/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/9/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/10/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "combatoverhaul"}],
+        "file": "combatoverhaul:recipes/grid/armor/hide-jerkin",
+        "op": "replace",
+        "path": "/11/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 6}
+    }
+]
