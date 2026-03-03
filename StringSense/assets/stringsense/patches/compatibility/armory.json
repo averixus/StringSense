@@ -1,0 +1,23 @@
+[
+    {
+        "dependson": [{"modid": "armory"}],
+        "file": "armory:recipes/grid/weapons/heavy-shields",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "armory"}],
+        "file": "armory:recipes/grid/weapons/heavy-shields",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": "false"
+    },
+    {
+        "dependson": [{"modid": "armory"}],
+        "file": "armory:recipes/grid/weapons/heavy-shields",
+        "op": "add",
+        "path": "/2/enabled",
+        "value": "false"
+    }
+]
