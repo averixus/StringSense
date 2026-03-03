@@ -1,0 +1,142 @@
+[
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/2/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/3/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/4/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/5/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/6/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/peltsack",
+        "op": "replace",
+        "path": "/7/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/basket",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/basket",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/basket",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/basket",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/2/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/3/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/4/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/5/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/6/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "dependson": [{"modid": "backpacks"}],
+        "file": "backpacks:recipes/grid/colored/peltsack",
+        "op": "replace",
+        "path": "/7/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    }
+]
