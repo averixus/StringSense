@@ -10,8 +10,8 @@
         "op": "replace",
         "path": "/dropsByType",
         "value": {
-            "skep-*-": [
-                {"type": "item", "code": "stringsense:cord-{type}", "quantity": {"avg": 6, "var": 8, "dist": "invexp" } },
+            "*": [
+                {"type": "item", "code": "stringsense:cord-{material}", "quantity": {"avg": 6, "var": 8, "dist": "invexp" } },
                 {"type": "item", "code": "game:honeycomb", "quantity": {"avg": 3 } }
             ]
         }
