@@ -1,0 +1,87 @@
+[
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "game:worldgen/schematics/overground/main/mediumruins/mediumruins-shikitochi-o4-lovebuiltbydread",
+        "op": "addmerge",
+        "path": "/BlockCodes",
+        "value": {"822": "game:rushmat-reed-down"}
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "game:itemtypes/meta/stackrandomizer-betterruins",
+        "op": "replace",
+        "path": "/attributesByType/*-buildingblocks/stacks/80/code",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/6/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/7/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/8/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/9/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/10/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/11/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/12/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/13/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/14/ingredients/R/code",
+        "value": "game:rushmat-*"
+    },
+    {
+        "dependson": [{"modid": "betterruins"}],
+        "file": "betterruins:recipes/grid/schematic-weaver/weaver",
+        "op": "replace",
+        "path": "/15/ingredients/R/code",
+        "value": "game:rushmat-*"
+    }
+]
+
