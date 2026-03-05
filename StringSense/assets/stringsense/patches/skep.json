@@ -10,6 +10,9 @@
         "op": "replace",
         "path": "/dropsByType",
         "value": {
+            "skep-mixed-*": [
+                {"type": "item", "code": "game:honeycomb", "quantity": {"avg": 3 } }
+            ],
             "*": [
                 {"type": "item", "code": "stringsense:cord-{material}", "quantity": {"avg": 6, "var": 8, "dist": "invexp" } },
                 {"type": "item", "code": "game:honeycomb", "quantity": {"avg": 3 } }
