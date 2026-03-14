@@ -48,7 +48,6 @@
         "value": false
     },
     {
-        "dependson": [{"modid": "toolsmith", "invert": true}],
         "file": "game:recipes/grid/tool/knife",
         "op": "addeach",
         "path":"/-",
@@ -107,7 +106,7 @@
 
 
     {
-        "dependson": [{"modid": "wool"}, {"modid": "toolsmith", "invert": true}],
+        "dependson": [{"modid": "wool"}],
         "file": "game:recipes/grid/tool/knife",
         "op": "addeach",
         "path": "/-",
@@ -142,7 +141,7 @@
 
 
     {
-        "dependson": [{"modid": "tailorsdelight"}, {"modid": "toolsmith", "invert": true}],
+        "dependson": [{"modid": "tailorsdelight"}],
         "file": "game:recipes/grid/tool/knife",
         "op": "addeach",
         "path": "/-",

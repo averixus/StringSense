@@ -6,7 +6,6 @@
         "value": false
     },
     {
-        "dependson": [{"modid": "toolsmith", "invert": true}],
         "file": "stringsense:recipes/grid/add",
         "op": "addeach",
         "path":"/-",
@@ -42,7 +41,7 @@
 
 
     {
-        "dependson": [{"modid": "wool"}, {"modid": "toolsmith", "invert": true}],
+        "dependson": [{"modid": "wool"}],
         "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
@@ -63,7 +62,7 @@
 
 
         {
-        "dependson": [{"modid": "tailorsdelight"}, {"modid": "toolsmith", "invert": true}],
+        "dependson": [{"modid": "tailorsdelight"}],
         "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
