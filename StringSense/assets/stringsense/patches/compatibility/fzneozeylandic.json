@@ -1,5 +1,12 @@
 [
     {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/flaxfibers",
+        "op": "replace",
+        "path": "/output/code",
+        "value": "stringsense:flaxstrands"
+    },
+    {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
         "file": "floralzonescaribbeanregion:itemtypes/wearable/bag/handbasket",
         "op": "add",
