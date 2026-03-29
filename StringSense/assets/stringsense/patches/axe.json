@@ -39,7 +39,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -51,7 +51,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -75,7 +75,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -87,7 +87,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -122,7 +122,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -134,7 +134,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -169,7 +169,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -181,7 +181,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "arkose", "komatiite", "pyroxenite", "serpentinite", "wacke", "monzonite", "syenite" ]  },
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
