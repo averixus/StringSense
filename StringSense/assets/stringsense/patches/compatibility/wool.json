@@ -1,6 +1,13 @@
 [
     {
         "dependson": [{"modid": "wool"}],
+        "file": "wool:recipes/grid/beds",
+        "op": "replace",
+        "path": "/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "wool"}],
         "file": "wool:itemtypes/resource/fibers",
         "op": "replace",
         "path": "/shape/base",

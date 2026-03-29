@@ -1,6 +1,13 @@
 [
     {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:recipes/grid/wood/bed",
+        "op": "replace",
+        "path": "/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity": 6}
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:itemtypes/wearable/bag/handbasket",
         "op": "add",
         "path": "/enabled",
