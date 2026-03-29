@@ -1,0 +1,64 @@
+[
+    {
+        "file": "substrate:recipes/grid/fruitingbag",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "FHF,FGF,FFF",
+            "ingredients": {
+                "F": {
+                "type": "item",
+                "code": "wool:twine-*"
+                },
+                "H": {
+                "type": "item",
+                "code": "game:drygrass",
+                "quantity": 5
+                },
+                "G": {
+                "type": "item",
+                "code": "game:grain-*",
+                "quantity": 5
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "block",
+                "code": "fruitingbag",
+                "quantity": 1
+            }
+        }
+    },
+    {
+        "file": "substrate:recipes/grid/fruitingbag",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "FHF,FGF,FFF",
+            "ingredients": {
+                "F": {
+                "type": "item",
+                "code": "tailorsdelight:twine-*"
+                },
+                "H": {
+                "type": "item",
+                "code": "game:drygrass",
+                "quantity": 5
+                },
+                "G": {
+                "type": "item",
+                "code": "game:grain-*",
+                "quantity": 5
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "block",
+                "code": "fruitingbag",
+                "quantity": 1
+            }
+        }
+    }
+]
