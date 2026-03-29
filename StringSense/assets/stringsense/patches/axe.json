@@ -39,7 +39,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ]  },
+                    "T": { "type": "item", "code": "game:axehead-*", "name": "material", "allowedVariants": [ "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite" ]  },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },

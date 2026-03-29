@@ -3,7 +3,7 @@
         "dependson": [{"modid": "wool"}],
         "file": "wool:recipes/grid/beds",
         "op": "replace",
-        "path": "/ingredients/H",
+        "path": "/0/ingredients/H",
         "value": {"type": "item", "code": "game:thatch", "quantity": 6}
     },
     {

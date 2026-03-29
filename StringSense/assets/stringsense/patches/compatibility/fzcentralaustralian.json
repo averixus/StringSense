@@ -3,7 +3,7 @@
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:recipes/grid/wood/bed",
         "op": "replace",
-        "path": "/ingredients/H",
+        "path": "/0/ingredients/H",
         "value": {"type": "item", "code": "game:thatch", "quantity": 6}
     },
     {
