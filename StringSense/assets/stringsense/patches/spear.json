@@ -15,7 +15,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:spearhead-*", "name": "material", "allowedVariants": [ "copper", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert" ]  },
+                    "T": { "type": "item", "code": "game:spearhead-*", "name": "material", "allowedVariants": [ "copper", "granite", "andesite", "basalt", "obsidian", "peridotite", "flint", "chert", "quartzite", "diorite", "gabbro", "jade", "jasper" ]  },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -47,7 +47,7 @@
         "value": {
             "ingredientPattern": "T,C,S",
             "ingredients": {
-                "T": {"type": "item", "code": "game:spearhead-*", "name": "metal", "allowedVariants": ["granite", "andesite", "basalt", "obsidian", "peridotite", "chert", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+                "T": {"type": "item", "code": "game:spearhead-*", "name": "metal"},
                 "C": {"type": "item", "code": "wool:twine-*"},
                 "S": {"type": "item", "code": "game:stick"}
             },
@@ -68,7 +68,7 @@
         "value": {
             "ingredientPattern": "T,C,S",
             "ingredients": {
-                "T": {"type": "item", "code": "game:spearhead-*", "name": "metal", "allowedVariants": ["granite", "andesite", "basalt", "obsidian", "peridotite", "chert", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze"]},
+                "T": {"type": "item", "code": "game:spearhead-*", "name": "metal"},
                 "C": {"type": "item", "code": "tailorsdelight:twine-*"},
                 "S": {"type": "item", "code": "game:stick"}
             },

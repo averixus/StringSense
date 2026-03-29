@@ -69,7 +69,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "quartzite", "gabbro", "diorite" ] },
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -81,7 +81,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "copper" ]},
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "copper", "quartzite", "gabbro", "diorite" ]},
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
@@ -93,7 +93,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "quartzite", "gabbro", "diorite" ] },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -128,7 +128,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "quartzite", "gabbro", "diorite" ] },
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
@@ -163,7 +163,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite" ] },
+                    "T": { "type": "item", "code": "game:knifeblade-*", "name": "material", "allowedVariants": [ "basalt", "flint", "chert", "peridotite", "obsidian", "andesite", "granite", "quartzite", "gabbro", "diorite" ] },
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },

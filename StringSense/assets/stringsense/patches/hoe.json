@@ -15,7 +15,7 @@
                 "width": 1,
                 "height": 3,
                 "ingredients": {
-                    "T": { "type": "item", "code": "game:hoehead-*", "name": "material", "allowedVariants": [ "flint", "chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "copper" ]  },
+                    "T": { "type": "item", "code": "game:hoehead-*", "name": "material", "allowedVariants": [ "flint", "chert", "granite", "andesite", "basalt", "obsidian", "peridotite", "copper", "quartzite", "gabbro", "diorite" ]  },
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
