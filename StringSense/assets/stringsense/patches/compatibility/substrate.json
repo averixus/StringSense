@@ -1,5 +1,6 @@
 [
     {
+        "dependson": [{"modid": "substrate"}],
         "file": "substrate:recipes/grid/fruitingbag",
         "op": "add",
         "path": "/-",
