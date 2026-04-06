@@ -185,7 +185,7 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:axe-bone{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:axe-bone-{material}", "quantity": 1},
                 "enabled": true
             }
         ]
