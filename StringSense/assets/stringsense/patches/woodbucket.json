@@ -44,5 +44,25 @@
         "op": "add",
         "path": "/0/enabled",
         "value": false
+    },
+
+
+
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescaperegion:recipes/grid/wood/woodbucket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:recipes/grid/wood/woodbucket",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false
     }
 ]
