@@ -53,7 +53,7 @@
 
     {
         "dependson": [{"modid": "tailorsdelight"}, {"modid": "spinningwheel"}],
-        "file": "spinningwheel:recipes/grid/hpflyshuttleloomheddle",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value": {
