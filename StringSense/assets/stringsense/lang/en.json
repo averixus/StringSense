@@ -262,5 +262,7 @@
     "stringsense:config-rope-title": "Rope recipe changes",
     "stringsense:config-rope-comment": "Whether rope recipes are changed to require only cord or twine. If false, vanilla recipes are unchanged.",
     "stringsense:config-roofing-title": "Strict VS Roofing compatibility",
-    "stringsense:config-roofing-comment": "Whether VS Roofing stick and bamboo frames require rope, and thatch can only be made from straw. If false, VS Roofing default materials are required. IMPORTANT: If true, the game will crash when loading a world which contains old thatch roofing!"
+    "stringsense:config-roofing-comment": "Whether VS Roofing stick and bamboo frames require rope, and thatch can only be made from straw. If false, VS Roofing default materials are required. IMPORTANT: If true, the game will crash when loading a world which contains old thatch roofing!",
+    "stringsense:config-sailboat-title": "Sailboat construction",
+    "stringsense:config-sailboat-commant": "Whether sailboats construction requires sail items, instead of linen pieces (allowing compatibility with other modded cloths to make sails)"
 }
