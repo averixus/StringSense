@@ -59,5 +59,158 @@
 			"rotation": { "x": 0, "y": -40, "z": 0 },
 			"scale": 0.55
 		}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/bandage",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "K,H",
+            "shapeless": true,
+            "ingredients": {
+                "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                "H": {"type": "block", "code": "wool:wool-*"}
+            },
+            "width": 1,
+            "height": 2,
+            "output": {"type": "item", "code": "game:bandage-clean", "quantity": 4}
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/bandage",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X",
+            "shapeless": true,
+            "ingredients": {
+                "X": {"type": "item", "code": "wool:twine-*"}
+            },
+            "width": 1,
+            "height": 2,
+            "output": {"type": "item", "code": "game:bandage-clean", "quantity": 2}
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/mechpowerblocks",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "__S,_SL,SL_",
+            "ingredients": {
+                "S": {"type": "item", "code": "game:stick", "quantity": 2},
+                "L": {"type": "block", "code": "wool:wool-*", "quantity": 2}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:sail", "quantity": 4}
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/butterflynet",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "_NC,_S_,S__",
+            "ingredients": {
+                "S": {"type": "item", "code": "game:stick"},
+                "N": {"type": "item", "code": "game:metalnailsandstrips-copper"},
+                "C": {"type": "item", "code": "wool:cloth-wool-*"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:bugnet-copper"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/chair",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "WLW,W_W",
+            "ingredients": {
+                "W": {"type": "item", "code": "game:plank-*", "name": "wood"},
+                "L": {"type": "item", "code": "wool:cloth-wool-*", "quantity": 1, "name": "color", "allowedVariants": ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"]}
+            },
+            "width": 3,
+            "height": 2,
+            "output": {"type": "block", "code": "game:chair-{color}"}
+        }
+    },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "game:recipes/grid/tool/sling",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "R,L",
+            "requiresTrait": "improviser",
+            "ingredients": {
+                "R": {"type": "item", "code": "game:rope"},
+                "L": {"type": "block", "code": "wool:wool-*"}
+            },
+            "width": 1,
+            "height": 2,
+            "output": {"type": "item", "code": "game:sling", "quantity": 1}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}, {"modid": "spinningwheel"}],
+        "file": "spinningwheel:recipes/grid/hpflyshuttleloomheddle",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "_P_,_T_,_P_",
+            "ingredients": {
+                "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+                },
+                "T": { "type": "item", "code": "wool:twine-*", "quantity": 4 }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "spinningwheel:hpflyshuttleloomheddle-{wood}",
+                "quantity": 1
+            }
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "wool"}, {"modid": "expandedbeekeeping"}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "FSF,SSS,FSF",
+            "ingredients": {
+                "S": { "type": "item", "code": "game:stick" },
+                "F": { "type": "item", "code": "wool:twine-*" }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "block",
+                "code": "expandedbeekeeping:hiveframe-empty",
+                "quantity": 2
+            },
+            "showInCreatedBy": true
+        }
     }
 ]

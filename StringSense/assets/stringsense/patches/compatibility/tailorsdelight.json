@@ -1,0 +1,102 @@
+[
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/bandage",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "X,X",
+            "shapeless": true,
+            "ingredients": {
+                "X": {"type": "item", "code": "tailorsdelight:twine-*"}
+            },
+            "width": 1,
+            "height": 2,
+            "output": {"type": "item", "code": "game:bandage-clean", "quantity": 2}
+        }
+    },
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/butterflynet",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "_NC,_S_,S__",
+            "ingredients": {
+                "S": {"type": "item", "code": "game:stick"},
+                "N": {"type": "item", "code": "game:metalnailsandstrips-copper"},
+                "C": {"type": "item", "code": "tailorsdelight:cloth-*"}
+            },
+            "width": 3,
+            "height": 3,
+            "output": {"type": "item", "code": "game:bugnet-copper"}
+        }
+    },
+    {
+        "dependson": [{"modid": "tailorsdelight"}],
+        "file": "game:recipes/grid/chair",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "WLW,W_W",
+            "ingredients": {
+                "W": {"type": "item", "code": "game:plank-*", "name": "wood"},
+                "L": {"type": "item", "code": "tailorsdelight:cloth-*", "quantity": 1, "name": "color", "allowedVariants": ["plain", "blue", "brown", "gray", "black", "green", "orange", "pink", "purple", "red", "white", "yellow"]}
+            },
+            "width": 3,
+            "height": 2,
+            "output": {"type": "block", "code": "game:chair-{color}"}
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}, {"modid": "spinningwheel"}],
+        "file": "spinningwheel:recipes/grid/hpflyshuttleloomheddle",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "_P_,_T_,_P_",
+            "ingredients": {
+                "P": {
+                "type": "item",
+                "code": "game:plank-*",
+                "name": "wood"
+                },
+                "T": { "type": "item", "code": "tailorsdelight:twine-*", "quantity": 4 }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "spinningwheel:hpflyshuttleloomheddle-{wood}",
+                "quantity": 1
+            }
+        }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "tailorsdelight"}, {"modid": "expandedbeekeeping"}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "FSF,SSS,FSF",
+            "ingredients": {
+                "S": { "type": "item", "code": "game:stick" },
+                "F": { "type": "item", "code": "tailorsdelight:twine-*" }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "block",
+                "code": "expandedbeekeeping:hiveframe-empty",
+                "quantity": 2
+            },
+            "showInCreatedBy": true
+        }
+    }
+]
