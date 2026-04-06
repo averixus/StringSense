@@ -1,10 +1,17 @@
 [
     {
-        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax", "invert": true}],
         "file": "floralzonesneozeylandicregion:recipes/grid/flaxfibers",
         "op": "replace",
         "path": "/output/code",
         "value": "stringsense:flaxstrands"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax"}],
+        "file": "floralzonesneozeylandicregion:recipes/grid/flaxfibers",
+        "op": "replace",
+        "path": "/output/code",
+        "value": "ageofflax:flaxbundle-rippled"
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],

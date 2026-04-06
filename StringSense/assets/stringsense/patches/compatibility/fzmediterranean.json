@@ -1,9 +1,16 @@
 [
     {
-        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}, {"modid": "ageofflax", "invert": true}],
         "file": "floralzonesmediterraneanregion:blocktypes/plant/broom",
         "op": "replace",
         "path": "/dropsByType/*-spartiumjunceum-*-normal-*/0/code",
         "value": "stringsense:flaxstrands"
+    },
+    {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}, {"modid": "ageofflax"}],
+        "file": "floralzonesmediterraneanregion:blocktypes/plant/broom",
+        "op": "replace",
+        "path": "/dropsByType/*-spartiumjunceum-*-normal-*/0/code",
+        "value": "ageofflax:flaxbundle-rippled"
     }
 ]
