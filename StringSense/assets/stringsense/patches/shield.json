@@ -18,7 +18,7 @@
         "value": false
     },
     {
-        "file": "game:recipes/grid/tool/sheild",
+        "file": "game:recipes/grid/tool/shield",
         "op": "add",
         "path": "/-",
         "value": {
@@ -29,7 +29,7 @@
             },
             "width": 3,
             "height": 3,
-            "output": {"type": "item", "code": "game:sheild-crude"},
+            "output": {"type": "item", "code": "game:shield-crude"},
             "enabled": true
         }
     }
