@@ -2,16 +2,48 @@
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax", "invert": true}],
         "file": "floralzonesneozeylandicregion:recipes/grid/flaxfibers",
-        "op": "replace",
-        "path": "/output/code",
-        "value": "stringsense:flaxstrands"
+        "op": "add",
+        "path": "/enabled",
+        "value": "false"
+    },
+    {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax", "invert": true}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "K,P",
+            "ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+                "P": { "type": "item", "code": "floralzonesneozeylandicregion:phormiumtenaxbundle" }
+            },
+            "width": 1,
+            "height": 2,
+            "output": { "type": "item", "code": "stringsense:flaxstrands", "quantity": 2   }
+        }
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/flaxfibers",
-        "op": "replace",
-        "path": "/output/code",
-        "value": "ageofflax:flaxbundle-rippled"
+        "op": "add",
+        "path": "/enabled",
+        "value": "false"
+    },
+        {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "ageofflax"}],
+        "file": "stringsense:recipes/grid/add",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "K,P",
+            "ingredients": {
+                "K": { "type": "item", "code": "game:knife-*", "isTool": true },
+                "P": { "type": "item", "code": "floralzonesneozeylandicregion:phormiumtenaxbundle" }
+            },
+            "width": 1,
+            "height": 2,
+            "output": { "type": "item", "code": "ageofflax:flaxbundle-rippled", "quantity": 2   }
+        }
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],

@@ -278,7 +278,7 @@
                 "0/value/code": "(HAY_STRAW) ? game:thatch : game:hay-normal-ud",
                 "0/value/type": "(HAY_STRAW) ? item : block"
             },
-            "game:entities/nonliving/boat-construction": {
+            "game:entities/nonliving/boat-construction.json": {
                 "attributes/stages/17/requireStacks/1/type": "(SAILBOAT) ? item : block",
                 "attributes/stages/17/requireStacks/1/code": "(SAILBOAT) ? game:sail : linen-*-down"
             }
@@ -315,9 +315,6 @@
             },
             "stringsense:patches/strawdummy.json": {
                 "0/value/quantity": "(HAY_STRAW) ? 4 : 1"
-            },
-            "game:entities/nonliving/boat-construction": {
-                "attributes/stages/17/requireStacks/1/quantity": "(SAILBOAT) ? 5 : 21"
             }
         },
         "float": {
