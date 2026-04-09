@@ -162,6 +162,13 @@
             "output": {"type": "item", "code": "game:sling", "quantity": 1}
         }
     },
+    {
+        "dependson": [{"modid": "wool"}],
+        "file": "wool:recipes/grid/plumb",
+        "op": "replace",
+        "path": "/0/ingredients/T/code",
+        "value": "wool:twine-wool-*"
+    },
 
 
 
