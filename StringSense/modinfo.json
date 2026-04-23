@@ -5,8 +5,8 @@
     "name": "String Sense",
     "authors": [ "Averixus", "Jim3141" ],
     "description": "Make string technology more realistic, logical, and interesting.",
-    "version": "1.8.1",
+    "version": "2.0.0",
     "dependencies": {
-        "game": "1.21.0"
+        "game": "1.22.0"
     }
 }
