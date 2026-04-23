@@ -134,31 +134,17 @@
         "value": "stringsense:cord-*"
     },
     {
-        "dependsOn": [{"modid": "primitivesurvival"}],
-        "file": "primitivesurvival:recipes/grid/support",
+        "dependsOn": [ {"modid": "primitivesurvival"} ],
+        "file": "primitivesurvival:recipes/grid/trussedmeat",
         "op": "replace",
-        "path": "/0/ingredients/C/code",
-        "value": "stringsense:cord-*"
-    },
-    {
-        "dependsOn": [{"modid": "primitivesurvival"}],
-        "file": "primitivesurvival:recipes/grid/support",
-        "op": "replace",
-        "path": "/1/ingredients/C/code",
+        "path": "/0/ingredients/T/code",
         "value": "stringsense:cord-*"
     },
     {
         "dependsOn": [ {"modid": "primitivesurvival"} ],
         "file": "primitivesurvival:recipes/grid/trussedmeat",
         "op": "replace",
-        "path": "/2/ingredients/T/code",
-        "value": "stringsense:cord-*"
-    },
-    {
-        "dependsOn": [ {"modid": "primitivesurvival"} ],
-        "file": "primitivesurvival:recipes/grid/trussedmeat",
-        "op": "replace",
-        "path": "/3/ingredients/T/code",
+        "path": "/1/ingredients/T/code",
         "value": "stringsense:cord-*"
     }
 ]

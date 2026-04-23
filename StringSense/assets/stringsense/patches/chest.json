@@ -286,7 +286,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/palm",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonescaribbeanregion"}],
@@ -387,7 +387,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/palm",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
@@ -488,7 +488,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/palm",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
@@ -589,7 +589,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/palm",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}],
@@ -690,7 +690,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/coconut",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
@@ -791,7 +791,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/nzflax",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
@@ -892,7 +892,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/porcupine",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
@@ -993,7 +993,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/sinew",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "butchering"}],
@@ -1253,7 +1253,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/larch",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1334,7 +1334,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/tuja",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1415,7 +1415,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/honeylocust",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1496,7 +1496,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/birch",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1577,7 +1577,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/brideinwhite",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1658,7 +1658,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/alder",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1739,7 +1739,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/bearnut",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1820,7 +1820,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/willow",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1901,7 +1901,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/redwillow",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -1982,7 +1982,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/poplar",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -2063,7 +2063,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/aspen",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -2144,7 +2144,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/eucalyptus",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -2225,7 +2225,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/kapok",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],
@@ -2306,7 +2306,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/attributes/shape/sapele",
-        "value": "block/reed/basket-normal"
+        "value": "block/reed/basket-reed"
     },
     {
         "dependson": [{"modid": "wildcrafttree"}],

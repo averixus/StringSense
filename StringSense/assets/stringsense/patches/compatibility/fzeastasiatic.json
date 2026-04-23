@@ -57,42 +57,49 @@
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:blocktypes/reed/baskettrap",
+        "file": "floralzonescaribbeanregion:blocktypes/reed/baskettrap",
         "op": "add",
         "path": "/enabled",
         "value": false
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:blocktypes/reed/reedchest",
+        "file": "floralzonescaribbeanregion:blocktypes/reed/reedchest",
         "op": "add",
         "path": "/enabled",
         "value": false
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:blocktypes/reed/skep",
+        "file": "floralzonescaribbeanregion:blocktypes/reed/skep",
         "op": "add",
         "path": "/enabled",
         "value": false
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/basket",
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket",
         "op": "add",
         "path": "/0/enabled",
+        "value": false
+    },
+    {
+        "dependson": [{"modid": "floralzoneseastasiaticregion"}],
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket",
+        "op": "add",
+        "path": "/1/enabled",
         "value": false
     },
         {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/baskettrap",
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/baskettrap",
         "op": "add",
         "path": "/0/enabled",
         "value": false
     },
     {
         "dependson": [{"modid": "floralzoneseastasiaticregion"}],
-        "file": "floralzoneseastasiaticregion:recipes/grid/fiber/basket-deconstruct",
+        "file": "floralzonescaribbeanregion:recipes/grid/fiber/basket-deconstruct",
         "op": "add",
         "path": "/0/enabled",
         "value": false

@@ -109,8 +109,8 @@
         "dependson": [{"modid": "floralzonescaribbeanregion"}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-palm",
-        "value": {"base": "stringsense:palm/side"}
+        "path": "/texturesByType/*-palm",
+        "value": { "basket": {"base": "stringsense:palm/side"}}
     },
 
 
@@ -126,8 +126,8 @@
         "dependson": [{"modid": "floralzonescosmopolitanregion"}, {"modid": "floralzonescaribbeanregion", "invert": true}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-palm",
-        "value": {"base": "stringsense:palm/side"}
+        "path": "/texturesByType/*-palm",
+        "value": { "basket": {"base": "stringsense:palm/side"}}
     },
 
 
@@ -143,8 +143,8 @@
         "dependson": [{"modid": "floralzonesneozeylandicregion"}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-palm",
-        "value": {"base": "stringsense:palm/side"}
+        "path": "/texturesByType/*-palm",
+        "value": { "basket": {"base": "stringsense:palm/side"}}
     },
 
 
@@ -160,8 +160,8 @@
         "dependson": [{"modid": "floralzoneseastasiaticregion"}, {"modid": "floralzonesneozeylandicregion", "invert": true}, {"modid": "floralzonescosmopolitanregion", "invert": true}, {"modid": "floralzonescaribbeanregion", "invert": true}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-palm",
-        "value": {"base": "stringsense:palm/side"}
+        "path": "/texturesByType/*-palm",
+        "value": { "basket": {"base": "stringsense:palm/side"}}
     },
 
 
@@ -177,8 +177,8 @@
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-coconut",
-        "value": {"base": "stringsense:coconut/side"}
+        "path": "/texturesByType/*-coconut",
+        "value": { "basket": {"base": "stringsense:coconut/side"}}
     },
 
 
@@ -194,8 +194,8 @@
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-nzflax",
-        "value": {"base": "stringsense:nzflax/side"}
+        "path": "/texturesByType/*-nzflax",
+        "value": { "basket": {"base": "stringsense:nzflax/side"}}
     },
 
 
@@ -211,8 +211,8 @@
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "add",
-        "path": "/textureByType/*-porcupine",
-        "value": {"base": "stringsense:porcupine/side"}
+        "path": "/texturesByType/*-porcupine",
+        "value": { "basket": {"base": "stringsense:porcupine/side"}}
     },
 
 
@@ -228,8 +228,8 @@
         "dependson": [{"modid": "butchering"}],
         "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "addmerge",
-        "path": "/textureByType",
-        "value": { "*-sinew": {"base": "stringsense:sinew/side"} }
+        "path": "/texturesByType/*-sinew",
+        "value": { "basket": {"base": "stringsense:sinew/side"} }
     },
 
 
