@@ -41,7 +41,7 @@
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "game:recipes/grid/tool/shover",
+        "file": "game:recipes/grid/tool/shovel",
         "op": "add",
         "path": "/-",
         "value": {

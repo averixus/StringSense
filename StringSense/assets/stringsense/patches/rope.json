@@ -67,7 +67,7 @@
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "stringsense:recipes/grid/rope",
+        "file": "game:recipes/grid/rope",
         "op": "add",
         "path": "/-",
         "value": {
