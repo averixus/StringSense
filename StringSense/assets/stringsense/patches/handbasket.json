@@ -7,27 +7,17 @@
     },
     {
         "file": "game:itemtypes/wearable/bag/handbasket",
-        "op": "remove",
-        "path": "/textures"
-    },
-    {
-        "file": "game:shapes/item/bag/basket",
-        "op": "remove", 
-        "path": "/textures"
-    },
-    {
-        "file": "game:itemtypes/wearable/bag/handbasket",
         "op": "addmerge",
-        "path": "/textureByType",
+        "path": "/texturesByType",
         "value": {
-            "*-reed": { "base": "stringsense:reed/side" },
-            "*-papyrus": { "base": "stringsense:papyrus/side" },
-            "*-straw": { "base": "stringsense:straw/side" },
-            "*-flax": { "base": "stringsense:flax/side" },
-            "*-vine": { "base": "stringsense:vine/side" },
-            "*-bark": { "base": "stringsense:bark/side" },
-            "*-bamboo": { "base": "stringsense:bamboo/side" },
-            "*-mixed": { "base": "stringsense:mixed/side" }
+            "*-reed": { "basket": { "base": "stringsense:reed/side" }},
+            "*-papyrus": { "basket": { "base": "stringsense:papyrus/side" }},
+            "*-straw": { "basket": { "base": "stringsense:straw/side" }},
+            "*-flax": { "basket": { "base": "stringsense:flax/side" }},
+            "*-vine": { "basket": { "base": "stringsense:vine/side" }},
+            "*-bark": { "basket": { "base": "stringsense:bark/side" }},
+            "*-bamboo": { "basket": { "base": "stringsense:bamboo/side" }},
+            "*-mixed": { "basket": { "base": "stringsense:mixed/side" }}
         }
     },
     {

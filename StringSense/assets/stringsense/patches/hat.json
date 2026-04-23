@@ -1,8 +1,8 @@
 [
     {
-        "file": "game:recipes/grid/clothes/hat",
+        "file": "game:recipes/grid/clothes/head",
         "op": "replace",
-        "path": "/2",
+        "path": "/17",
         "value": {
             "ingredientPattern": "_B_,_B_,B_B",
             "ingredients": {
@@ -15,9 +15,9 @@
         "enabled": true
     },
     {
-        "file": "game:recipes/grid/clothes/hat",
+        "file": "game:recipes/grid/clothes/head",
         "op": "replace",
-        "path": "/0",
+        "path": "/15",
         "value": {
             "ingredientPattern": "B,B",
             "ingredients": {
@@ -29,9 +29,9 @@
         }
     },
     {
-        "file": "game:recipes/grid/clothes/hat",
+        "file": "game:recipes/grid/clothes/head",
         "op": "replace",
-        "path": "/1",
+        "path": "/16",
         "value":     {
             "ingredientPattern": "BBB,_B_",
             "ingredients": {

@@ -41,36 +41,6 @@
         "path": "/6/ingredients/G",
         "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
     },
-    {
-        "file": "game:recipes/grid/armor/lamellar",
-        "op": "replace",
-        "path": "/7/ingredients/G",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
-    {
-        "file": "game:recipes/grid/armor/lamellar",
-        "op": "replace",
-        "path": "/8/ingredients/G",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
-    {
-        "file": "game:recipes/grid/armor/lamellar",
-        "op": "replace",
-        "path": "/9/ingredients/G",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
-    {
-        "file": "game:recipes/grid/armor/lamellar",
-        "op": "replace",
-        "path": "/10/ingredients/G",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
-    {
-        "file": "game:recipes/grid/armor/lamellar",
-        "op": "replace",
-        "path": "/11/ingredients/G",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 2}
-    },
 
 
 

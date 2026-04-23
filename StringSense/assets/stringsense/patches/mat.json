@@ -76,7 +76,7 @@
         "value": "*-down"
     },
     {
-        "file": "game:/config/tradelists/trader-buildmaterials",
+        "file": "game:config/tradelists/trader-buildmaterials",
         "op": "replace",
         "path": "/selling/list/30/code",
         "value": "game:rushmat-reed-down"

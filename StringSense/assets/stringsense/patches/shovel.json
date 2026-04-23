@@ -2,11 +2,11 @@
     {
         "file": "game:recipes/grid/tool/shovel",
         "op": "add",
-        "path": "/enabled",
+        "path": "/0/enabled",
         "value": false
     },
     {
-        "file": "stringsense:recipes/grid/add",
+        "file": "game:recipes/grid/tool/shovel",
         "op": "addeach",
         "path":"/-",
         "value": [
@@ -41,7 +41,7 @@
 
     {
         "dependson": [{"modid": "wool"}],
-        "file": "stringsense:recipes/grid/add",
+        "file": "game:recipes/grid/tool/shover",
         "op": "add",
         "path": "/-",
         "value": {
@@ -62,7 +62,7 @@
 
     {
         "dependson": [{"modid": "tailorsdelight"}],
-        "file": "stringsense:recipes/grid/add",
+        "file": "game:recipes/grid/tool/shovel",
         "op": "add",
         "path": "/-",
         "value": {

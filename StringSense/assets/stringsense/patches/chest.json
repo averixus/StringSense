@@ -45,7 +45,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "addmerge",
         "path": "/attributes/shape",
-        "value": {"straw": "block/reed/basket-normal", "flax": "block/reed/basket-normal", "bark": "block/reed/basket-normal", "bamboo": "block/reed/basket-normal", "mixed": "block/reed/basket-normal"}
+        "value": {"papyrus": "block/reed/basket-reed", "straw": "block/reed/basket-reed", "flax": "block/reed/basket-reed", "bark": "block/reed/basket-reed", "bamboo": "block/reed/basket-reed", "mixed": "block/reed/basket-reed"}
     },
     { 
         "file": "game:blocktypes/reed/reedchest",

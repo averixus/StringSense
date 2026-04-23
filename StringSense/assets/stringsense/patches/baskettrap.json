@@ -8,6 +8,24 @@
     {
         "file": "game:blocktypes/reed/baskettrap",
         "op": "replace",
+        "path": "/attributes/destroyedShape/base",
+        "value": "game:block/reed/baskettrap-reed-broke"
+    },
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "replace",
+        "path": "/attributes/trappedShape/base",
+        "value": "game:block/reed/baskettrap-reed-trapped"
+    },
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "replace",
+        "path": "/shape/base",
+        "value": "game:block/reed/baskettrap-reed-set"
+    },
+    {
+        "file": "game:blocktypes/reed/baskettrap",
+        "op": "addmerge",
         "path": "/texturesByType",
         "value": {
             "*-flax": {
@@ -63,7 +81,8 @@
             "baskettrap-straw": "stringsense:cord-straw",
             "baskettrap-flax": "stringsense:cord-flax",
             "baskettrap-bark": "stringsense:cord-bark",
-            "baskettrap-bamboo": "stringsense:cord-bamboo"
+            "baskettrap-bamboo": "stringsense:cord-bamboo",
+            "baskettrap-mixed": "stringsense:cord-reed"
         }
     },
     {

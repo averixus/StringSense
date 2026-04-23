@@ -34,6 +34,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonescaribbeanregion"}],
         "file": "floralzonescaribbeanregion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/0/ingredients/R",
@@ -50,12 +51,13 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/0/ingredients/R",
         "value": {"type":"item","code":"game:rope"}
     },
-        {
+    {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/wood/doors",
         "op": "replace",
@@ -63,6 +65,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/1/ingredients/R",
@@ -79,6 +82,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/0/ingredients/R",
@@ -95,6 +99,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonescaperegion"}],
         "file": "floralzonescaperegion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/0/ingredients/R",
@@ -111,6 +116,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "floralzonesmediterraneanregion"}],
         "file": "floralzonesmediterraneanregion:recipes/grid/wood/doors",
         "op": "add",
         "path": "/0/ingredients/R",
@@ -127,6 +133,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "wildcrafttree"}],
         "file": "wildcrafttree:recipes/grid/doors",
         "op": "add",
         "path": "/0/ingredients/R",
@@ -140,6 +147,7 @@
         "value": "AR,PS,PS"
     },
     {
+        "dependson": [{"modid": "wildcrafttree"}],
         "file": "wildcrafttree:recipes/grid/doors",
         "op": "add",
         "path": "/6/ingredients/R",
