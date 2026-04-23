@@ -8,6 +8,13 @@
     },
     {
         "dependson": [{"modid": "wool"}],
+        "file": "wool:recipes/grid/beds",
+        "op": "replace",
+        "path": "/0/ingredients/C",
+        "value": {"type": "block", "code": "wool:wool-*"}
+    },
+    {
+        "dependson": [{"modid": "wool"}],
         "file": "wool:itemtypes/resource/fibers",
         "op": "replace",
         "path": "/shape/base",
