@@ -91,21 +91,21 @@
         "value": false
     },
     {
-        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:shapes/item/resource/triodiascariosa-bundle",
         "op": "replace",
         "path": "/textures/triodiascariosa",
         "value": "stringsense:porcupine/cord"
     },
     {
-        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:shapes/item/resource/triodiascariosa-bundle-pile",
         "op": "replace",
         "path": "/textures/triodiascariosa",
         "value": "stringsense:porcupine/cord"
     },
     {
-        "deoendson": [{"modid": "floralzonescentralaustralianregion"}],
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:itemtypes/resource/triodiascariosa",
         "op": "replace",
         "path": "/texture/base",

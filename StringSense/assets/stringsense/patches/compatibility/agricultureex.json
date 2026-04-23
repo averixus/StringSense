@@ -1,13 +1,13 @@
 [
     {
-        "deoendson": [{"modid": "agricultureex"}],
+        "dependson": [{"modid": "agricultureex"}],
         "file": "agricultureex:itemtypes/sheaf",
         "op": "replace",
         "path": "/attributes/threshStacksByType/*-flax/0/code",
         "value": "stringsense:flaxstrands"
     },
     {
-        "deoendson": [{"modid": "agricultureex"}],
+        "dependson": [{"modid": "agricultureex"}],
         "file": "agricultureex:itemtypes/sheaf",
         "op": "replace",
         "path": "/attributes/threshStacksByType/*/1/code",

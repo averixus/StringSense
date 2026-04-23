@@ -256,14 +256,14 @@
         "value": "nzflax"
     },
     {
-        "deoendson": [{"modid": "floralzonesneozeylandicregion"}],
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:shapes/item/resource/phormiumtenax-bundle",
         "op": "replace",
         "path": "/textures/bundle",
         "value": "stringsense:nzflax/cord"
     },
     {
-        "deoendson": [{"modid": "floralzonesneozeylandicregion"}],
+        "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:shapes/item/resource/phormiumtenax-bundle-pile",
         "op": "replace",
         "path": "/textures/bundle",
