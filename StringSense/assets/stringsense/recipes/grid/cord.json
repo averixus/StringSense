@@ -103,5 +103,20 @@
             "type": "item",
             "code": "stringsense:cord-flax"
         }
+    },
+    {
+        "ingredientPattern": "X",
+        "width": 1,
+        "height": 1,
+        "ingredients": {
+            "X": {
+                "type": "item",
+                "code": "stringsense:cord-*"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stringsense:cord-mixed"
+        }
     }
 ]

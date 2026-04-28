@@ -51,7 +51,7 @@
         "file": "game:blocktypes/reed/reedchest",
         "op": "addmerge",
         "path": "/attributes/creatureContainedShape",
-        "value": {"straw": "block/reed/basket-full", "flax": "block/reed/basket-full", "bark": "block/reed/basket-full", "bamboo": "block/reed/basket-full", "mixed": "block/reed/basket-full"}
+        "value": {"reed": "block/reed/basket-reed-full", "papyrus": "block/reed/basket-reed-full", "vine": "block/reed/basket-reed-full", "straw": "block/reed/basket-reed-full", "flax": "block/reed/basket-reed-full", "bark": "block/reed/basket-reed-full", "bamboo": "block/reed/basket-reed-full", "mixed": "block/reed/basket-reed-full"}
     },
     { 
         "file": "game:blocktypes/reed/reedchest",
@@ -110,28 +110,6 @@
                 "type": "block",
                 "code": "game:stationarybasket-east",
                 "attributes": {"type": "{material}"}
-            }
-        }
-    },
-    {
-        "file": "game:recipes/grid/stationarybasket",
-        "op": "replace",
-        "path": "/1",
-        "value": {
-            "ingredientPattern": "XXX,X_X,XXX",
-            "width": 3,
-            "height": 3,
-            "ingredients": {
-                "X": {
-                    "type": "item",
-                    "code": "stringsense:cord-*",
-                    "quantity": 1
-                }
-            },
-            "output": {
-                "type": "block",
-                "code": "game:stationarybasket-east",
-                "attributes": {"type": "mixed"}
             }
         }
     },
@@ -226,6 +204,17 @@
                     "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "bamboo"}, "name": "material"}
                 },
                 "output": {"type": "item", "code": "stringsense:cord-bamboo", "quantity": 6}
+            },
+            {
+                "ingredientPattern": "KB",
+                "width": 2,
+                "height": 1,
+                "shapeless": true,
+                "ingredients": {
+                    "K": {"type": "item", "code": "game:knife-*", "isTool": true},
+                    "B": {"type": "block", "code": "game:stationarybasket-east", "attributes": {"type": "mixed"}, "name": "material"}
+                },
+                "output": {"type": "item", "code": "stringsense:cord-mixed", "quantity": 6}
             }
         ]
     },

@@ -11,14 +11,15 @@
 		"cord-flax": {"base": "stringsense:flax/cord"},
 		"cord-vine": {"base": "stringsense:vine/cord"},
 		"cord-papyrus": {"base": "stringsense:papyrus/cord"},
-		"cord-reed": {"base": "stringsense:reed/cord"}
+		"cord-reed": {"base": "stringsense:reed/cord"},
+		"cord-mixed": {"base": "stringsense:mixed/cord"}
     },
 	"storageFlags": 257,
     "shape": {
         "base": "stringsense:item/cord"
     },
     "maxstacksize": 64,
-    "variantgroups": [{ "code": "material", "states": ["straw","reed","papyrus","vine","flax","bark","bamboo"]}],
+    "variantgroups": [{ "code": "material", "states": ["straw","reed","papyrus","vine","flax","bark","bamboo","mixed"]}],
     "behaviors": [
 		{ "name": "GroundStorable", 
 			"properties": {

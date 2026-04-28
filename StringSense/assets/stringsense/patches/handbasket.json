@@ -41,7 +41,7 @@
             "shapeless": true,
             "ingredients": {
                 "K": {"type": "item", "code": "game:knife-*", "isTool": true},
-                "B": {"type": "item", "code": "basket-normal-*", "name": "material", "allowedVariants": ["straw", "reed", "papyrus", "bamboo", "bark", "vine", "flax"]}
+                "B": {"type": "item", "code": "basket-normal-*", "name": "material"}
             },
             "output": {"type": "item", "code": "stringsense:cord-{material}", "quantity": 3}
         }
@@ -76,21 +76,6 @@
                 "output": {
                     "type": "item",
                     "code": "game:basket-normal-{material}"
-                }
-            },
-            {
-                "ingredientPattern": "X_X,XXX",
-                "width": 3,
-                "height": 2,
-                "ingredients": {
-                    "X": {
-                        "type": "item",
-                        "code": "stringsense:cord-*"
-                    }
-                },
-                "output": {
-                    "type": "item",
-                    "code": "game:basket-normal-mixed"
                 }
             }
         ]
