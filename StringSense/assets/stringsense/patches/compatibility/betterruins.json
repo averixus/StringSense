@@ -1,7 +1,7 @@
 [
     {
         "dependson": [{"modid": "betterruins"}],
-        "file": "game:worldgen/schematics/overground/main/mediumruins/mediumruins-shikitochi-o4-lovebuiltbydread",
+        "file": "betterruins:worldgen/schematics/overground/main/mediumruins/mediumruins-shikitochi-o4-lovebuiltbydread",
         "op": "addmerge",
         "path": "/BlockCodes",
         "value": {"822": "game:rushmat-reed-down"}
