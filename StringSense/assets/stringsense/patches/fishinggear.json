@@ -1,12 +1,12 @@
 [
     {
-        "file": "game:recipes/grid/fisinggear",
+        "file": "game:recipes/grid/fishinggear",
         "op": "replace",
         "path": "/0/ingredients/R/code",
         "value": "stringsense:cord-*"
     },
     {
-        "file": "game:recipes/grid/fisinggear",
+        "file": "game:recipes/grid/fishinggear",
         "op": "replace",
         "path": "/1/ingredients/R/code",
         "value": "stringsense:cord-*"
