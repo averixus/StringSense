@@ -1,8 +1,0 @@
-[
-    {
-        "file": "game:recipes/grid/armor/improvisedwoodarmor",
-        "op": "replace",
-        "path": "/0/ingredients/G/code",
-        "value": "stringsense:cord-*"
-    }
-]
