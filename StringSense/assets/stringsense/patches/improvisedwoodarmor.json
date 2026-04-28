@@ -1,0 +1,26 @@
+[
+    {
+        "file": "game:recipes/grid/armor/improvisedwoodarmor",
+        "op": "replace",
+        "path": "/0/ingredients/G/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/armor/improvisedwoodarmor",
+        "op": "replace",
+        "path": "/0/ingredients/G/quantity",
+        "value": 2
+    },
+    {
+        "file": "game:recipes/grid/armor/improvisedwoodarmor",
+        "op": "replace",
+        "path": "/0/ingredients/R/code",
+        "value": "stringsense:cord-*"
+    },
+    {
+        "file": "game:recipes/grid/armor/improvisedwoodarmor",
+        "op": "replace",
+        "path": "/0/ingredients/R/quantity",
+        "value": 2
+    }
+]
