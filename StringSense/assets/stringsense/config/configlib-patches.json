@@ -292,12 +292,12 @@
                 "5/value/quantity": "(HAY_STRAW) ? 4 : 1"
             },
             "stringsense:patches/bed.json": {
-                "0/value/code": "(HAY_STRAW) ? 6 : 1",
-                "1/value/code": "(HAY_STRAW) ? 6 : 1",
-                "3/value/code": "(HAY_STRAW) ? 6 : 1",
-                "4/value/code": "(HAY_STRAW) ? 6 : 1",
-                "5/value/code": "(HAY_STRAW) ? 6 : 1",
-                "6/value/code": "(HAY_STRAW) ? 6 : 1"
+                "0/value/quantity": "(HAY_STRAW) ? 6 : 1",
+                "1/value/quantity": "(HAY_STRAW) ? 6 : 1",
+                "3/value/quantity": "(HAY_STRAW) ? 6 : 1",
+                "4/value/quantity": "(HAY_STRAW) ? 6 : 1",
+                "5/value/quantity": "(HAY_STRAW) ? 6 : 1",
+                "6/value/quantity": "(HAY_STRAW) ? 6 : 1"
             },
             "stringsense:patches/lamellar.json": {
                 "0/value/quantity": "(EQUIPMENT_RECIPES) ? 2 : 1",
