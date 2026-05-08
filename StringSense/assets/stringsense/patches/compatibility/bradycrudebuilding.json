@@ -1,0 +1,44 @@
+[
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/1/ingredients/S/code",
+        "value": "game:thatch"
+    },
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/2/ingredients/S/code",
+        "value": "game:thatch"
+    },
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/3/ingredients/S/code",
+        "value": "game:thatch"
+    },
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/4/ingredients/S/code",
+        "value": "game:thatch"
+    },
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/5/ingredients/S/code",
+        "value": "game:thatch"
+    },
+    {
+        "dependson": [{"modid": "bradycrudebuilding"}],
+        "file": "bradycrudebuilding:recipes/grid/wood/door/crude-advanced",
+        "op": "replace",
+        "path": "/6/ingredients/S/code",
+        "value": "game:thatch"
+    }
+]
