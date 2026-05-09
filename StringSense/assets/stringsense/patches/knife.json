@@ -61,7 +61,7 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -73,7 +73,7 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -85,7 +85,7 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -97,7 +97,7 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             }
         ]
@@ -120,7 +120,7 @@
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -132,7 +132,7 @@
                     "C": { "type": "item", "code": "wool:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             }
         ]
@@ -155,7 +155,7 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -167,7 +167,7 @@
                     "C": { "type": "item", "code": "tailorsdelight:twine-*"},
                     "S": { "type": "item", "code": "game:bone" }
                 },
-                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:knife-generic-bone{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             }
         ]

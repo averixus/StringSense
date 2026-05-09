@@ -19,7 +19,7 @@
                     "C": { "type": "item", "code": "stringsense:cord-*"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:hoe-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:hoe-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             },
             {
@@ -31,7 +31,7 @@
                     "C": { "type": "item", "code": "game:flaxtwine"},
                     "S": { "type": "item", "code": "game:stick" }
                 },
-                "output": {"type": "item", "code": "game:hoe-{material}", "quantity": 1},
+                "output": {"type": "item", "code": "game:hoe-{material}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
                 "enabled": true
             }
         ]
@@ -54,7 +54,7 @@
             },
             "width": 1,
             "height": 3,
-            "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1},
+            "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
             "enabled": true
         }
     },
@@ -75,7 +75,7 @@
             },
             "width": 1,
             "height": 3,
-            "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1},
+            "output": {"type": "item", "code": "game:hoe-{metal}", "quantity": 1, "recipeAttributes": {"applyquenchablebuffs": true}},
             "enabled": true
         }
     }
