@@ -156,5 +156,22 @@
         "op": "add",
         "path": "/6/ingredients/R",
         "value": {"type":"item","code":"game:rope"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/doors",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "AR,PS,PS"
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/doors",
+        "op": "add",
+        "path": "/0/ingredients/R",
+        "value": {"type":"item","code":"game:rope"}
     }
 ]

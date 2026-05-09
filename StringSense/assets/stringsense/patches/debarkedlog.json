@@ -127,5 +127,22 @@
         "op": "replace",
         "path": "/0/output",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
+    },
+
+
+
+    {
+        "dependson": [{"modid": "bdtree"}, {"modid": "indappledgroves", "invert": true}],
+        "file": "wildcrafttree:recipes/grid/debarkedlog",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
+        "value": { "type": "block", "code": "bdtree:debarkedlog-{wood}-ud", "quantity": 1 }
+    },
+    {
+        "dependson": [{"modid": "bdtree"}, {"modid": "indappledgroves", "invert": true}],
+        "file": "wildcrafttree:recipes/grid/debarkedlog",
+        "op": "replace",
+        "path": "/0/output",
+        "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     }
 ]

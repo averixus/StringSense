@@ -60,5 +60,16 @@
         "op": "replace",
         "path": "/ingredients/H",
         "value": {"type": "item", "code": "game:thatch", "quantity": 4}
+    },
+
+
+
+
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/armorstand",
+        "op": "replace",
+        "path": "/ingredients/H",
+        "value": {"type": "item", "code": "game:thatch", "quantity": 4}
     }
 ]

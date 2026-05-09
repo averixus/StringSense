@@ -281,5 +281,64 @@
         "op": "add",
         "path": "/1/ingredients/C",
         "value": {"type": "item", "code": "game:rope"}
+    },
+
+
+
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewnfence",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewnfence",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "game:rope"}
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewnfence",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "ASC,PSP"
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewnfence",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "game:rope"}
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewngate",
+        "op": "replace",
+        "path": "/0/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewngate",
+        "op": "add",
+        "path": "/0/ingredients/C",
+        "value": {"type": "item", "code": "game:rope"}
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewngate",
+        "op": "replace",
+        "path": "/1/ingredientPattern",
+        "value": "APS,PCP,SPS"
+    },
+    {
+        "dependson": [{"modid": "bdtree"}],
+        "file": "bdtree:recipes/grid/roughhewngate",
+        "op": "add",
+        "path": "/1/ingredients/C",
+        "value": {"type": "item", "code": "game:rope"}
     }
 ]
