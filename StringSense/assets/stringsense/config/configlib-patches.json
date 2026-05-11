@@ -85,12 +85,12 @@
                 "10/value/1/enabled": "TOOL_RECIPES"
             },
             "stringsense:patches/lamellar.json": {
-                "12/value": "(EQUIPMENT_RECIPES) ? false : true",
-                "13/value": "(EQUIPMENT_RECIPES) ? false : true",
-                "14/value": "(EQUIPMENT_RECIPES) ? false : true",
-                "15/value/0/enabled": "EQUIPMENT_RECIPES",
-                "15/value/1/enabled": "EQUIPMENT_RECIPES",
-                "15/value/2/enabled": "EQUIPMENT_RECIPES"
+                "7/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "8/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "9/value": "(EQUIPMENT_RECIPES) ? false : true",
+                "10/value/0/enabled": "EQUIPMENT_RECIPES",
+                "10/value/1/enabled": "EQUIPMENT_RECIPES",
+                "10/value/2/enabled": "EQUIPMENT_RECIPES"
             },
             "stringsense:patches/pickaxe.json": {
                 "0/value": "(TOOL_RECIPES) ? false : true",
@@ -227,7 +227,7 @@
                 "13/value":"(HAY_STRAW) ? game:thatch : game:drygrass",
                 "14/value":"(HAY_STRAW) ? game:thatch : game:drygrass"
             },
-            "stringsense:patches/doors.jsonx": {
+            "stringsense:patches/doors.json": {
                 "0/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
                 "2/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
                 "4/value": "(EQUIPMENT_RECIPES) ? AR,PS,PS : AS,PS,PS",
@@ -262,12 +262,7 @@
                 "3/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
                 "4/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
                 "5/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "6/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "7/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "8/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "9/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "10/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin",
-                "11/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin"
+                "6/value/code": "(EQUIPMENT_RECIPES) ? stringsense:cord-* : game:resin"
             },
             "stringsense:patches/mudbrick.json": {
                 "0/value": "(HAY_STRAW) ? game:thatch : game:drygrass",
@@ -283,7 +278,7 @@
                 "attributes/stages/17/requireStacks/1/code": "(SAILBOAT) ? game:sail : linen-*-down"
             }
         },
-        "int": {
+        "integer": {
             "stringsense:patches/armorstand.json": {
                 "0/value/quantity": "(HAY_STRAW) ? 4 : 1",
                 "2/value/quantity": "(HAY_STRAW) ? 4 : 1",
