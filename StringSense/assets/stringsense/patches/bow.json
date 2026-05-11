@@ -1,26 +1,9 @@
 [
     {
         "file": "game:recipes/grid/tool/bow",
-        "op": "add",
-        "path": "/1/enabled",
-        "value": false
-    },
-    {
-        "file": "game:recipes/grid/tool/bow",
-        "op": "add",
-        "path": "/-",
-        "value": {
-            "ingredientPattern": "_SC,S_C,_SC",
-            "width": 3,
-            "height": 3,
-            "ingredients": {
-                "C": { "type": "item", "code": "stringsense:cord-*"},
-                "S": { "type": "item", "code": "game:stick" }
-            },
-            "requiresTrait": "bowyer",
-            "output": {"type": "item", "code": "game:bow-crude", "quantity": 1},
-            "enabled": true
-        }
+        "op": "replace",
+        "path": "/0/ingredients/T/code",
+        "value": "stringsense:cord-*"
     },
 
 
@@ -138,7 +121,7 @@
 
 
 
-        {
+    {
         "dependson": [{"modid": "tailorsdelight"}],
         "file": "game:recipes/grid/tool/bow",
         "op": "addeach",
