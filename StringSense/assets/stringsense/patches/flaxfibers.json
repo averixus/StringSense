@@ -48,7 +48,17 @@
         "file": "game:itemtypes/resource/flaxfibers",
         "op": "replace",
         "path": "/behaviors/0/properties",
-        "value": { "layout": "Messy12", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.12, "z2": 1 } }
+        "value": { 				
+            "layout": "Stacking",
+            "placeRemoveSound": "game:sounds/block/plant",
+            "stackingModel": "stringsense:item/fibers-pile",
+            "modelItemsToStackSizeRatio": 4.5,
+            "stackingCapacity": 32,
+            "transferQuantity": 2,
+            "bulkTransferQuantity": 8,
+            "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 },
+            "cbScaleYByLayer": 0.125
+        }
     },
     {
         "file": "game:itemtypes/resource/flaxfibers",

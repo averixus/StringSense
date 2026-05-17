@@ -17,12 +17,12 @@
 				"layout": "Stacking",
 				"placeRemoveSound": "game:sounds/block/plant",
 				"stackingModel": "stringsense:item/thickstrands-pile",
-				"modelItemsToStackSizeRatio": 19,
-				"stackingCapacity": 6,
-				"transferQuantity": 1,
-				"bulkTransferQuantity": 3,
-				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.2, "z2": 1 },
-				"cbScaleYByLayer": 0.2
+				"modelItemsToStackSizeRatio": 10,
+				"stackingCapacity": 32,
+				"transferQuantity": 2,
+				"bulkTransferQuantity": 8,
+				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+				"cbScaleYByLayer": 0.125
 			}
 		}
 	],

@@ -232,6 +232,30 @@
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/palmleaf",
+        "op": "add",
+        "path": "/texture",
+        "value": {"base": "stringsense:palm/cord"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/palmleaf",
+        "op": "replace",
+        "path": "/behaviors/0/properties",
+        "value": {
+            "layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/plant",
+			"stackingModel": "stringsense:item/thinstrands-pile",
+			"modelItemsToStackSizeRatio": 18.5,
+			"stackingCapacity": 32,
+			"transferQuantity": 2,
+			"bulkTransferQuantity": 8,
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 },
+			"cbScaleYByLayer": 0.125
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
         "file": "stringsense:recipes/grid/cord",
         "op": "add",
         "path": "/-",
@@ -253,6 +277,30 @@
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/bolboschoenusmaritimus",
+        "op": "replace",
+        "path": "/behaviors/0/properties",
+        "value": {
+            "layout": "Stacking",
+			"placeRemoveSound": "game:sounds/block/plant",
+			"stackingModel": "stringsense:item/thinstrands-pile",
+			"modelItemsToStackSizeRatio": 18.5,
+			"stackingCapacity": 32,
+			"transferQuantity": 2,
+			"bulkTransferQuantity": 8,
+			"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 },
+			"cbScaleYByLayer": 0.125
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/bolboschoenusmaritimus",
+        "op": "add",
+        "path": "/texture",
+        "value": {"base": "stringsense:reed/cord"}
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
         "file": "stringsense:recipes/grid/cord",
         "op": "add",
         "path": "/-",
@@ -270,6 +318,23 @@
                 "type": "item",
                 "code": "stringsense:cord-reed"
             }
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
+        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
+        "op": "replace",
+        "path": "/behaviors/0/properties",
+        "value": {
+            "layout": "Stacking",
+            "placeRemoveSound": "game:sounds/block/plant",
+            "stackingModel": "stringsense:item/thickstrands-pile",
+            "modelItemsToStackSizeRatio": 10,
+            "stackingCapacity": 32,
+            "transferQuantity": 2,
+            "bulkTransferQuantity": 8,
+            "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+            "cbScaleYByLayer": 0.125
         }
     },
     {
@@ -313,26 +378,6 @@
         "op": "add",
         "path": "/texture",
         "value": {"base": "stringsense:coconut/cord"}
-    },
-    {
-        "dependson": [{"modid": "floralzonescosmopolitanregion"}],
-        "file": "floralzonescosmopolitanregion:itemtypes/resource/coconuthusk",
-        "op": "replace",
-        "path": "/behaviors/0",
-        "value": { 
-            "name": "GroundStorable", 
-			"properties": {
-				"layout": "Stacking",
-				"placeRemoveSound": "game:sounds/block/plant",
-				"stackingModel": "stringsense:item/thickstrands-pile",
-				"modelItemsToStackSizeRatio": 19,
-				"stackingCapacity": 6,
-				"transferQuantity": 1,
-				"bulkTransferQuantity": 3,
-				"collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.2, "z2": 1 },
-				"cbScaleYByLayer": 0.2
-			}
-		}
     },
     {
         "dependson": [{"modid": "floralzonescosmopolitanregion"}],

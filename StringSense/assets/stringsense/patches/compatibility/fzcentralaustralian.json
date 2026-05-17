@@ -127,6 +127,23 @@
     },
     {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file": "floralzonescentralaustralianregion:itemtypes/resource/triodiascariosa",
+        "op": "replace",
+        "path": "/behaviors/0/properties",
+        "value": {
+            "layout": "Stacking",
+            "placeRemoveSound": "game:sounds/block/plant",
+            "stackingModel": "stringsense:item/thickstrands-pile",
+            "modelItemsToStackSizeRatio": 10,
+            "stackingCapacity": 32,
+            "transferQuantity": 2,
+            "bulkTransferQuantity": 8,
+            "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.25, "z2": 1 },
+            "cbScaleYByLayer": 0.125
+        }
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "stringsense:recipes/grid/cord",
         "op": "add",
         "path": "/-",
