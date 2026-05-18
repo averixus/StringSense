@@ -92,6 +92,13 @@
     },
     {
         "dependson": [{"modid": "floralzonescentralaustralianregion"}],
+        "file":"floralzonescentralaustralianregion:itemtypes/resource/triodiascariosa",
+        "op": "replace",
+        "path": "/shape/base",
+        "value": "stringsense:item/thickstrands"
+    },
+    {
+        "dependson": [{"modid": "floralzonescentralaustralianregion"}],
         "file": "floralzonescentralaustralianregion:shapes/item/resource/triodiascariosa-bundle",
         "op": "replace",
         "path": "/textures/triodiascariosa",
