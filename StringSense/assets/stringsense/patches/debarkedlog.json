@@ -16,12 +16,12 @@
             "ingredients": {
                 "A": { "type": "item", "code": "game:axe-*", "isTool": true  },
                 "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
-                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  } }
             },
             "width": 3,
             "height": 1,
             "shapeless": true,
-            "output": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  }
+            "output": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 }
         }
     },
     {
@@ -35,12 +35,12 @@
             "ingredients": {
                 "A": { "type": "item", "code": "game:axe-*", "isTool": true  },
                 "H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
-                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 } }
+                "L": { "type": "block", "code": "game:log-placed-*-ud", "name": "wood", "returnedStack": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  } }
             },
             "width": 3,
             "height": 1,
             "shapeless": true,
-            "output": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4  }
+            "output": { "type": "block", "code": "game:debarkedlog-{wood}-ud", "quantity": 1 }
         }
     },
 
@@ -49,15 +49,15 @@
     {
         "dependson": [{"modid": "floralzonescaribbeanregion"}],
         "file": "floralzonescaribbeanregion:recipes/grid/wood/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "floralzonescaribbeanregion:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "floralzonescaribbeanregion"}],
         "file": "floralzonescaribbeanregion:recipes/grid/wood/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     },
 
@@ -66,15 +66,15 @@
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/wood/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "floralzonesneozeylandicregion:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "floralzonesneozeylandicregion"}],
         "file": "floralzonesneozeylandicregion:recipes/grid/wood/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     },
 
@@ -83,15 +83,15 @@
     {
         "dependson": [{"modid": "floralzonescaperegion"}],
         "file": "floralzonescaperegion:recipes/grid/wood/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "floralzonescaperegion:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "floralzonescaperegion"}],
         "file": "floralzonescaperegion:recipes/grid/wood/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     },
 
@@ -100,15 +100,15 @@
     {
         "dependson": [{"modid": "floralzonesmediterraneanregion"}],
         "file": "floralzonesmediterraneanregion:recipes/grid/wood/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "floralzonesmediterraneanregion:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "floralzonesmediterraneanregion"}],
         "file": "floralzonesmediterraneanregion:recipes/grid/wood/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     },
 
@@ -117,15 +117,15 @@
     {
         "dependson": [{"modid": "wildcrafttree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "wildcrafttree:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "wildcrafttree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     },
 
@@ -134,15 +134,15 @@
     {
         "dependson": [{"modid": "bdtree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
-        "op": "add",
-        "path": "/0/ingredients/L/returnedStack",
+        "op": "replace",
+        "path": "/0/output",
         "value": { "type": "block", "code": "bdtree:debarkedlog-{wood}-ud", "quantity": 1 }
     },
     {
         "dependson": [{"modid": "bdtree"}, {"modid": "indappledgroves", "invert": true}],
         "file": "wildcrafttree:recipes/grid/debarkedlog",
-        "op": "replace",
-        "path": "/0/output",
+        "op": "add",
+        "path": "/0/ingredients/L/returnedStack",
         "value": { "type": "item", "code": "stringsense:barkstrands", "quantity": 4 }
     }
 ]
