@@ -3,12 +3,36 @@
         "file": "game:recipes/grid/hunterbackpack",
         "op": "replace",
         "path": "/0/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 3}
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
     },
     {
         "file": "game:recipes/grid/hunterbackpack",
         "op": "replace",
         "path": "/1/ingredients/C",
-        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 3}
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/2/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/3/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/4/ingredients/C",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
+    },
+    {
+        "file": "game:recipes/grid/hunterbackpack",
+        "op": "replace",
+        "path": "/4/ingredients/D",
+        "value": {"type": "item", "code": "stringsense:cord-*", "quantity": 1}
     }
 ]
