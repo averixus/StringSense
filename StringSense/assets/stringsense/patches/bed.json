@@ -74,7 +74,7 @@
         "dependson": [{"modid": "bdtree"}],
         "file": "bdtree:recipes/grid/bed",
         "op": "replace",
-        "path": "/0/ingredients/H",
+        "path": "/ingredients/H",
         "value": {"type": "item", "code": "game:thatch", "quantity":6}
     }
 ]
