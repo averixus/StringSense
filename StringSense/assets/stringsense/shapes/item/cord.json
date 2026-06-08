@@ -3,6 +3,9 @@
 	"textureHeight": 16,
 	"textureSizes": {
 	},
+	"textures": {
+
+	},
 	"elements": [
 		{
 			"name": "origin",
