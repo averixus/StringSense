@@ -1,7 +1,7 @@
 [
     {
         "dependson": [{"modid": "substrate"}, {"modid": "wool"}],
-        "file": "substrate:recipes/grid/fruitingbag",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value": {
@@ -33,7 +33,7 @@
     },
     {
         "dependson": [{"modid": "substrate"}, {"modid": "tailorsdelight"}],
-        "file": "substrate:recipes/grid/fruitingbag",
+        "file": "stringsense:recipes/grid/add",
         "op": "add",
         "path": "/-",
         "value": {
