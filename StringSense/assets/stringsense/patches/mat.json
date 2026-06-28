@@ -81,6 +81,42 @@
         "path": "/selling/list/30/code",
         "value": "game:rushmat-reed-down"
     },
+    {
+        "file": "game:worldgen/schematics/trader/hotdry/hut1-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "file": "game:worldgen/schematics/trader/hotdry/hut2-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "file": "game:worldgen/schematics/trader/hotdry/hut4-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "file": "game:worldgen/schematics/trader/hotdry/hut6-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "file": "game:worldgen/schematics/trader/forest/hut3-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
+    {
+        "file": "game:worldgen/schematics/trader/forest/hut5-bui",
+        "op": "replace",
+        "path": "/BlockCodes/5556",
+        "value": "game:rushmat-reed-down"
+    },
 
 
 
