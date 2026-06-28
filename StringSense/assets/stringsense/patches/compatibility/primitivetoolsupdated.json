@@ -1,20 +1,20 @@
 [
     {
-        "dependson": [{"modid": "primitivetools"}],
+        "dependson": [{"modid": "primitivetoolsupdated"}],
         "file": "primitivetools:recipes/grid/rope",
         "op": "add",
         "path": "/0/enabled",
         "value": "false"
     },
     {
-        "dependson": [{"modid": "primitivetools"}],
+        "dependson": [{"modid": "primitivetoolsupdated"}],
         "file": "primitivetools:recipes/grid/tool/stonehammer",
         "op": "replace",
         "path": "/ingredients/R/code",
         "value": "stringsense:cord-*"
     },
     {
-        "dependson": [{"modid": "primitivetools"}],
+        "dependson": [{"modid": "primitivetoolsupdated"}],
         "file": "primitivetools:recipes/grid/tool/stonepickaxe",
         "op": "replace",
         "path": "/ingredients/R/code",
